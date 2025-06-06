@@ -1,28 +1,20 @@
 import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
-import { textToSpeech } from './TextToSpeech'
-//import { quickStart } from './TextToSpeech'
+import { loadAll } from './types/util';
+import { RandomVerbSound } from './RandomVerbSound';
 
 function App() {
-  const [result, setResult] = useState("");
+  const [dataFetched, setDataFetched] = useState(false);
 
+  if (!dataFetched){
+    loadAll();
+    setDataFetched(true);
+  }
   return (
     <>
-      {/* <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1> */}
-      <div className="card">
-        <input value={result} onChange={e => setResult(e.target.value)}/>
-        <button onClick={() => textToSpeech(result)}>TEXT TO SPEECH</button>
-      </div>
+      <RandomVerbSound
+      loaded={dataFetched}
+      />
     </>
   )
 }

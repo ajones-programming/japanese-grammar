@@ -1,0 +1,39 @@
+{
+    "i_verbConjunctions" : [
+
+        {
+            "english" : "must not do (spoken Japanese)",
+            "expression" : "CHAダメ"
+        },
+        {
+            "english" : "must not do (spoken Japanese)",
+            "expression" : "CHAいけない"
+        },
+        {
+            "english" : "must not do (spoken Japanese)",
+            "expression" : "CHAいけません"
+        },
+        {
+            "english" : "dictionary form",
+            "expression" : "DICT_FORM"
+        },
+        {
+            "english" : "polite positive",
+            "expression" : "MASU_STEMます"
+        },
+        {
+            "english" : "negative",
+            "expression" : "NAI_STEMない"
+        },
+        {
+            "english" : "te",
+            "expression" : "TE"
+        },
+        {
+            "english" : "ta",
+            "expression" : "TA"
+        }
+
+    ]
+    
+}
