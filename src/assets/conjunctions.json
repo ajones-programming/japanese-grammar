@@ -14,6 +14,14 @@
             "expression" : "CHAいけません"
         },
         {
+            "english" : "only, just as",
+            "expression" : "DICT_FORMだけ"
+        },
+                {
+            "english" : "I think; it seems; probably; right?",
+            "expression" : "DICT_FORMだろう"
+        },
+        {
             "english" : "dictionary form",
             "expression" : "DICT_FORM"
         },
