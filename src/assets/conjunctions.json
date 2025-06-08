@@ -17,9 +17,289 @@
             "english" : "only, just as",
             "expression" : "DICT_FORMだけ"
         },
-                {
+        {
             "english" : "I think; it seems; probably; right?",
             "expression" : "DICT_FORMだろう"
+        },
+        {
+            "english" : "I think; it seems; probably; right?",
+            "expression" : "DICT_FORMでしょう"
+        },
+        {
+            "english" : "why; for what reason; how",
+            "expression" : "どうしてMASU_STEMますか"
+        },
+        {
+            "english" : "why; for what reason; how",
+            "expression" : "どうしてDICT_FORM?"
+        },
+        {
+            "english" : "why; for what reason; how",
+            "expression" : "どうしてTA?"
+        },
+        {
+            "english" : "why; for what reason; how",
+            "expression" : "どうしてNAI_STEMない?"
+        },
+                {
+            "english" : "how; in what way; by what means",
+            "expression" : "どうやってMASU_STEMますか"
+        },
+        {
+            "english" : "how; in what way; by what means",
+            "expression" : "どうやってDICT_FORM?"
+        },
+        {
+            "english" : "how; in what way; by what means",
+            "expression" : "どうやってTA?"
+        },
+        {
+            "english" : "how; in what way; by what means",
+            "expression" : "どうやってNAI_STEMない?"
+        },
+        {
+            "english" : "had better; it'd be better to; should~",
+            "expression" : "TA⽅がいい"
+        },
+        {
+            "english" : "had better; it'd be better to; should~",
+            "expression" : "NAI_STEMない⽅がいい"
+        },
+        {
+            "english" : "because; since; from",
+            "expression" : "DICT_FORMから"
+        },
+        {
+            "english" : "because; since; from",
+            "expression" : "TAから"
+        },
+        {
+            "english" : "the way of doing something; how to do",
+            "expression" : "MASU_STEM⽅"
+        },
+        {
+            "english" : "still; not yet",
+            "expression" : "まだTEいる"
+        },
+        {
+            "english" : "still; not yet",
+            "expression" : "まだTEいます"
+        },
+        {
+            "english" : "have not yet",
+            "expression" : "まだTEない"
+        },
+        {
+            "english" : "have not yet",
+            "expression" : "まだTEいない"
+        },
+        {
+            "english" : "have not yet",
+            "expression" : "まだTEいません"
+        },
+        {
+            "english" : "have not yet",
+            "expression" : "DICT_FORM前に"
+        },
+        {
+            "english" : "would you; do you want to; shall we~",
+            "expression" : "DICT_FORMません"
+        },
+        {
+            "english" : "let's ~; shall we ~",
+            "expression" : "MASU_STEMましょう"
+        },
+        {
+            "english" : "let's ~; shall we ~",
+            "expression" : "MASU_STEMましょうか"
+        },
+        {
+            "english" : "without doing~ ; To do [B] without doing [A]",
+            "expression" : "NAI_STEMないで"
+        },
+        {
+            "english" : "please don't do",
+            "expression" : "NAI_STEMないでください"
+        },
+        {
+            "english" : "don't have to",
+            "expression" : "NAI_STEMなくてもいい"
+        },
+        {
+            "english" : "must do; need to; gotta do",
+            "expression" : "NAI_STEMなくちゃ"
+        },
+        {
+            "english" : "must do; need to; gotta do",
+            "expression" : "NAI_STEMなくちゃダメ"
+        },
+        {
+            "english" : "must do; need to; gotta do",
+            "expression" : "NAI_STEMなくちゃいけない"
+        },
+        {
+            "english" : "must do; need to; gotta do",
+            "expression" : "NAI_STEMなくちゃいけません"
+        },
+        {
+            "english" : "must do; need to; gotta do",
+            "expression" : "NAI_STEMなくちゃならない"
+        },
+        {
+            "english" : "must do; need to; gotta do",
+            "expression" : "NAI_STEMなくちゃなりません"
+        },
+        {
+            "english" : " must do; need to do",
+            "expression" : "NAI_STEMなくてはいけない"
+        },
+        {
+            "english" : " must do; need to do",
+            "expression" : "NAI_STEMなくてはいけません"
+        },
+        {
+            "english" : " must do; need to do",
+            "expression" : "NAI_STEMなくてはならない"
+        },
+        {
+            "english" : " must do; need to do",
+            "expression" : "NAI_STEMなくてはなりません"
+        },
+        {
+            "english" : "to explain something; show emphasis",
+            "expression" : "DICT_FORMんです"
+        },
+        {
+            "english" : "to explain something; show emphasis",
+            "expression" : "DICT_FORMんだ"
+        },
+        {
+            "english" : "to explain something; show emphasis",
+            "expression" : "NAI_STEMないんです"
+        },
+        {
+            "english" : "to explain something; show emphasis",
+            "expression" : "NAI_STEMないんだ"
+        },
+        {
+            "english" : "go to do",
+            "expression" : "MASU_STEMに⾏く"
+        },
+        {
+            "english" : "go to do",
+            "expression" : "MASU_STEMに⾏った"
+        },
+        {
+            "english" : "go to do",
+            "expression" : "MASU_STEMに⾏きます"
+        },
+        {
+            "english" : " to explain something; show emphasis",
+            "expression" : "DICT_FORMのです"
+        },
+        {
+            "english" : " to explain something; show emphasis",
+            "expression" : "DICT_FORMのだ"
+        },
+        {
+            "english" : " to be bad at doing something",
+            "expression" : "DICT_FORMのが下⼿"
+        },
+        {
+            "english" : "to be good at",
+            "expression" : "DICT_FORMのが上⼿"
+        },
+        {
+            "english" : "to like doing something",
+            "expression" : "DICT_FORMのが好き"
+        },
+        {
+            "english" : "too much",
+            "expression" : "MASU_STEMすぎる"
+        },
+        {
+            "english" : "too much",
+            "expression" : "MASU_STEMすぎます"
+        },
+        {
+            "english" : "to have done something before",
+            "expression" : "TAことがある"
+        },
+        {
+            "english" : "to have done something before",
+            "expression" : "TAことある"
+        },
+        {
+            "english" : "to have done something before",
+            "expression" : "TAことない"
+        },
+        {
+            "english" : "want to do something",
+            "expression" : "MASU_STEMたい"
+        },
+        {
+            "english" : "want to do something",
+            "expression" : "MASU_STEMたくない"
+        },
+        {
+            "english" : "want to do something",
+            "expression" : "MASU_STEMたかった"
+        },
+        {
+            "english" : "do such things as A and B",
+            "expression" : "TAり"
+        },
+        {
+            "english" : " is/has been done (resulting state)",
+            "expression" : "TEある"
+        },
+        {
+            "english" : " is/has been done (resulting state)",
+            "expression" : "TEあった"
+        },
+        {
+            "english" : "ongoing action or current state",
+            "expression" : "TEいる"
+        },
+        {
+            "english" : "ongoing action or current state",
+            "expression" : "TEいない"
+        },
+        {
+            "english" : "ongoing action or current state",
+            "expression" : "TEいます"
+        },
+        {
+            "english" : "ongoing action or current state",
+            "expression" : "TEいません"
+        },
+        {
+            "english" : "after doing~",
+            "expression" : "TEから"
+        },
+        {
+            "english" : "please do",
+            "expression" : "TEください"
+        },
+        {
+            "english" : "must not; may not; cannot",
+            "expression" : "TEはいけない"
+        },
+        {
+            "english" : "must not; may not; cannot",
+            "expression" : "TEはいけません"
+        },
+        {
+            "english" : "is OK to..; is alright to..; may I..?",
+            "expression" : "TEもいいです"
+        },
+        {
+            "english" : "when; at this time",
+            "expression" : "DICT_FORMとき"
+        },
+        {
+            "english" : "plan to ~; intend to ~",
+            "expression" : "DICT_FORMつもり"
         },
         {
             "english" : "dictionary form",
@@ -30,8 +310,24 @@
             "expression" : "MASU_STEMます"
         },
         {
+            "english" : "polite positive",
+            "expression" : "MASU_STEMません"
+        },
+        {
+            "english" : "polite positive",
+            "expression" : "MASU_STEMました"
+        },
+        {
+            "english" : "polite positive",
+            "expression" : "MASU_STEMませんでした"
+        },
+        {
             "english" : "negative",
             "expression" : "NAI_STEMない"
+        },
+        {
+            "english" : "negative",
+            "expression" : "NAI_STEMなかった"
         },
         {
             "english" : "te",

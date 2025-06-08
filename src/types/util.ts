@@ -38,9 +38,9 @@ export function loadAll(){
         }
     )
 
-    allVerbs?.forEach((v : verb) => {
-        allVerbConjuctions?.forEach((c : verbConjugation) => {
-            console.log(c.runExpression(v));
-        })
-    })
+    // allVerbs?.forEach((v : verb) => {
+    //     allVerbConjuctions?.forEach((c : verbConjugation) => {
+    //         console.log(c.runExpression(v));
+    //     })
+    // })
 }
