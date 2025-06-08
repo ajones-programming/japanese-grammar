@@ -9,11 +9,7 @@ import { conjunctionResult } from "./types/conjugationList";
 function getRandomVerb() : conjunctionResult
 {
     if (!allVerbs || !allVerbConjuctions ){
-        return {
-            conjugationType: "null",
-            output: "null",
-            wordEnglish: "null"
-        };
+        throw("EITHER VERBS OR CONJUGATIONS NOT DEFINED?? WEIRD")
     }
     const randomV = allVerbs[Math.floor(Math.random() * allVerbs.length)];
     const randomC = allVerbConjuctions[Math.floor(Math.random() * allVerbConjuctions.length)];
@@ -46,13 +42,13 @@ export function RandomVerbSound({loaded} : props){
                 setShowWord(false);
             }}>TRY NEW WORD</button>
             <button onClick={() => {
-                textToSpeech(randomVerb.output)
+                textToSpeech(randomVerb.outputKana)
             }}>PLAY WORD</button>
             <button onClick={
                 () => setShowWord(!showWord)
             }>{showWord ? "Hide Word" : "Show Word"}</button>
             <div className="card">
-                {showWord ? randomVerb.output : ""} 
+                {showWord ? randomVerb.outputKanji : ""} 
             </div>
         </div>
     </div>)

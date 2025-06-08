@@ -555,8 +555,9 @@
             "kanaStem" : "しめ"
         },
         {
-            "english" : "to take a test",
-            "kanaStem" : "テスト"
+            "english" : "to eat",
+            "kanjiStem" : "食べ",
+            "kanaStem" : "たべ"
         },
         {
             "english" : "to get tired",
@@ -654,9 +655,8 @@
             "kanaStem" : "そうじ"
         },
         {
-            "english" : "to eat",
-            "kanjiStem" : "食べ",
-            "kanaStem" : "たべ"
+            "english" : "to take a test",
+            "kanaStem" : "テスト"
         }
     ],
 

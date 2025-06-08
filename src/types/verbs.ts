@@ -11,16 +11,19 @@ export abstract class verb{
         this.english = english;
     }
 
-    stem() : string{
+    stem(defaultKana : boolean = false) : string{
+        if (defaultKana){
+            return this.kanaStem;
+        }
         return this.kanjiStem ?? this.kanaStem;
     }
 
-    abstract dictForm() : string;
-    abstract masuStem() : string;
-    abstract te() : string;
-    abstract ta() : string;
-    abstract naiStem() : string;
-    abstract cha() : string;
+    abstract dictForm(defaultKana : boolean) : string;
+    abstract masuStem(defaultKana : boolean) : string;
+    abstract te(defaultKana : boolean) : string;
+    abstract ta(defaultKana : boolean) : string;
+    abstract naiStem(defaultKana : boolean) : string;
+    abstract cha(defaultKana : boolean) : string;
 }
 
 export interface I_Godan {
@@ -134,28 +137,28 @@ export class godanVerb extends verb{
         this.u = i.u;
     }
 
-    override dictForm(): string {
-        return this.stem() + godanVerb.loopUpDict[this.u]["う"];
+    override dictForm(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["う"];
     }
 
-    override masuStem(): string {
-        return this.stem() + godanVerb.loopUpDict[this.u]["い"];
+    override masuStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["い"];
     }
 
-    override te(): string {
-       return this.stem() + godanVerb.loopUpDict[this.u]["て"];
+    override te(defaultKana : boolean = false): string {
+       return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["て"];
     }
 
-    override ta(): string {
-        return this.stem() + godanVerb.loopUpDict[this.u]["た"];
+    override ta(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["た"];
     }
 
-    override cha(): string {
-        return this.stem() + godanVerb.loopUpDict[this.u]["ちゃ"];
+    override cha(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["ちゃ"];
     }
 
-    override naiStem(): string {
-        return this.stem() + godanVerb.loopUpDict[this.u]["あ"];
+    override naiStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["あ"];
     }
 }
 
@@ -172,28 +175,28 @@ export class ichidanVerb extends verb{
         super(i.kanjiStem,i.kanaStem,i.english);
     }
 
-    override dictForm(): string {
-        return this.stem() + "る";
+    override dictForm(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "る";
     }
 
-    override masuStem(): string {
-        return this.stem() ;
+    override masuStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) ;
     }
 
-    override te(): string {
-       return this.stem() + "て";
+    override te(defaultKana : boolean = false): string {
+       return this.stem(defaultKana) + "て";
     }
 
-    override ta(): string {
-        return this.stem() + "た";
+    override ta(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "た";
     }
 
-    override cha(): string {
-        return this.stem() + "ちゃ";
+    override cha(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "ちゃ";
     }
 
-    override naiStem(): string {
-        return this.stem();
+    override naiStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana);
     }
 }
 
@@ -210,28 +213,28 @@ export class suru extends verb{
         super(i.kanjiStem,i.kanaStem,i.english);
     }
 
-    override dictForm(): string {
-        return this.stem() + "する";
+    override dictForm(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "する";
     }
 
-    override masuStem(): string {
-        return this.stem() + "し";
+    override masuStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "し";
     }
 
-    override te(): string {
-       return this.stem() + "して";
+    override te(defaultKana : boolean = false): string {
+       return this.stem(defaultKana) + "して";
     }
 
-    override ta(): string {
-        return this.stem() + "した";
+    override ta(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "した";
     }
 
-    override cha(): string {
-        return this.stem() + "しちゃ";
+    override cha(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "しちゃ";
     }
 
-    override naiStem(): string {
-        return this.stem() + "し";
+    override naiStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "し";
     }
 }
 
@@ -285,25 +288,43 @@ export class exceptionVerb extends verb{
 
     }
 
-    override dictForm(): string {
+    override dictForm(defaultKana : boolean = false): string {
+        if (defaultKana){
+            return this.dictFormKana;
+        }
         return this.dictFormKanji ?? this.dictFormKana;
     }
 
-    masuStem(): string {
+    masuStem(defaultKana : boolean = false): string {
+        if (defaultKana){
+            return this.masuStemKana;
+        }
         return this.masuStemKanji ?? this.masuStemKana;
     }
-    te(): string {
+    te(defaultKana : boolean = false): string {
+        if (defaultKana){
+            return this.teKana;
+        }
         return this.teKanji ?? this.teKana;
     }
-    ta(): string {
+    ta(defaultKana : boolean = false): string {
+        if (defaultKana){
+            return this.taKana;
+        }
         return this.taKanji ?? this.taKana;
     }
 
-    override cha(): string {
+    override cha(defaultKana : boolean = false): string {
+        if (defaultKana){
+            return this.chaKana;
+        }
         return this.chaKanji ?? this.chaKana;
     }
 
-    naiStem(): string {
+    naiStem(defaultKana : boolean = false): string {
+        if (defaultKana){
+            return this.naiStemKana;
+        }
         return this.naiStemKanji ?? this.naiStemKana;
     }
 }
