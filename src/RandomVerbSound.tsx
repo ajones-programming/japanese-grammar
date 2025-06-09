@@ -32,25 +32,35 @@ export function RandomVerbSound({loaded} : props){
 
     return (
     <div>
-        <>
-            {"This app does not teach you english to Japanese. It will only give you the opportunity to listen to speech."}
-        </>
-        <div className="card">
-
+        <h2>
+            Japanese Verb Conjugation - Randomised
+        </h2>
+        <p>
+            Hear randomised verb conjugation, and learn to hear natural pronunciation from Google Cloud's Text-to-Speech AI. 
+        </p>
+        <div>
             <button onClick={() => {
                 setRandomVerb(getRandomVerb())
                 setShowWord(false);
-            }}>TRY NEW WORD</button>
+            }}>
+                Try New Word
+            </button>
+
             <button onClick={() => {
                 textToSpeech(randomVerb.outputKana)
-            }}>PLAY WORD</button>
+            }}>
+                Play Word
+            </button>
+            
             <button onClick={
                 () => setShowWord(!showWord)
-            }>{showWord ? "Hide Word" : "Show Word"}</button>
-            <div className="card">
-                {showWord ? (randomVerb.outputKanji + " (" + randomVerb.outputKana + ")") : ""} 
-            </div>
+            }>
+                {showWord ? "Hide Word" : "Show Word"}
+            </button>
         </div>
+        <p>
+            {showWord ? (randomVerb.outputKanji + " (" + randomVerb.outputKana + ")") : ""} 
+        </p>
     </div>)
     
 

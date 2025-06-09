@@ -12,9 +12,20 @@ function App() {
   }
   return (
     <>
-      <RandomVerbSound
-      loaded={dataFetched}
-      />
+      <div className='container'>
+        <h1>Japanese App</h1>
+        <p>
+          This app does not teach you english to Japanese. It will only give you the opportunity to listen to speech.
+        </p>
+      </div>
+
+
+      <div className='container'>
+        <RandomVerbSound
+        loaded={dataFetched}
+        />
+      </div>
+
     </>
   )
 }
