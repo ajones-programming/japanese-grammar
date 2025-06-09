@@ -308,6 +308,46 @@
             "expression" : "DICT_FORMとき"
         },
         {
+            "english" : "I think that...",
+            "expression" : "DICT_FORMとおもいます",
+            "expressionKanji" : "DICT_FORMと思います"
+        },
+        {
+            "english" : "I think that...",
+            "expression" : "NAI_STEMないとおもいます",
+            "expressionKanji" : "NAI_STEMないと思います"
+        },
+        {
+            "english" : "I think that...",
+            "expression" : "DICT_FORMとおもう",
+            "expressionKanji" : "DICT_FORMと思う"
+        },
+        {
+            "english" : "I think that...",
+            "expression" : "NAI_STEMないとおもう",
+            "expressionKanji" : "NAI_STEMないと思う"
+        },
+        {
+            "english" : "They said that...",
+            "expression" : "DICT_FORMといっていました",
+            "expressionKanji" : "DICT_FORMと言っていました"
+        },
+        {
+            "english" : "They said that...",
+            "expression" : "NAI_STEMないといっていました",
+            "expressionKanji" : "NAI_STEMないと言っていました"
+        },
+        {
+            "english" : "They said that...",
+            "expression" : "DICT_FORMといっていた",
+            "expressionKanji" : "DICT_FORMと言っていた"
+        },
+        {
+            "english" : "They said that...",
+            "expression" : "NAI_STEMないといっていた",
+            "expressionKanji" : "NAI_STEMないと言っていた"
+        },
+        {
             "english" : "plan to ~; intend to ~",
             "expression" : "DICT_FORMつもり"
         },

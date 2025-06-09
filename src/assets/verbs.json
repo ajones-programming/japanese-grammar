@@ -56,6 +56,12 @@
             "u" : "る"
         },
         {
+            "english" : "to get fat",
+            "kanjiStem" : "太",
+            "kanaStem" : "ふと",
+            "u" : "る"
+        },
+        {
             "english" : "to enter; to go into",
             "kanjiStem" : "入",
             "kanaStem" : "はい",
@@ -120,6 +126,11 @@
             "kanjiStem" : "言",
             "kanaStem" : "い",
             "u" : "う"
+        },
+        {
+            "english" : "to put on a hat",
+            "kanaStem" : "かぶ",
+            "u" : "る"
         },
         {
             "english" : "to go back",
@@ -264,6 +275,18 @@
             "kanjiStem" : "置",
             "kanaStem" : "お",
             "u" : "く"
+        },
+        {
+            "english" : "to think",
+            "kanjiStem" : "思",
+            "kanaStem" : "おも",
+            "u" : "う"
+        },
+        {
+            "english" : "to be late",
+            "kanjiStem" : "遅くな",
+            "kanaStem" : "おそくな",
+            "u" : "る"
         },
         {
             "english" : "to push; to press",
@@ -565,6 +588,10 @@
             "kanaStem" : "つかれ"
         },
         {
+            "english" : "to turn on",
+            "kanaStem" : "つけ"
+        },
+        {
             "english" : "to attach; affix; add; apply",
             "kanjiStem" : "付け",
             "kanaStem" : "つけ"
@@ -587,6 +614,16 @@
             "english" : "to forget",
             "kanjiStem" : "忘れ",
             "kanaStem" : "わすれ"
+        },
+        {
+            "english" : "to get thin",
+            "kanjiStem" : "痩せ",
+            "kanaStem" : "やせ"
+        },
+        {
+            "english" : "to begin",
+            "kanjiStem" : "始め",
+            "kanaStem" : "はじめ"
         }
     ],
     "i_suru" : [
@@ -657,6 +694,11 @@
         {
             "english" : "to take a test",
             "kanaStem" : "テスト"
+        },
+                {
+            "english" : "to drive",
+            "kanjiStem" : "運転",
+            "kanaStem" : "うんてん"
         }
     ],
 
@@ -684,6 +726,51 @@
             "chaKana" : "きちゃ",
             "naiStemKanji" : "来",
             "naiStemKana" : "こ"
+        },
+        {
+            "english" : "to bring a person",
+            "dictFormKanji" : "連れて来る",
+            "dictFormKana" : "つれてくる",
+            "masuStemKanji" : "連れて来",
+            "masutStemKana" : "つれてき",
+            "teKanji" : "連れて来て",
+            "teKana" : "つれてきて",
+            "taKanji" : "連れて来た",
+            "taKana" : "つれてきた",
+            "chaKanji" : "連れて来ちゃ",
+            "chaKana" : "つれてきちゃ",
+            "naiStemKanji" : "連れて来",
+            "naiStemKana" : "つれてこ"
+        },
+        {
+            "english" : "to bring a thing",
+            "dictFormKanji" : "持って来る",
+            "dictFormKana" : "もってくる",
+            "masuStemKanji" : "持って来",
+            "masutStemKana" : "もってき",
+            "teKanji" : "持って来て",
+            "teKana" : "もってきて",
+            "taKanji" : "持って来た",
+            "taKana" : "もってきた",
+            "chaKanji" : "持って来ちゃ",
+            "chaKana" : "もってきちゃ",
+            "naiStemKanji" : "持って来",
+            "naiStemKana" : "もってこ"
+        },
+        {
+            "english" : "to take a thing",
+            "dictFormKanji" : "持っていく",
+            "dictFormKana" : "もっていく",
+            "masuStemKanji" : "持っていき",
+            "masutStemKana" : "もっていき",
+            "teKanji" : "持っていって",
+            "teKana" : "もっていって",
+            "taKanji" : "持っていった",
+            "taKana" : "もっていった",
+            "chaKanji" : "持っていっちゃ",
+            "chaKana" : "もっていっちゃ",
+            "naiStemKanji" : "持っていか",
+            "naiStemKana" : "もっていか"
         },
         {
             "english" : "to go",

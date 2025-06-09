@@ -48,7 +48,7 @@ export function RandomVerbSound({loaded} : props){
                 () => setShowWord(!showWord)
             }>{showWord ? "Hide Word" : "Show Word"}</button>
             <div className="card">
-                {showWord ? randomVerb.outputKanji : ""} 
+                {showWord ? (randomVerb.outputKanji + " (" + randomVerb.outputKana + ")") : ""} 
             </div>
         </div>
     </div>)
