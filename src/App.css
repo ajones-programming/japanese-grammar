@@ -1,24 +1,25 @@
 @import "tailwindcss";
 
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px;
+  
+  padding: 2rem; */
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
 h1{
-  @apply text-6xl p-8
+  @apply text-5xl p-4
 }
 
 h2{
-  @apply text-4xl p-8
+  @apply text-3xl p-4
 }
 
 .container{
-  @apply rounded-xl bg-white p-6 m-8 shadow-lg outline outline-black/5
+  @apply rounded-xl bg-white p-4 m-4 shadow-lg outline outline-black/5
 }
 
 button {
-  @apply rounded-xl bg-slate-200 p-6 shadow-lg m-8 hover:bg-white transition ease-in-out duration-700 
+  @apply rounded-xl bg-slate-200 p-4 shadow-lg m-2 hover:bg-white transition ease-in-out duration-700 
 }
