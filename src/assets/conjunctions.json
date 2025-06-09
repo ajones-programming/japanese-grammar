@@ -14,6 +14,22 @@
             "expression" : "CHAいけません"
         },
         {
+            "english" : "must",
+            "expression" : "NAI_STEMなければいけません"
+        },
+        {
+            "english" : "must not do",
+            "expression" : "NAI_STEMなければいけない"
+        },
+        {
+            "english" : "must not do",
+            "expression" : "NAI_STEMなきゃいけない"
+        },
+        {
+            "english" : "must not do",
+            "expression" : "NAI_STEMなきゃ"
+        },
+        {
             "english" : "only, just as",
             "expression" : "DICT_FORMだけ"
         },
@@ -24,6 +40,10 @@
         {
             "english" : "I think; it seems; probably; right?",
             "expression" : "DICT_FORMでしょう"
+        },
+        {
+            "english" : "Asking politely",
+            "expression" : "DICT_FORMでしょうか"
         },
         {
             "english" : "why; for what reason; how",
@@ -350,6 +370,18 @@
         {
             "english" : "plan to ~; intend to ~",
             "expression" : "DICT_FORMつもり"
+        },
+        {
+            "english" : "because of...",
+            "expression" : "DICT_FORMので"
+        },
+        {
+            "english" : "because of...",
+            "expression" : "TAので"
+        },
+        {
+            "english" : "because of...",
+            "expression" : "NAI_STEMないので"
         },
         {
             "english" : "dictionary form",

@@ -460,6 +460,45 @@
             "kanjiStem" : "読",
             "kanaStem" : "よ",
             "u" : "む"
+        },
+        {
+            "english" : "to dance",
+            "kanjiStem" : "踊",
+            "kanaStem" : "おど",
+            "u" : "る"
+        },
+        {
+            "english" : "to receive",
+            "kanaStem" : "もら",
+            "u" : "う"
+        },
+        {
+            "english" : "to become",
+            "kanaStem" : "な",
+            "u" : "る"
+        },
+        {
+            "english" : "to stay over",
+            "kanjiStem" : "泊ま",
+            "kanaStem" : "とま",
+            "u" : "る"
+        },
+        {
+            "english" : "to cut classes",
+            "kanaStem" : "サボ",
+            "u" : "る"
+        },
+        {
+            "english" : "to have/raise a pet",
+            "kanjiStem" : "飼",
+            "kanaStem" : "か",
+            "u" : "う"
+        },
+        {
+            "english" : "to pay",
+            "kanjiStem" : "払",
+            "kanaStem" : "はら",
+            "u" : "う"
         }
     ],
     "i_ichidan" : [
@@ -624,6 +663,25 @@
             "english" : "to begin",
             "kanjiStem" : "始め",
             "kanaStem" : "はじめ"
+        },
+        {
+            "english" : "to throw away",
+            "kanjiStem" : "捨て",
+            "kanaStem" : "すて"
+        },
+        {
+            "english" : "to decide",
+            "kanjiStem" : "決め",
+            "kanaStem" : "きめ"
+        },
+        {
+            "english" : "to quit",
+            "kanaStem" : "やめ"
+        },
+        {
+            "english" : "to break up",
+            "kanjiStem" : "別れ",
+            "kanaStem" : "わかれ"
         }
     ],
     "i_suru" : [
@@ -695,10 +753,53 @@
             "english" : "to take a test",
             "kanaStem" : "テスト"
         },
-                {
+        {
             "english" : "to drive",
             "kanjiStem" : "運転",
             "kanaStem" : "うんてん"
+        },
+        {
+            "english" : "to exercise",
+            "kanjiStem" : "運動",
+            "kanaStem" : "うんどう"
+        },
+        {
+            "english" : "to chill out, stay at home and do nothing",
+            "kanaStem" : "ごろごろ"
+        },
+        {
+            "english" : "to have a fight; quarrel",
+            "kanjiStem" : "喧嘩",
+            "kanaStem" : "けんか"
+        },
+        {
+            "english" : "to introduce",
+            "kanjiStem" : "紹介",
+            "kanaStem" : "しょうかい"
+        },
+        {
+            "english" : "to diet",
+            "kanaStem" : "ダイエット"
+        },
+        {
+            "english" : "to be late for an appointment",
+            "kanjiStem" : "遅刻",
+            "kanaStem" : "ちこく"
+        },
+        {
+            "english" : "to study abroad",
+            "kanjiStem" : "留学",
+            "kanaStem" : "りゅうがく"
+        },
+        {
+            "english" : "to get nervous",
+            "kanjiStem" : "緊張",
+            "kanaStem" : "りきんちょう"
+        },
+        {
+            "english" : "to worry",
+            "kanjiStem" : "心配",
+            "kanaStem" : "しんぱい"
         }
     ],
 
