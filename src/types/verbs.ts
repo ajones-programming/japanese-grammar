@@ -206,7 +206,7 @@ export interface I_suru {
     kanaStem : string;
 }
 
-export class suru extends verb{
+export class suruVerb extends verb{
 
     constructor(i : I_suru)
     {
@@ -235,6 +235,82 @@ export class suru extends verb{
 
     override naiStem(defaultKana : boolean = false): string {
         return this.stem(defaultKana) + "し";
+    }
+}
+
+export interface I_iku {
+    english : string;
+    kanjiStem? : string;
+    kanaStem : string;
+}
+
+export class ikuVerb extends verb{
+
+    constructor(i : I_iku)
+    {
+        super(i.kanjiStem,i.kanaStem,i.english);
+    }
+
+    override dictForm(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + ( defaultKana? "いく" : "行く" );
+    }
+
+    override masuStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + ( defaultKana? "いき" : "行き");
+    }
+
+    override te(defaultKana : boolean = false): string {
+       return this.stem(defaultKana) +  ( defaultKana? "いって" : "行って");
+    }
+
+    override ta(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) +  ( defaultKana? "いった" : "行った");
+    }
+
+    override cha(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + ( defaultKana? "いっちゃ" : "行っちゃ");
+    }
+
+    override naiStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + ( defaultKana? "いか" : "行か");
+    }
+}
+
+export interface I_kuru {
+    english : string;
+    kanjiStem? : string;
+    kanaStem : string;
+}
+
+export class kuruVerb extends verb{
+
+    constructor(i : I_kuru)
+    {
+        super(i.kanjiStem,i.kanaStem,i.english);
+    }
+
+    override dictForm(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + ( defaultKana? "くる" : "来る" );
+    }
+
+    override masuStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + ( defaultKana? "き" : "来");
+    }
+
+    override te(defaultKana : boolean = false): string {
+       return this.stem(defaultKana) +  ( defaultKana? "きて" : "来て");
+    }
+
+    override ta(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) +  ( defaultKana? "きた" : "来た");
+    }
+
+    override cha(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + ( defaultKana? "きちゃ" : "来ちゃ");
+    }
+
+    override naiStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + ( defaultKana? "こ" : "来");
     }
 }
 

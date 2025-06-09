@@ -1,8 +1,8 @@
 
 
 import { I_VerbConjuction, verbConjugation } from "./conjugationList";
-import { exceptionVerb, godanVerb, I_exceptionVerb, I_Godan, I_Ichidan, I_suru, ichidanVerb, suru as suruVerb, verb } from "./verbs";
-import { i_godan, i_ichidan, i_exception, i_suru} from "../assets/verbs.json"
+import { exceptionVerb, godanVerb, I_exceptionVerb, I_Godan, I_Ichidan, I_iku, I_kuru, I_suru, ichidanVerb, ikuVerb, kuruVerb, suruVerb as suruVerb, verb } from "./verbs";
+import { i_godan, i_ichidan, i_exception, i_suru, i_iku, i_kuru} from "../assets/verbs.json"
 import { i_verbConjunctions } from "../assets/conjunctions.json"
 
 export var allVerbs: verb[] | undefined;
@@ -25,6 +25,16 @@ export function loadAll(){
             allVerbs?.push(new suruVerb(i as I_suru));
         }
     )
+    i_iku.forEach( i =>
+        {
+            allVerbs?.push(new ikuVerb(i as I_iku));
+        }
+    )
+    i_kuru.forEach( i =>
+        {
+            allVerbs?.push(new kuruVerb(i as I_kuru));
+        }
+    )
     i_exception.forEach( i =>
         {
             allVerbs?.push(new exceptionVerb(i as I_exceptionVerb));
@@ -37,10 +47,4 @@ export function loadAll(){
             allVerbConjuctions?.push(new verbConjugation(i as I_VerbConjuction));
         }
     )
-
-    // allVerbs?.forEach((v : verb) => {
-    //     allVerbConjuctions?.forEach((c : verbConjugation) => {
-    //         console.log(c.runExpression(v));
-    //     })
-    // })
 }

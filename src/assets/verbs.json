@@ -800,94 +800,40 @@
             "english" : "to worry",
             "kanjiStem" : "心配",
             "kanaStem" : "しんぱい"
-        }
-    ],
-
-    "i_exception" : [
+        },
         {
             "english" : "to do",
-            "dictFormKana" : "する",
-            "masuStemKana" : "し",
-            "teKana" : "して",
-            "taKana" : "した",
-            "chaKana" : "しちゃ",
-            "naiStemKana" : "し"
-        },
+            "kanaStem" : ""
+        }
+    ],
+    "i_iku" : [
         {
-            "english" : "to come",
-            "dictFormKanji" : "来る",
-            "dictFormKana" : "くる",
-            "masuStemKanji" : "来",
-            "masutStemKana" : "き",
-            "teKanji" : "来て",
-            "teKana" : "きて",
-            "taKanji" : "来た",
-            "taKana" : "きた",
-            "chaKanji" : "来ちゃ",
-            "chaKana" : "きちゃ",
-            "naiStemKanji" : "来",
-            "naiStemKana" : "こ"
-        },
-        {
-            "english" : "to bring a person",
-            "dictFormKanji" : "連れて来る",
-            "dictFormKana" : "つれてくる",
-            "masuStemKanji" : "連れて来",
-            "masutStemKana" : "つれてき",
-            "teKanji" : "連れて来て",
-            "teKana" : "つれてきて",
-            "taKanji" : "連れて来た",
-            "taKana" : "つれてきた",
-            "chaKanji" : "連れて来ちゃ",
-            "chaKana" : "つれてきちゃ",
-            "naiStemKanji" : "連れて来",
-            "naiStemKana" : "つれてこ"
-        },
-        {
-            "english" : "to bring a thing",
-            "dictFormKanji" : "持って来る",
-            "dictFormKana" : "もってくる",
-            "masuStemKanji" : "持って来",
-            "masutStemKana" : "もってき",
-            "teKanji" : "持って来て",
-            "teKana" : "もってきて",
-            "taKanji" : "持って来た",
-            "taKana" : "もってきた",
-            "chaKanji" : "持って来ちゃ",
-            "chaKana" : "もってきちゃ",
-            "naiStemKanji" : "持って来",
-            "naiStemKana" : "もってこ"
+            "english" : "to go",
+            "kanaStem" : ""
         },
         {
             "english" : "to take a thing",
-            "dictFormKanji" : "持っていく",
-            "dictFormKana" : "もっていく",
-            "masuStemKanji" : "持っていき",
-            "masutStemKana" : "もっていき",
-            "teKanji" : "持っていって",
-            "teKana" : "もっていって",
-            "taKanji" : "持っていった",
-            "taKana" : "もっていった",
-            "chaKanji" : "持っていっちゃ",
-            "chaKana" : "もっていっちゃ",
-            "naiStemKanji" : "持っていか",
-            "naiStemKana" : "もっていか"
+            "kanjiStem" : "持って",
+            "kanaStem" : "もって"
+        }
+    ],
+    "i_kuru" : [
+        {
+            "english" : "to come",
+            "kanaStem" : ""
         },
         {
-            "english" : "to go",
-            "dictFormKanji" : "行く",
-            "dictFormKana" : "いく",
-            "masuStemKanji" : "行き",
-            "masuStemKana" : "いき",
-            "teKanji" : "行って",
-            "teKana" : "いって",
-            "taKanji" : "行った",
-            "taKana" : "いった",
-            "chaKanji" : "行っちゃ",
-            "chaKana" : "いっちゃ",
-            "naiStemKanji" : "行か",
-            "naiStemKana" : "いか"
+            "english" : "to bring a thing",
+            "kanjiStem" : "持って",
+            "kanaStem" : "もって"
         },
+        {
+            "english" : "to bring a person",
+            "kanjiStem" : "連れて",
+            "kanaStem" : "つれて"
+        }
+    ],
+    "i_exception" : [
         {
             "english" : "to have/exist (object)",
             "dictFormKana" : "ある",
