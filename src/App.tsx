@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { loadAll } from './types/util';
 import { RandomVerbSound } from './RandomVerbSound';
+import { TextToSpeechComponent } from './TextToSpeechComponent';
 
 function App() {
   const [dataFetched, setDataFetched] = useState(false);
@@ -24,6 +25,10 @@ function App() {
         <RandomVerbSound
         loaded={dataFetched}
         />
+      </div>
+
+      <div className='container'>
+        <TextToSpeechComponent/>
       </div>
 
     </>
