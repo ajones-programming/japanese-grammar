@@ -1029,6 +1029,362 @@
             {
                 "english": "button",
                 "kana" : "ボタン"
+            },
+            {
+                "english": "hat; cap",
+                "kanji" : "帽子",
+                "kana" : "ぼうし"
+            },
+            {
+                "english": "sentence",
+                "kanji" : "文章",
+                "kana" : "ぶんしょう"
+            },
+            {
+                "english": "pork",
+                "kanji" : "豚肉",
+                "kana" : "ぶたにく"
+            },
+            {
+                "english": "hospital",
+                "kanji" : "病院",
+                "kana" : "びょういん"
+            },
+            {
+                "english": "illness; disease; sickness",
+                "kanji" : "病気",
+                "kana" : "びょうき"
+            },
+            {
+                "english": "brown",
+                "kanji" : "茶色",
+                "kana" : "ちゃいろ"
+            },
+            {
+                "english": "rice bowl; tea cup; teacup",
+                "kanji" : "茶碗",
+                "kana" : "ちゃわん"
+            },
+            {
+                "english": "father",
+                "kanji" : "父",
+                "kana" : "ちち"
+            },
+            {
+                "english": "subway; underground train",
+                "kanji" : "地下鉄",
+                "kana" : "ちかてつ"
+            },
+            {
+                "english": "map",
+                "kanji" : "地図",
+                "kana" : "ちず"
+            },
+            {
+                "english": "kitchen",
+                "kanji" : "台所",
+                "kana" : "だいどころ"
+            },
+            {
+                "english": "university; college",
+                "kanji" : "大学",
+                "kana" : "だいがく"
+            },
+            {
+                "english": "exit; gateway; way out",
+                "kanji" : "出口",
+                "kana" : "でぐち"
+            },
+            {
+                "english": "electricity",
+                "kanji" : "電気",
+                "kana" : "でんき"
+            },
+            {
+                "english": "train; electric train",
+                "kanji" : "電車",
+                "kana" : "でんしゃ"
+            },
+            {
+                "english": "telephone (call / device)",
+                "kanji" : "電話",
+                "kana" : "でんわ"
+            },
+            {
+                "english": "department store",
+                "kana" : "デパート"
+            },
+            {
+                "english": "door",
+                "kana" : "ドア"
+            },
+            {
+                "english": "door",
+                "kana" : "ドア"
+            },
+            {
+                "english": "animal",
+                "kanji" : "動物",
+                "kana" : "どうぶつ"
+            },
+            {
+                "english": "Saturday",
+                "kanji" : "土曜日",
+                "kana" : "どようび"
+            },
+            {
+                "english": "Picture",
+                "kanji" : "絵",
+                "kana" : "え"
+            },
+            {
+                "english": "movie; film",
+                "kanji" : "映画",
+                "kana" : "えいが"
+            },
+            {
+                "english": "movie theater; cinema",
+                "kanji" : "映画館",
+                "kana" : "えいがかん"
+            },
+            {
+                "english": "English language",
+                "kanji" : "英語",
+                "kana" : "えいご"
+            },
+            {
+                "english": "station",
+                "kanji" : "駅",
+                "kana" : "えき"
+            },
+            {
+                "english": "pencil",
+                "kanji" : "鉛筆",
+                "kana" : "えんぴつ"
+            },
+            {
+                "english": "elevator",
+                "kana" : "エレベーター"
+            },
+            {
+                "english": "film",
+                "kana" : "フィルム"
+            },
+            {
+                "english": "fork",
+                "kana" : "フォーク"
+            },
+            {
+                "english": "clothes",
+                "kanji" : "服",
+                "kana" : "ふく"
+            },
+            {
+                "english": "envelope",
+                "kanji" : "封筒",
+                "kana" : "ふうとう"
+            },
+            {
+                "english": "winter",
+                "kanji" : "冬",
+                "kana" : "ふゆ"
+            },
+            {
+                "english": "foreign country",
+                "kanji" : "外国",
+                "kana" : "がいこく"
+            },
+            {
+                "english": "foreigner",
+                "kanji" : "外国人",
+                "kana" : "がいこくじん"
+            },
+            {
+                "english": "school",
+                "kanji" : "学校",
+                "kana" : "がっこう"
+            },
+            {
+                "english": "student",
+                "kanji" : "学生",
+                "kana" : "がくせい"
+            },
+            {
+                "english": "entrance",
+                "kanji" : "玄関",
+                "kana" : "げんかん"
+            },
+            {
+                "english": "lively; energetic; healthy",
+                "kanji" : "元気",
+                "kana" : "げんき"
+            },
+            {
+                "english": "Monday",
+                "kanji" : "月曜日",
+                "kana" : "げつようび"
+            },
+            {
+                "english": "bank",
+                "kanji" : "銀行",
+                "kana" : "ぎんこう"
+            },
+            {
+                "english": "guitar",
+                "kana" : "ギター"
+            },
+            {
+                "english": "five; 5",
+                "kanji" : "五",
+                "kana" : "ご"
+            },
+            {
+                "english": "afternoon; p.m",
+                "kanji" : "午後",
+                "kana" : "ごご"
+            },
+            {
+                "english": "cooked rice, meal",
+                "kanji" : "ご飯",
+                "kana" : "ごはん"
+            },
+            {
+                "english": "morning; a.m.",
+                "kanji" : "午前",
+                "kana" : "ごぜん"
+            },
+            {
+                "english": "gram",
+                "kana" : "グラム"
+            },
+            {
+                "english": "beef",
+                "kanji" : "牛肉",
+                "kana" : "ぎゅうにく"
+            },
+            {
+                "english": "(cow's) milk",
+                "kanji" : "牛乳",
+                "kana" : "ぎゅうにゅう"
+            },
+            {
+                "english": "tooth",
+                "kanji" : "歯",
+                "kana" : "は"
+            },
+            {
+                "english": "eight: 8",
+                "kanji" : "八",
+                "kana" : "はち"
+            },
+            {
+                "english": "postcard",
+                "kanji" : "葉書",
+                "kana" : "はがき"
+            },
+            {
+                "english": "mother",
+                "kanji" : "母",
+                "kana" : "はは"
+            },
+            {
+                "english": "ashtray",
+                "kanji" : "灰皿",
+                "kana" : "はいざら"
+            },
+            {
+                "english": "box; crate",
+                "kanji" : "箱",
+                "kana" : "はこ"
+            },
+            {
+                "english": "half; semi-; half-past",
+                "kanji" : "半",
+                "kana" : "はん"
+            },
+            {
+                "english": "flower",
+                "kanji" : "花",
+                "kana" : "はな"
+            },
+            {
+                "english": "nose",
+                "kanji" : "鼻",
+                "kana" : "はな"
+            },
+            {
+                "english": "talk; speech; conversation",
+                "kanji" : "話",
+                "kana" : "はなし"
+            },
+            {
+                "english": "half",
+                "kanji" : "半分",
+                "kana" : "はんぶん"
+            },
+            {
+                "english": "handkerchief",
+                "kana" : "ハンカチ"
+            },
+            {
+                "english": "clear weather",
+                "kanji" : "晴れ",
+                "kana" : "はれ"
+            },
+            {
+                "english": "spring; springtime",
+                "kanji" : "春",
+                "kana" : "はる"
+            },
+            {
+                "english": "chopsticks",
+                "kanji" : "箸",
+                "kana" : "はし"
+            },
+            {
+                "english": "bridge",
+                "kanji" : "橋",
+                "kana" : "はし"
+            },
+            {
+                "english": "area",
+                "kanji" : "辺",
+                "kana" : "へん"
+            },
+            {
+                "english": "room",
+                "kanji" : "部屋",
+                "kana" : "へや"
+            },
+            {
+                "english": "left; left hand side",
+                "kanji" : "左",
+                "kana" : "ひだり"
+            },
+            {
+                "english": "east",
+                "kanji" : "東",
+                "kana" : "ひがし"
+            },
+            {
+                "english": "airplane; aircraft",
+                "kanji" : "飛行機",
+                "kana" : "ひこうき"
+            },
+            {
+                "english": "free time",
+                "kanji" : "暇",
+                "kana" : "ひま"
+            },
+            {
+                "english": "noon; midday; lunch",
+                "kanji" : "昼",
+                "kana" : "ひる"
+            },
+            {
+                "english": "lunch",
+                "kanji" : "昼ご飯",
+                "kana" : "ひるごはん"
             }
         ]
     }

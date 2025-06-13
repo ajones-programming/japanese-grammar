@@ -1,14 +1,15 @@
 
 
-import { I_VerbConjuction, verbConjugation } from "./conjugationList";
+import { I_NounConjuction, I_VerbConjuction, NounConjugation, verbConjugation } from "./conjugationList";
 import { aruVerb, exceptionVerb, godanVerb, I_aru, I_exceptionVerb as I_exception, I_Godan, I_Ichidan, I_iku, I_kuru, I_suru, ichidanVerb, ikuVerb, kuruVerb, suruVerb as suruVerb, verb } from "./verbs";
 import { n5} from "../assets/vocabulary.json"
-import { i_verbConjunctions } from "../assets/conjunctions.json"
+import { i_verbConjunctions, i_nounConjunctions } from "../assets/conjunctions.json"
 import { I_noun, noun } from "./nouns";
 
 export var allVerbs:  { [id: string] : verb[]; }  | undefined;
 export var allNouns : { [id: string] : noun[]; }  | undefined;
 export var allVerbConjuctions: verbConjugation[] | undefined;
+export var allNounConjunctions : NounConjugation[] | undefined;
 
 export function loadAll(){
     allVerbs = {};
@@ -63,6 +64,13 @@ export function loadAll(){
     i_verbConjunctions.forEach(i => 
         {
             allVerbConjuctions?.push(new verbConjugation(i as I_VerbConjuction));
+        }
+    )
+
+    allNounConjunctions = [];
+    i_nounConjunctions.forEach(i => 
+        {
+            allNounConjunctions?.push(new NounConjugation(i as I_NounConjuction));
         }
     )
 }

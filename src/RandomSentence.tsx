@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { textToSpeech } from "./TextToSpeech";
-import { allVerbs, allVerbConjuctions, allNouns } from "./types/util";
+import { allVerbs, allVerbConjuctions, allNouns, allNounConjunctions } from "./types/util";
 
 interface sentenceData {
     kanji? : string;
@@ -10,7 +10,7 @@ interface sentenceData {
 
 function getRandomSentence() : sentenceData
 {
-    if (!allVerbs || !allVerbConjuctions|| !allNouns ){
+    if (!allVerbs || !allVerbConjuctions|| !allNouns || !allNounConjunctions){
         throw("EITHER VERBS OR CONJUGATIONS NOT DEFINED?? WEIRD")
     }
 
@@ -26,7 +26,9 @@ function getRandomSentence() : sentenceData
         case 1:
         {
             const randomN = allNouns.n5[Math.floor(Math.random() * allNouns.n5.length)];
-            return {kanji: randomN.kanji ?? randomN.kana, kana: randomN.kana}
+            const randomC = allNounConjunctions[Math.floor(Math.random() * allNounConjunctions.length)];
+            const expression = randomC.runExpression(randomN);
+            return {kanji: expression.outputKanji, kana: expression.outputKana}
         }   
     }
     return {kana: "ERROR", kanji: "ERROR"}

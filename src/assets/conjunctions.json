@@ -420,6 +420,79 @@
             "expression" : "TA"
         }
 
+    ],
+    "i_nounConjunctions" : [
+        {
+            "english": "noun",
+            "expression" : "NOUN"
+        },
+        {
+            "english": "to be, casual, present affirmative",
+            "expression" : "NOUNだ"
+        },
+        {
+            "english": "to be, polite, present affirmative",
+            "expression" : "NOUNです"
+        },
+        {
+            "english": "to be, casual, past affirmative",
+            "expression" : "NOUNだった"
+        },
+        {
+            "english": "to be, polite, past affirmative",
+            "expression" : "NOUNでした"
+        },
+        {
+            "english": "to be, casual, present negative",
+            "expression" : "NOUNじゃない"
+        },
+        {
+            "english": "to be, casual, present negative",
+            "expression" : "NOUNではない"
+        },
+        {
+            "english": "to be, polite, present negative",
+            "expression" : "NOUNじゃありません"
+        },
+        {
+            "english": "to be, polite, present negative",
+            "expression" : "NOUNではありません"
+        },
+        {
+            "english": "to be, casual, past negative",
+            "expression" : "NOUNじゃなかった"
+        },
+        {
+            "english": "to be, casual, past negative",
+            "expression" : "NOUNではなかった"
+        },
+        {
+            "english": "to be, polite, past negative",
+            "expression" : "NOUNじゃありませんでした"
+        },
+        {
+            "english": "to be, polite, past negative",
+            "expression" : "NOUNではありませんでした"
+        },
+        {
+            "english": "only, just, as much",
+            "expression" : "NOUNだけ"
+        },
+        {
+            "english": "I think; it seems; probably; right?",
+            "expression" : "NOUNだろう"
+        },
+        {
+            "english": "in; at; on; by; with; via",
+            "expression" : "NOUNで"
+        },
+        {
+            "english": "I think; it seems; probably; right?",
+            "expression" : "NOUNでしょう"
+        },
+        {
+            "english": "what kind of; what sort of",
+            "expression" : "どんなNOUN"
+        }
     ]
-    
 }

@@ -1,3 +1,4 @@
+import { noun } from "./nouns";
 import { verb } from "./verbs";
 
 
@@ -49,6 +50,35 @@ export class verbConjugation{
             outputKana: outputKana
         };
     }
+}
 
+export interface I_NounConjuction{
+    english : string;
+    expression : string;
+    expressionKanji? : string;
+}
 
+export class NounConjugation{
+    public english : string = "";
+    private expression : string = "";
+    private expressionKanji? : string;
+
+    constructor(i : I_NounConjuction){
+        this.english = i.english;
+        this.expression = i.expression;
+        this.expressionKanji = i.expressionKanji;
+    }
+
+    runExpression(noun : noun) : conjunctionResult{
+        var outputKanji = this.expressionKanji ?? this.expression;
+        outputKanji = outputKanji.replace("NOUN",noun.kanji ?? noun.kana);
+        var outputKana = this.expression;
+        outputKana = outputKana.replace("NOUN",noun.kana);
+        return {
+            wordEnglish: noun.english,
+            conjugationType: this.english,
+            outputKanji: outputKanji,
+            outputKana: outputKana
+        };
+    }
 }
