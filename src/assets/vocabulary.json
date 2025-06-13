@@ -1,0 +1,1035 @@
+{
+    "n5" : {
+
+        "verbs" : {
+            "i_godan":
+            [
+                {
+                    "english" : "to open",
+                    "kanjiStem" : "開",
+                    "kanaStem" : "あ",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to wash",
+                    "kanjiStem" : "洗",
+                    "kanaStem" : "あら",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to walk",
+                    "kanjiStem" : "歩",
+                    "kanaStem" : "ある",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to play/hang out",
+                    "kanjiStem" : "遊",
+                    "kanaStem" : "あそ",
+                    "u" : "ぶ"
+                },
+                {
+                    "english" : "to meet",
+                    "kanjiStem" : "会",
+                    "kanaStem" : "あ",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to differ",
+                    "kanjiStem" : "違",
+                    "kanaStem" : "ちが",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to take out, to get out",
+                    "kanjiStem" : "出",
+                    "kanaStem" : "だ",
+                    "u" : "す"
+                },
+                {
+                    "english" : "to blow",
+                    "kanjiStem" : "吹",
+                    "kanaStem" : "ふ",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to fall",
+                    "kanjiStem" : "降",
+                    "kanaStem" : "ふ",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to get fat",
+                    "kanjiStem" : "太",
+                    "kanaStem" : "ふと",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to enter; to go into",
+                    "kanjiStem" : "入",
+                    "kanaStem" : "はい",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to have a bath",
+                    "kanjiStem" : "お風呂に入",
+                    "kanaStem" : "おふろにはい",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to begin",
+                    "kanjiStem" : "始ま",
+                    "kanaStem" : "はじま",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to wear, put on trousers",
+                    "kanjiStem" : "履",
+                    "kanaStem" : "は",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to speak, to talk",
+                    "kanjiStem" : "話",
+                    "kanaStem" : "はな",
+                    "u" : "す"
+                },
+                {
+                    "english" : "to stick, to paste",
+                    "kanjiStem" : "貼",
+                    "kanaStem" : "は",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to run",
+                    "kanjiStem" : "走",
+                    "kanaStem" : "はし",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to work",
+                    "kanjiStem" : "働",
+                    "kanaStem" : "はたら",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to pull",
+                    "kanjiStem" : "引",
+                    "kanaStem" : "ひ",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to play",
+                    "kanjiStem" : "弾",
+                    "kanaStem" : "ひ",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to be needed",
+                    "kanjiStem" : "要",
+                    "kanaStem" : "い",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to say",
+                    "kanjiStem" : "言",
+                    "kanaStem" : "い",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to put on a hat",
+                    "kanaStem" : "かぶ",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to go back",
+                    "kanjiStem" : "帰",
+                    "kanaStem" : "かえ",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to return something",
+                    "kanjiStem" : "返",
+                    "kanaStem" : "かえ",
+                    "u" : "す"
+                },
+                {
+                    "english" : "to take (time, money)",
+                    "kanjiStem" : "掛か",
+                    "kanaStem" : "かか",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to write",
+                    "kanjiStem" : "書",
+                    "kanaStem" : "か",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to lend",
+                    "kanjiStem" : "貸",
+                    "kanaStem" : "か",
+                    "u" : "す"
+                },
+                {
+                    "english" : "to buy; to purchase",
+                    "kanjiStem" : "買",
+                    "kanaStem" : "か",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to erase, to turn off power",
+                    "kanjiStem" : "消",
+                    "kanaStem" : "け",
+                    "u" : "す"
+                },
+                {
+                    "english" : "to hear; to listen; to ask",
+                    "kanjiStem" : "聞",
+                    "kanaStem" : "き",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to cut",
+                    "kanjiStem" : "切",
+                    "kanaStem" : "き",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to be troubled",
+                    "kanjiStem" : "困",
+                    "kanaStem" : "こま",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to become cloudy",
+                    "kanjiStem" : "曇",
+                    "kanaStem" : "くも",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to turn, to bend",
+                    "kanjiStem" : "曲が",
+                    "kanaStem" : "まが",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to wait",
+                    "kanjiStem" : "待",
+                    "kanaStem" : "ま",
+                    "u" : "つ"
+                },
+                {
+                    "english" : "to polish; to brush (teeth)",
+                    "kanjiStem" : "磨",
+                    "kanaStem" : "みが",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to hold",
+                    "kanjiStem" : "持",
+                    "kanaStem" : "も",
+                    "u" : "つ"
+                },
+                {
+                    "english" : "animal noise. to chirp",
+                    "kanjiStem" : "鳴",
+                    "kanaStem" : "な",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to lose (something)",
+                    "kanjiStem" : "無く",
+                    "kanaStem" : "なく",
+                    "u" : "す"
+                },
+                {
+                    "english" : "to line up",
+                    "kanjiStem" : "並",
+                    "kanaStem" : "なら",
+                    "u" : "ぶ"
+                },
+                {
+                    "english" : "to be taught; to learn",
+                    "kanjiStem" : "習",
+                    "kanaStem" : "なら",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to climb",
+                    "kanjiStem" : "登",
+                    "kanaStem" : "のぼ",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to drink",
+                    "kanjiStem" : "飲",
+                    "kanaStem" : "の",
+                    "u" : "む"
+                },
+                {
+                    "english" : "to take medicine",
+                    "kanjiStem" : "薬を飲",
+                    "kanaStem" : "くすりをの",
+                    "u" : "む"
+                },
+                {
+                    "english" : "to get on (train, plane,  etc.)",
+                    "kanjiStem" : "乗",
+                    "kanaStem" : "の",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to take off clothes",
+                    "kanjiStem" : "脱",
+                    "kanaStem" : "ぬ",
+                    "u" : "ぐ"
+                },
+                {
+                    "english" : "to put; to place",
+                    "kanjiStem" : "置",
+                    "kanaStem" : "お",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to think",
+                    "kanjiStem" : "思",
+                    "kanaStem" : "おも",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to be late",
+                    "kanjiStem" : "遅くな",
+                    "kanaStem" : "おそくな",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to push; to press",
+                    "kanjiStem" : "押",
+                    "kanaStem" : "お",
+                    "u" : "す"
+                },
+                {
+                    "english" : "to finish, to end",
+                    "kanjiStem" : "終わ",
+                    "kanaStem" : "わ",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to swim",
+                    "kanjiStem" : "泳",
+                    "kanaStem" : "およ",
+                    "u" : "ぐ"
+                },
+                {
+                    "english" : "to bloom",
+                    "kanjiStem" : "咲",
+                    "kanaStem" : "さ",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to stretch out hands, to raise an umbrella",
+                    "kanjiStem" : "差",
+                    "kanaStem" : "さ",
+                    "u" : "す"
+                },
+                {
+                    "english" : "to close, to be closed",
+                    "kanjiStem" : "閉ま",
+                    "kanaStem" : "しま",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to die",
+                    "kanjiStem" : "死",
+                    "kanaStem" : "し",
+                    "u" : "ぬ"
+                },
+                {
+                    "english" : "to know",
+                    "kanjiStem" : "知",
+                    "kanaStem" : "し",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to live in",
+                    "kanjiStem" : "住",
+                    "kanaStem" : "す",
+                    "u" : "む"
+                },
+                {
+                    "english" : "to smoke, to suck",
+                    "kanjiStem" : "吸",
+                    "kanaStem" : "す",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to smoke",
+                    "kanjiStem" : "たばこを吸",
+                    "kanaStem" : "たばこをす",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to sit",
+                    "kanjiStem" : "座",
+                    "kanaStem" : "すわ",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to ask",
+                    "kanjiStem" : "頼",
+                    "kanaStem" : "たの",
+                    "u" : "む"
+                },
+                {
+                    "english" : "to stand",
+                    "kanjiStem" : "立",
+                    "kanaStem" : "た",
+                    "u" : "つ"
+                },
+                {
+                    "english" : "to fly; to hop",
+                    "kanjiStem" : "飛",
+                    "kanaStem" : "と",
+                    "u" : "ぶ"
+                },
+                {
+                    "english" : "to stop",
+                    "kanjiStem" : "止ま",
+                    "kanaStem" : "とま",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to take a photo or record a film",
+                    "kanjiStem" : "撮",
+                    "kanaStem" : "と",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to take",
+                    "kanjiStem" : "取",
+                    "kanaStem" : "と",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to use",
+                    "kanjiStem" : "使",
+                    "kanaStem" : "つか",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to arrive at",
+                    "kanjiStem" : "着",
+                    "kanaStem" : "つ",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to make",
+                    "kanjiStem" : "作",
+                    "kanaStem" : "つく",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to sell",
+                    "kanjiStem" : "売",
+                    "kanaStem" : "う",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to sing",
+                    "kanjiStem" : "歌",
+                    "kanaStem" : "うた",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to understand",
+                    "kanjiStem" : "分か",
+                    "kanaStem" : "わか",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to go across",
+                    "kanjiStem" : "渡",
+                    "kanaStem" : "わた",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to hand over",
+                    "kanjiStem" : "渡",
+                    "kanaStem" : "わた",
+                    "u" : "す"
+                },
+                {
+                    "english" : "to do",
+                    "kanaStem" : "や",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to be absent; to rest",
+                    "kanjiStem" : "休",
+                    "kanaStem" : "やす",
+                    "u" : "む"
+                },
+                {
+                    "english" : "to call out",
+                    "kanjiStem" : "呼",
+                    "kanaStem" : "よ",
+                    "u" : "ぶ"
+                },
+                {
+                    "english" : "to read",
+                    "kanjiStem" : "読",
+                    "kanaStem" : "よ",
+                    "u" : "む"
+                },
+                {
+                    "english" : "to dance",
+                    "kanjiStem" : "踊",
+                    "kanaStem" : "おど",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to receive",
+                    "kanaStem" : "もら",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to become",
+                    "kanaStem" : "な",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to stay over",
+                    "kanjiStem" : "泊ま",
+                    "kanaStem" : "とま",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to cut classes",
+                    "kanaStem" : "サボ",
+                    "u" : "る"
+                },
+                {
+                    "english" : "to have/raise a pet",
+                    "kanjiStem" : "飼",
+                    "kanaStem" : "か",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to pay",
+                    "kanjiStem" : "払",
+                    "kanaStem" : "はら",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to hurry",
+                    "kanjiStem" : "急",
+                    "kanaStem" : "いそ",
+                    "u" : "ぐ"
+                },
+                {
+                    "english" : "to help",
+                    "kanjiStem" : "手伝",
+                    "kanaStem" : "てつだ",
+                    "u" : "う"
+                },
+                {
+                    "english" : "to tell a lie",
+                    "kanjiStem" : "嘘をつ",
+                    "kanaStem" : "うそをつ",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to get hungry",
+                    "kanjiStem" : "お腹がす",
+                    "kanaStem" : "おなかがす",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to catch a cold",
+                    "kanjiStem" : "風邪をひ",
+                    "kanaStem" : "かぜをひ",
+                    "u" : "く"
+                },
+                {
+                    "english" : "to become thirsty",
+                    "kanjiStem" : "喉が渇",
+                    "kanaStem" : "のどがかわ",
+                    "u" : "く"
+                }
+            ],
+            "i_ichidan" : [
+                {
+                    "english" : "to bathe, to shower",
+                    "kanjiStem" : "浴び",
+                    "kanaStem" : "あび"
+                },
+                {
+                    "english" : "to bathe, to shower",
+                    "kanjiStem" : "シャワーを浴び",
+                    "kanaStem" : "シャワーをあび"
+                },
+                {
+                    "english" : " to raise; to elevate",
+                    "kanjiStem" : "上げ",
+                    "kanaStem" : "あげ"
+                },
+                {
+                    "english" : "to open",
+                    "kanjiStem" : "開け",
+                    "kanaStem" : "あけ"
+                },
+                {
+                    "english" : "to go out, to leave, to depart",
+                    "kanjiStem" : "出かけ",
+                    "kanaStem" : "でかけ"
+                },
+                {
+                    "english" : "to leave; to exit",
+                    "kanjiStem" : "出",
+                    "kanaStem" : "で"
+                },
+                {
+                    "english" : "to be sunny",
+                    "kanjiStem" : "晴れ",
+                    "kanaStem" : "はれ"
+                },
+                {
+                    "english" : "to put in, to let in",
+                    "kanjiStem" : "入れ",
+                    "kanaStem" : "いれ"
+                },
+                {
+                    "english" : "to be, to have (living thing)",
+                    "kanaStem" : "い"
+                },
+                {
+                    "english" : "to hang up; to make (a call)",
+                    "kanjiStem" : "掛け",
+                    "kanaStem" : "かけ"
+                },
+                {
+                    "english" : "to borrow",
+                    "kanjiStem" : "借り",
+                    "kanaStem" : "かり"
+                },
+                {
+                    "english" : "to disappear",
+                    "kanjiStem" : "消え",
+                    "kanaStem" : "きえ"
+                },
+                {
+                    "english" : "to wear",
+                    "kanjiStem" : "着",
+                    "kanaStem" : "き"
+                },
+                {
+                    "english" : "to answer",
+                    "kanjiStem" : "答え",
+                    "kanaStem" : "こたえ"
+                },
+                {
+                    "english" : "to see, to look",
+                    "kanjiStem" : "見",
+                    "kanaStem" : "み"
+                },
+                {
+                    "english" : "to show; to display",
+                    "kanjiStem" : "見せ",
+                    "kanaStem" : "みせ"
+                },
+                {
+                    "english" : "to line up, to set up",
+                    "kanjiStem" : "並べ",
+                    "kanaStem" : "ならべ"
+                },
+                {
+                    "english" : "to sleep",
+                    "kanjiStem" : "寝",
+                    "kanaStem" : "ね"
+                },
+                {
+                    "english" : "to remember",
+                    "kanjiStem" : "覚え",
+                    "kanaStem" : "おぼえ"
+                },
+                {
+                    "english" : "to get up, to wake up",
+                    "kanjiStem" : "起き",
+                    "kanaStem" : "おき"
+                },
+                {
+                    "english" : "to get off",
+                    "kanjiStem" : "降り",
+                    "kanaStem" : "おり"
+                },
+                {
+                    "english" : "to teach",
+                    "kanjiStem" : "教え",
+                    "kanaStem" : "おしえ"
+                },
+                {
+                    "english" : "to tie; to fasten; to tighten",
+                    "kanjiStem" : "締め",
+                    "kanaStem" : "しめ"
+                },
+                {
+                    "english" : "to close; to shut",
+                    "kanjiStem" : "閉め",
+                    "kanaStem" : "しめ"
+                },
+                {
+                    "english" : "to eat",
+                    "kanjiStem" : "食べ",
+                    "kanaStem" : "たべ"
+                },
+                {
+                    "english" : "to get tired",
+                    "kanjiStem" : "疲れ",
+                    "kanaStem" : "つかれ"
+                },
+                {
+                    "english" : "to turn on",
+                    "kanaStem" : "つけ"
+                },
+                {
+                    "english" : "to attach; affix; add; apply",
+                    "kanjiStem" : "付け",
+                    "kanaStem" : "つけ"
+                },
+                {
+                    "english" : "to turn on",
+                    "kanaStem" : "つけ"
+                },
+                {
+                    "english" : "to work for someone",
+                    "kanjiStem" : "勤め",
+                    "kanaStem" : "つとめ"
+                },
+                {
+                    "english" : "to be born",
+                    "kanjiStem" : "生まれ",
+                    "kanaStem" : "うまれ"
+                },
+                {
+                    "english" : "to forget",
+                    "kanjiStem" : "忘れ",
+                    "kanaStem" : "わすれ"
+                },
+                {
+                    "english" : "to get thin",
+                    "kanjiStem" : "痩せ",
+                    "kanaStem" : "やせ"
+                },
+                {
+                    "english" : "to begin",
+                    "kanjiStem" : "始め",
+                    "kanaStem" : "はじめ"
+                },
+                {
+                    "english" : "to throw away",
+                    "kanjiStem" : "捨て",
+                    "kanaStem" : "すて"
+                },
+                {
+                    "english" : "to decide",
+                    "kanjiStem" : "決め",
+                    "kanaStem" : "きめ"
+                },
+                {
+                    "english" : "to quit",
+                    "kanaStem" : "やめ"
+                },
+                {
+                    "english" : "to break up",
+                    "kanjiStem" : "別れ",
+                    "kanaStem" : "わかれ"
+                },
+                {
+                    "english" : "to put on glasses",
+                    "kanjiStem" : "眼鏡をかけ",
+                    "kanaStem" : "めがねをかけ"
+                },
+                {
+                    "english" : "to cough",
+                    "kanjiStem" : "咳が出",
+                    "kanaStem" : "せきがで"
+                }
+            ],
+            "i_suru" : [
+                {
+                    "english" : "to study",
+                    "kanjiStem" : "勉強",
+                    "kanaStem" : "べんきょう"
+                },
+                {
+                    "english" : "to call",
+                    "kanjiStem" : "電話",
+                    "kanaStem" : "でんわ"
+                },
+                {
+                    "english" : "to give a lecture",
+                    "kanjiStem" : "授業",
+                    "kanaStem" : "じゅぎょう"
+                },
+                {
+                    "english" : "to marry",
+                    "kanjiStem" : "結婚",
+                    "kanaStem" : "けっこん"
+                },
+                {
+                    "english" : "to make a copy",
+                    "kanaStem" : "コピー"
+                },
+                {
+                    "english" : "to practice",
+                    "kanjiStem" : "練習",
+                    "kanaStem" : "れんしゅう"
+                },
+                {
+                    "english" : "to travel",
+                    "kanjiStem" : "旅行",
+                    "kanaStem" : "りょこう"
+                },
+                {
+                    "english" : "to cook",
+                    "kanjiStem" : "料理",
+                    "kanaStem" : "りょうり"
+                },
+                {
+                    "english" : "to go for a walk",
+                    "kanjiStem" : "散歩",
+                    "kanaStem" : "さんぽ"
+                },
+                {
+                    "english" : "to wash laundry",
+                    "kanjiStem" : "洗濯",
+                    "kanaStem" : "せんたく"
+                },
+                {
+                    "english" : "to work",
+                    "kanjiStem" : "仕事",
+                    "kanaStem" : "しごと"
+                },
+                {
+                    "english" : "to ask a question",
+                    "kanjiStem" : "質問",
+                    "kanaStem" : "しつもん"
+                },
+                {
+                    "english" : "to clean",
+                    "kanjiStem" : "掃除",
+                    "kanaStem" : "そうじ"
+                },
+                {
+                    "english" : "to take a test",
+                    "kanaStem" : "テスト"
+                },
+                {
+                    "english" : "to drive",
+                    "kanjiStem" : "運転",
+                    "kanaStem" : "うんてん"
+                },
+                {
+                    "english" : "to exercise",
+                    "kanjiStem" : "運動",
+                    "kanaStem" : "うんどう"
+                },
+                {
+                    "english" : "to chill out, stay at home and do nothing",
+                    "kanaStem" : "ごろごろ"
+                },
+                {
+                    "english" : "to have a fight; quarrel",
+                    "kanjiStem" : "喧嘩",
+                    "kanaStem" : "けんか"
+                },
+                {
+                    "english" : "to introduce",
+                    "kanjiStem" : "紹介",
+                    "kanaStem" : "しょうかい"
+                },
+                {
+                    "english" : "to diet",
+                    "kanaStem" : "ダイエット"
+                },
+                {
+                    "english" : "to be late for an appointment",
+                    "kanjiStem" : "遅刻",
+                    "kanaStem" : "ちこく"
+                },
+                {
+                    "english" : "to study abroad",
+                    "kanjiStem" : "留学",
+                    "kanaStem" : "りゅうがく"
+                },
+                {
+                    "english" : "to get nervous",
+                    "kanjiStem" : "緊張",
+                    "kanaStem" : "きんちょう"
+                },
+                {
+                    "english" : "to worry",
+                    "kanjiStem" : "心配",
+                    "kanaStem" : "しんぱい"
+                },
+                {
+                    "english" : "to do",
+                    "kanaStem" : ""
+                }
+            ],
+            "i_iku" : [
+                {
+                    "english" : "to go",
+                    "kanaStem" : ""
+                },
+                {
+                    "english" : "to take a thing",
+                    "kanjiStem" : "持って",
+                    "kanaStem" : "もって"
+                }
+            ],
+            "i_kuru" : [
+                {
+                    "english" : "to come",
+                    "kanaStem" : ""
+                },
+                {
+                    "english" : "to bring a thing",
+                    "kanjiStem" : "持って",
+                    "kanaStem" : "もって"
+                },
+                {
+                    "english" : "to bring a person",
+                    "kanjiStem" : "連れて",
+                    "kanaStem" : "つれて"
+                }
+            ],
+            "i_aru" : [
+                {
+                    "english" : "to be popular",
+                    "kanjiStem" : "人気が",
+                    "kanaStem" : "にんきが"
+                },
+                {
+                    "english" : "to have a fever",
+                    "kanjiStem" : "熱が",
+                    "kanaStem" : "ねつが"
+                },
+                {
+                    "english" : "to be interested in",
+                    "kanjiStem" : "興味が",
+                    "kanaStem" : "きょうみが"
+                }
+            ],
+            "i_exception" : [
+            ]
+        },
+        "nouns" : [
+            {
+                "english": "red; crimson; scarlet",
+                "kanji" : "赤",
+                "kana" : "あか"
+            },
+            {
+                "english": " autumn; fall",
+                "kanji" : "秋",
+                "kana" : "あき"
+            },
+            {
+                "english": "candy",
+                "kanji" : "飴",
+                "kana" : "あめ"
+            },
+            {
+                "english": "rain",
+                "kanji" : "雨",
+                "kana" : "あめ"
+            },
+            {
+                "english": "elder sister",
+                "kanji" : "姉",
+                "kana" : "あね"
+            },
+            {
+                "english": "elder brother",
+                "kanji" : "兄",
+                "kana" : "あに"
+            },
+            {
+                "english": "apartment",
+                "kana" : "アパート"
+            },
+            {
+                "english": "morning",
+                "kanji" : "朝",
+                "kana" : "あさ"
+            },
+            {
+                "english": "breakfast",
+                "kanji" : "朝ご飯",
+                "kana" : "あさごはん"
+            },
+            {
+                "english": "day after tomorrow",
+                "kanji" : "明後日",
+                "kana" : "あさって"
+            },
+            {
+                "english": "foot; leg; paw; arm",
+                "kanji" : "足",
+                "kana" : "あし"
+            },
+            {
+                "english": "tomorrow",
+                "kanji" : "明日",
+                "kana" : "あした"
+            },
+            {
+                "english": "head",
+                "kanji" : "頭",
+                "kana" : "あたま"
+            },
+            {
+                "english": "behind; after; left; also",
+                "kanji" : "後",
+                "kana" : "あと"
+            },
+            {
+                "english": "dinner; evening meal",
+                "kanji" : "晩ご飯",
+                "kana" : "ばんごはん"
+            },
+            {
+                "english": "number",
+                "kanji" : "番号",
+                "kana" : "ばんごう"
+            },
+            {
+                "english": "bus",
+                "kana" : "バス"
+            },
+            {
+                "english": "butter",
+                "kana" : "バター"
+            },
+            {
+                "english": "bed",
+                "kana" : "ベッド"
+            },
+            {
+                "english": "to study",
+                "kanji" : "勉強",
+                "kana" : "べんきょう"
+            },
+            {
+                "english": "ballpoint pen",
+                "kana" : "ボールペン"
+            },
+            {
+                "english": "button",
+                "kana" : "ボタン"
+            }
+        ]
+    }
+}

@@ -314,6 +314,44 @@ export class kuruVerb extends verb{
     }
 }
 
+export interface I_aru {
+    english : string;
+    kanjiStem? : string;
+    kanaStem : string;
+}
+
+export class aruVerb extends verb{
+
+    constructor(i : I_aru)
+    {
+        super(i.kanjiStem,i.kanaStem,i.english);
+    }
+
+    override dictForm(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "ある";
+    }
+
+    override masuStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "あり";
+    }
+
+    override te(defaultKana : boolean = false): string {
+       return this.stem(defaultKana) + "あって";
+    }
+
+    override ta(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) +  "あった";
+    }
+
+    override cha(defaultKana : boolean = false): string {
+        return this.stem(defaultKana) + "あっちゃ";
+    }
+
+    override naiStem(defaultKana : boolean = false): string {
+        return this.stem(defaultKana);
+    }
+}
+
 export interface I_exceptionVerb {
     english : string;
     dictFormKanji? : string;

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { loadAll } from './types/util';
-import { RandomVerbSound } from './RandomVerbSound';
+import { RandomSentence } from './RandomSentence';
 import { TextToSpeechComponent } from './TextToSpeechComponent';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 
 
       <div className='container'>
-        <RandomVerbSound
+        <RandomSentence
         loaded={dataFetched}
         />
       </div>

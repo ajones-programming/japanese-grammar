@@ -1,43 +1,61 @@
 
 
 import { I_VerbConjuction, verbConjugation } from "./conjugationList";
-import { exceptionVerb, godanVerb, I_exceptionVerb, I_Godan, I_Ichidan, I_iku, I_kuru, I_suru, ichidanVerb, ikuVerb, kuruVerb, suruVerb as suruVerb, verb } from "./verbs";
-import { i_godan, i_ichidan, i_exception, i_suru, i_iku, i_kuru} from "../assets/verbs.json"
+import { aruVerb, exceptionVerb, godanVerb, I_aru, I_exceptionVerb as I_exception, I_Godan, I_Ichidan, I_iku, I_kuru, I_suru, ichidanVerb, ikuVerb, kuruVerb, suruVerb as suruVerb, verb } from "./verbs";
+import { n5} from "../assets/vocabulary.json"
 import { i_verbConjunctions } from "../assets/conjunctions.json"
+import { I_noun, noun } from "./nouns";
 
-export var allVerbs: verb[] | undefined;
+export var allVerbs:  { [id: string] : verb[]; }  | undefined;
+export var allNouns : { [id: string] : noun[]; }  | undefined;
 export var allVerbConjuctions: verbConjugation[] | undefined;
 
 export function loadAll(){
-    allVerbs = [];
-    i_godan.forEach( i =>
+    allVerbs = {};
+    allVerbs.n5 = [];
+
+    n5.verbs.i_godan.forEach( i =>
         {
-            allVerbs?.push(new godanVerb(i as I_Godan));
+            allVerbs?.n5.push(new godanVerb(i as I_Godan));
         }
     )
-    i_ichidan.forEach( i =>
+    n5.verbs.i_ichidan.forEach( i =>
         {
-            allVerbs?.push(new ichidanVerb(i as I_Ichidan));
+            allVerbs?.n5.push(new ichidanVerb(i as I_Ichidan));
         }
     )
-    i_suru.forEach( i =>
+    n5.verbs.i_suru.forEach( i =>
         {
-            allVerbs?.push(new suruVerb(i as I_suru));
+            allVerbs?.n5.push(new suruVerb(i as I_suru));
         }
     )
-    i_iku.forEach( i =>
+    n5.verbs.i_iku.forEach( i =>
         {
-            allVerbs?.push(new ikuVerb(i as I_iku));
+            allVerbs?.n5.push(new ikuVerb(i as I_iku));
         }
     )
-    i_kuru.forEach( i =>
+    n5.verbs.i_kuru.forEach( i =>
         {
-            allVerbs?.push(new kuruVerb(i as I_kuru));
+            allVerbs?.n5.push(new kuruVerb(i as I_kuru));
         }
     )
-    i_exception.forEach( i =>
+    n5.verbs.i_aru.forEach( i =>
         {
-            allVerbs?.push(new exceptionVerb(i as I_exceptionVerb));
+            allVerbs?.n5.push(new aruVerb(i as I_aru));
+        }
+    )
+    n5.verbs.i_exception.forEach( i =>
+        {
+            allVerbs?.n5.push(new exceptionVerb(i as I_exception));
+        }
+    )
+
+    allNouns = {};
+    allNouns.n5 = [];
+
+    n5.nouns.forEach( i =>
+        {
+            allNouns?.n5.push(new noun(i as I_noun));
         }
     )
 
