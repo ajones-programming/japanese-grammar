@@ -2284,6 +2284,533 @@
                 "english": "sugar",
                 "kanji" : "砂糖",
                 "kana" : "さとう"
+            },
+            {
+                "english": "height; stature; back; spine",
+                "kanji" : "背",
+                "kana" : "せ"
+            },
+            {
+                "english": "business suit",
+                "kanji" : "背広",
+                "kana" : "せびろ"
+            },
+            {
+                "english": "sweater; jumper",
+                "kana" : "セーター"
+            },
+            {
+                "english": "pupil; student",
+                "kanji" : "生徒",
+                "kana" : "せいと"
+            },
+            {
+                "english": "soap",
+                "kanji" : "石鹼",
+                "kana" : "せっけん"
+            },
+            {
+                "english": "last month",
+                "kanji" : "先月",
+                "kana" : "せんげつ"
+            },
+            {
+                "english": "teacher; instructor; master",
+                "kanji" : "先生",
+                "kana" : "せんせい"
+            },
+            {
+                "english": "last week",
+                "kanji" : "先週",
+                "kana" : "せんしゅう"
+            },
+            {
+                "english": "washing; laundry",
+                "kanji" : "洗濯",
+                "kana" : "せんたく"
+            },
+            {
+                "english": "photograph; photo",
+                "kanji" : "写真",
+                "kana" : "しゃしん"
+            },
+            {
+                "english": "shirt",
+                "kana" : "シャツ"
+            },
+            {
+                "english": "shower",
+                "kana" : "シャワー"
+            },
+            {
+                "english": "work; job; business",
+                "kanji" : "仕事",
+                "kana" : "しごと"
+            },
+            {
+                "english": "newspaper",
+                "kanji" : "新聞",
+                "kana" : "しんぶん"
+            },
+            {
+                "english": "salt",
+                "kanji" : "塩",
+                "kana" : "しお"
+            },
+            {
+                "english": "below; down; under",
+                "kanji" : "下",
+                "kana" : "した"
+            },
+            {
+                "english": "question; inquiry",
+                "kanji" : "質問",
+                "kana" : "しつもん"
+            },
+            {
+                "english": "cafeteria; dining room",
+                "kanji" : "食堂",
+                "kana" : "しょくどう"
+            },
+            {
+                "english": "soy sauce",
+                "kanji" : "醬油",
+                "kana" : "しょうゆ"
+            },
+            {
+                "english": "homework; assignment",
+                "kanji" : "宿題",
+                "kana" : "しゅくだい"
+            },
+            {
+                "english": "near; beside",
+                "kana" : "そば"
+            },
+            {
+                "english": "sky; the air",
+                "kanji" : "空",
+                "kana" : "そら"
+            },
+            {
+                "english": "outside; exterior;",
+                "kanji" : "外",
+                "kana" : "そと"
+            },
+            {
+                "english": "to clean, to sweep",
+                "kanji" : "掃除",
+                "kana" : "そうじ"
+            },
+            {
+                "english": "Wednesday",
+                "kanji" : "水曜日",
+                "kana" : "すいようび"
+            },
+            {
+                "english": "skirt",
+                "kana" : "スカート"
+            },
+            {
+                "english": "sport; sports",
+                "kana" : "スポーツ"
+            },
+            {
+                "english": "spoon",
+                "kana" : "スプーン"
+            },
+            {
+                "english": "slipper; slippers",
+                "kana" : "スリッパ"
+            },
+            {
+                "english": "heater; stove",
+                "kana" : "ストーブ"
+            },
+            {
+                "english": "tobacco; cigarette",
+                "kana" : "たばこ"
+            },
+            {
+                "english": "embassy",
+                "kanji" : "大使館",
+                "kana" : "たいしかん"
+            },
+            {
+                "english": "taxi",
+                "kana" : "タクシー"
+            },
+            {
+                "english": "eggs; egg",
+                "kanji" : "卵",
+                "kana" : "たまご"
+            },
+            {
+                "english": "birthday",
+                "kanji" : "誕生日",
+                "kana" : "たんじょうび"
+            },
+            {
+                "english": "length; height",
+                "kanji" : "縦",
+                "kana" : "たて"
+            },
+            {
+                "english": "building",
+                "kanji" : "建物",
+                "kana" : "たてもの"
+            },
+            {
+                "english": "hand; arm",
+                "kanji" : "手",
+                "kana" : "て"
+            },
+            {
+                "english": "table",
+                "kana" : "テーブル"
+            },
+            {
+                "english": "tape",
+                "kana" : "テープ"
+            },
+            {
+                "english": "tape recorder",
+                "kana" : "テープレコーダー"
+            },
+            {
+                "english": "Letter (message)",
+                "kanji" : "手紙",
+                "kana" : "てがみ"
+            },
+            {
+                "english": "weather; the elements",
+                "kanji" : "天気",
+                "kana" : "てんき"
+            },
+            {
+                "english": "television; TV",
+                "kana" : "テレビ"
+            },
+            {
+                "english": "examination; quiz; test",
+                "kana" : "テスト"
+            },
+            {
+                "english": "Japanese style door",
+                "kanji" : "戸",
+                "kana" : "と"
+            },
+            {
+                "english": "toilet",
+                "kana" : "トイレ"
+            },
+            {
+                "english": "watch; clock; timepiece",
+                "kanji" : "時計",
+                "kana" : "とけい"
+            },
+            {
+                "english": "time; moment",
+                "kanji" : "時",
+                "kana" : "とき"
+            },
+            {
+                "english": "place",
+                "kanji" : "所",
+                "kana" : "ところ"
+            },
+            {
+                "english": "friend; companion",
+                "kanji" : "友達",
+                "kana" : "ともだち"
+            },
+            {
+                "english": "next door to",
+                "kanji" : "隣",
+                "kana" : "となり"
+            },
+            {
+                "english": "bird",
+                "kanji" : "鳥",
+                "kana" : "とり"
+            },
+            {
+                "english": "chicken meat",
+                "kanji" : "鶏肉",
+                "kana" : "とりにく"
+            },
+            {
+                "english": "year; age",
+                "kanji" : "年",
+                "kana" : "とし"
+            },
+            {
+                "english": "library",
+                "kanji" : "図書館",
+                "kana" : "としょかん"
+            },
+            {
+                "english": "next",
+                "kanji" : "次",
+                "kana" : "つぎ"
+            },
+            {
+                "english": "desk",
+                "kanji" : "机",
+                "kana" : "つくえ"
+            },
+            {
+                "english": "above; up; over; top",
+                "kanji" : "上",
+                "kana" : "うえ"
+            },
+            {
+                "english": "sea",
+                "kanji" : "海",
+                "kana" : "うみ"
+            },
+            {
+                "english": "back; behind; rear",
+                "kanji" : "後ろ",
+                "kana" : "うしろ"
+            },
+            {
+                "english": "song",
+                "kanji" : "歌",
+                "kana" : "うた"
+            },
+            {
+                "english": "coat; jacket",
+                "kanji" : "上着",
+                "kana" : "うわぎ"
+            },
+            {
+                "english": "shirt",
+                "kana" : "ワイシャツ"
+            },
+            {
+                "english": "mountain; hill",
+                "kanji" : "山",
+                "kana" : "やま"
+            },
+            {
+                "english": "greengrocer",
+                "kanji" : "八百屋",
+                "kana" : "やおや"
+            },
+            {
+                "english": "vegetable",
+                "kanji" : "野菜",
+                "kana" : "やさい"
+            },
+            {
+                "english": "rest; vacation; holiday",
+                "kanji" : "休み",
+                "kana" : "やすみ"
+            },
+            {
+                "english": "beside,side,width",
+                "kanji" : "横",
+                "kana" : "よこ"
+            },
+            {
+                "english": "evening; night",
+                "kanji" : "夜",
+                "kana" : "よる"
+            },
+            {
+                "english": "western clothes",
+                "kanji" : "洋服",
+                "kana" : "ようふく"
+            },
+            {
+                "english": "snow",
+                "kanji" : "雪",
+                "kana" : "ゆき"
+            },
+            {
+                "english": "last night",
+                "kanji" : "昨夜",
+                "kana" : "ゆうべ"
+            },
+            {
+                "english": "post office",
+                "kanji" : "郵便局",
+                "kana" : "ゆうびんきょく"
+            },
+            {
+                "english": "evening; dusk",
+                "kanji" : "夕方",
+                "kana" : "ゆうがた"
+            },
+            {
+                "english": "evening meal",
+                "kanji" : "夕飯",
+                "kana" : "ゆうはん"
+            },
+            {
+                "english": "magazine",
+                "kanji" : "雑誌",
+                "kana" : "ざっし"
+            },
+            {
+                "english": "all",
+                "kanji" : "全部",
+                "kana" : "ぜんぶ"
+            },
+            {
+                "english": "trousers",
+                "kana" : "ズボン"
+            },
+            {
+                "english": "high school",
+                "kanji" : "高校",
+                "kana" : "こうこう"
+            },
+            {
+                "english": "college student",
+                "kanji" : "大学生",
+                "kana" : "だいがくせい"
+            },
+            {
+                "english": "international student",
+                "kanji" : "留学生",
+                "kana" : "りゅうがくせい"
+            },
+            {
+                "english": "major",
+                "kanji" : "専攻",
+                "kana" : "せんこう"
+            },
+            {
+                "english": "Japanese people",
+                "kanji" : "日本人",
+                "kana" : "にほんじん"
+            },
+            {
+                "english": "Japan",
+                "kanji" : "日本",
+                "kana" : "にほん"
+            },
+            {
+                "english": "America",
+                "kana" : "アメリカ"
+            },
+            {
+                "english": "Japanese language",
+                "kanji" : "日本語",
+                "kana" : "にほんご"
+            },
+            {
+                "english": "Britain",
+                "kana" : "イギリス"
+            },
+            {
+                "english": "Australia",
+                "kana" : "オーストラリア"
+            },
+            {
+                "english": "South Korea",
+                "kanji" : "韓国",
+                "kana" : "かんこく"
+            },
+            {
+                "english": "Canada",
+                "kana" : "カナダ"
+            },
+            {
+                "english": "China",
+                "kanji" : "中国",
+                "kana" : "ちゅうごく"
+            },
+            {
+                "english": "India",
+                "kana" : "インド"
+            },
+            {
+                "english": "Egypt",
+                "kana" : "エジプト"
+            },
+            {
+                "english": "Philippines",
+                "kana" : "フィリピン"
+            },
+            {
+                "english": "Asian Studies",
+                "kanji" : "アジア研究",
+                "kana" : "アジアけんきゅう"
+            },
+            {
+                "english": "Economics",
+                "kanji" : "経済",
+                "kana" : "けいざい"
+            },
+            {
+                "english": "Engineering",
+                "kanji" : "工学",
+                "kana" : "こうがく"
+            },
+            {
+                "english": "International Relations",
+                "kanji" : "国際関係",
+                "kana" : "こくさいかんけい"
+            },
+            {
+                "english": "Computer, computing",
+                "kana" : "コンピューター"
+            },
+            {
+                "english": "Politics",
+                "kanji" : "政治",
+                "kana" : "せいじ"
+            },
+            {
+                "english": "Biology",
+                "kanji" : "生物学",
+                "kana" : "せいぶつがく"
+            },
+            {
+                "english": "Business",
+                "kana" : "ビジネス"
+            },
+            {
+                "english": "Literature",
+                "kanji" : "文学",
+                "kana" : "ぶんがく"
+            },
+            {
+                "english": "History",
+                "kanji" : "歴史",
+                "kana" : "れきし"
+            },
+            {
+                "english": "Office worker",
+                "kanji" : "会社員",
+                "kana" : "かいしゃいん"
+            },
+            {
+                "english": "Nurse",
+                "kanji" : "看護師",
+                "kana" : "かんごし"
+            },
+            {
+                "english": "High school student",
+                "kanji" : "高校生",
+                "kana" : "こうこうせい"
+            },
+            {
+                "english": "Housewife",
+                "kanji" : "主婦",
+                "kana" : "しゅふ"
+            },
+            {
+                "english": "Graduate student",
+                "kanji" : "大学院生",
+                "kana" : "だいがくいんせい"
+            },
+            {
+                "english": "Lawyer",
+                "kanji" : "弁護士",
+                "kana" : "べんごし"
             }
         ]
     }
