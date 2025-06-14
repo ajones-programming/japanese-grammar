@@ -1234,11 +1234,6 @@
                 "kana" : "ギター"
             },
             {
-                "english": "five; 5",
-                "kanji" : "五",
-                "kana" : "ご"
-            },
-            {
                 "english": "afternoon; p.m",
                 "kanji" : "午後",
                 "kana" : "ごご"
@@ -1271,11 +1266,6 @@
                 "english": "tooth",
                 "kanji" : "歯",
                 "kana" : "は"
-            },
-            {
-                "english": "eight: 8",
-                "kanji" : "八",
-                "kana" : "はち"
             },
             {
                 "english": "postcard",
@@ -1385,6 +1375,915 @@
                 "english": "lunch",
                 "kanji" : "昼ご飯",
                 "kana" : "ひるごはん"
+            },
+            {
+                "english": "person; human",
+                "kanji" : "人",
+                "kana" : "ひと"
+            },
+            {
+                "english": "other (place, thing, person)",
+                "kanji" : "他",
+                "kana" : "ほか"
+            },
+            {
+                "english": "book; volume; script",
+                "kanji" : "本",
+                "kana" : "ほん"
+            },
+            {
+                "english": "bookshelf; bookcase",
+                "kanji" : "本棚",
+                "kana" : "ほんだな"
+            },
+            {
+                "english": "truth; reality; actuality; fact",
+                "kanji" : "本当",
+                "kana" : "ほんとう"
+            },
+            {
+                "english": " hotel",
+                "kana" : "ホテル"
+            },
+            {
+                "english": "house, residence, family",
+                "kanji" : "家",
+                "kana" : "いえ"
+            },
+            {
+                "english": "pond",
+                "kanji" : "池",
+                "kana" : "いけ"
+            },
+            {
+                "english": "now; soon",
+                "kanji" : "今",
+                "kana" : "いま"
+            },
+            {
+                "english": "meaning; significance",
+                "kanji" : "意味",
+                "kana" : "いみ"
+            },
+            {
+                "english": "younger sister",
+                "kanji" : "妹",
+                "kana" : "いもうと"
+            },
+            {
+                "english": "dog",
+                "kanji" : "犬",
+                "kana" : "いぬ"
+            },
+            {
+                "english": "entrance; entry; gate",
+                "kanji" : "入口",
+                "kana" : "いりぐち"
+            },
+            {
+                "english": "colour; color",
+                "kanji" : "色",
+                "kana" : "いろ"
+            },
+            {
+                "english": "(medical) doctor; physician",
+                "kanji" : "医者",
+                "kana" : "いしゃ"
+            },
+            {
+                "english": "chair",
+                "kanji" : "椅子",
+                "kana" : "いす"
+            },
+            {
+                "english": "dictionary",
+                "kanji" : "字引",
+                "kana" : "じびき"
+            },
+            {
+                "english": "automobile",
+                "kanji" : "自動車",
+                "kana" : "じどうしゃ"
+            },
+            {
+                "english": "time; hour(s)",
+                "kanji" : "時間",
+                "kana" : "じかん"
+            },
+            {
+                "english": "dictionary",
+                "kanji" : "辞書",
+                "kana" : "じしょ"
+            },
+            {
+                "english": "bicycle",
+                "kanji" : "自転車",
+                "kana" : "じてんしゃ"
+            },
+            {
+                "english": "lesson; class work",
+                "kanji" : "授業",
+                "kana" : "じゅぎょう"
+            },
+            {
+                "english": "bag; basket",
+                "kana" : "かばん"
+            },
+            {
+                "english": "a vase",
+                "kanji" : "花瓶",
+                "kana" : "かびん"
+            },
+            {
+                "english": "a corner; angle",
+                "kanji" : "角",
+                "kana" : "かど"
+            },
+            {
+                "english": "key",
+                "kanji" : "鍵",
+                "kana" : "かぎ"
+            },
+            {
+                "english": "stairs; stairway; staircase",
+                "kanji" : "階段",
+                "kana" : "かいだん"
+            },
+            {
+                "english": "shopping",
+                "kanji" : "買い物",
+                "kana" : "かいもの"
+            },
+            {
+                "english": "company; corporation",
+                "kanji" : "会社",
+                "kana" : "かいしゃ"
+            },
+            {
+                "english": "camera",
+                "kana" : "カメラ"
+            },
+            {
+                "english": "paper",
+                "kanji" : "紙",
+                "kana" : "かみ"
+            },
+            {
+                "english": "kanji",
+                "kanji" : "漢字",
+                "kana" : "かんじ"
+            },
+            {
+                "english": "cup",
+                "kana" : "カップ"
+            },
+            {
+                "english": "body",
+                "kanji" : "体",
+                "kana" : "からだ"
+            },
+            {
+                "english": "curry",
+                "kana" : "カレー"
+            },
+            {
+                "english": "curry",
+                "kana" : "カレンダー"
+            },
+            {
+                "english": "umbrella",
+                "kanji" : "傘",
+                "kana" : "かさ"
+            },
+            {
+                "english": "way of doing something",
+                "kanji" : "方",
+                "kana" : "かた"
+            },
+            {
+                "english": "household",
+                "kanji" : "家庭",
+                "kana" : "かてい"
+            },
+            {
+                "english": "river; stream",
+                "kanji" : "川",
+                "kana" : "かわ"
+            },
+            {
+                "english": "Tuesday",
+                "kanji" : "火曜日",
+                "kana" : "かようび"
+            },
+            {
+                "english": "a cold",
+                "kanji" : "風邪",
+                "kana" : "かぜ"
+            },
+            {
+                "english": "wind",
+                "kanji" : "風",
+                "kana" : "かぜ"
+            },
+            {
+                "english": "family",
+                "kanji" : "家族",
+                "kana" : "かぞく"
+            },
+            {
+                "english": "policeman; police officer",
+                "kanji" : "警官",
+                "kana" : "けいかん"
+            },
+            {
+                "english": "marriage",
+                "kanji" : "結婚",
+                "kana" : "けっこん"
+            },
+            {
+                "english": "this morning",
+                "kanji" : "今朝",
+                "kana" : "けさ"
+            },
+            {
+                "english": "tree; wood; timber",
+                "kanji" : "木",
+                "kana" : "き"
+            },
+            {
+                "english": "yesterday",
+                "kanji" : "昨日",
+                "kana" : "きのう"
+            },
+            {
+                "english": "Friday",
+                "kanji" : "金曜日",
+                "kana" : "きんようび"
+            },
+            {
+                "english": "ticket",
+                "kanji" : "切符",
+                "kana" : "きっぷ"
+            },
+            {
+                "english": "coffee shop; tearoom; cafe",
+                "kanji" : "喫茶店",
+                "kana" : "きっさてん"
+            },
+            {
+                "english": "north",
+                "kanji" : "北",
+                "kana" : "きた"
+            },
+            {
+                "english": "stamp (postage)",
+                "kanji" : "切手",
+                "kana" : "きって"
+            },
+            {
+                "english": "this person or way",
+                "kana" : "こっち"
+            },
+            {
+                "english": "this way; this direction",
+                "kana" : "こちら"
+            },
+            {
+                "english": "child",
+                "kanji" : "子供",
+                "kana" : "こども"
+            },
+            {
+                "english": "voice",
+                "kanji" : "声",
+                "kana" : "こえ"
+            },
+            {
+                "english": "tonight; this evening",
+                "kanji" : "今晩",
+                "kana" : "こんばん"
+            },
+            {
+                "english": "this month",
+                "kanji" : "今月",
+                "kana" : "こんげつ"
+            },
+            {
+                "english": "this week",
+                "kanji" : "今週",
+                "kana" : "こんしゅう"
+            },
+            {
+                "english": "Coffee",
+                "kana" : "コーヒー"
+            },
+            {
+                "english": "coat",
+                "kana" : "コート"
+            },
+            {
+                "english": "copy; photocopy",
+                "kana" : "コピー"
+            },
+            {
+                "english": "glass (drinking vessel)",
+                "kana" : "コップ"
+            },
+            {
+                "english": "word; words",
+                "kanji" : "言葉",
+                "kana" : "ことば"
+            },
+            {
+                "english": "this year",
+                "kanji" : "今年",
+                "kana" : "ことし"
+            },
+            {
+                "english": "police box",
+                "kanji" : "交番",
+                "kana" : "こうばん"
+            },
+            {
+                "english": "black tea",
+                "kanji" : "紅茶",
+                "kana" : "こうちゃ"
+            },
+            {
+                "english": "park",
+                "kanji" : "公園",
+                "kana" : "こうえん"
+            },
+            {
+                "english": "intersection",
+                "kanji" : "交差点",
+                "kana" : "こうさてん"
+            },
+            {
+                "english": "mouth, opening",
+                "kanji" : "口",
+                "kana" : "くち"
+            },
+            {
+                "english": "fruit",
+                "kanji" : "果物",
+                "kana" : "くだもの"
+            },
+            {
+                "english": "cloudiness; cloudy weather",
+                "kanji" : "曇り",
+                "kana" : "くもり"
+            },
+            {
+                "english": "country; state; region",
+                "kanji" : "国",
+                "kana" : "くに"
+            },
+            {
+                "english": "class",
+                "kana" : "クラス"
+            },
+            {
+                "english": "black",
+                "kanji" : "黒",
+                "kana" : "くろ"
+            },
+            {
+                "english": "car; automobile; vehicle",
+                "kanji" : "車",
+                "kana" : "くるま"
+            },
+            {
+                "english": "medicine",
+                "kanji" : "薬",
+                "kana" : "くすり"
+            },
+            {
+                "english": "shoes",
+                "kanji" : "靴",
+                "kana" : "くつ"
+            },
+            {
+                "english": "socks",
+                "kanji" : "靴下",
+                "kana" : "くつした"
+            },
+            {
+                "english": "last year",
+                "kanji" : "去年",
+                "kana" : "きょねん"
+            },
+            {
+                "english": "today; this day",
+                "kanji" : "今日",
+                "kana" : "きょう"
+            },
+            {
+                "english": "siblings",
+                "kanji" : "兄弟",
+                "kana" : "きょうだい"
+            },
+            {
+                "english": "classroom",
+                "kanji" : "教室",
+                "kana" : "きょうしつ"
+            },
+            {
+                "english": "match",
+                "kana" : "マッチ"
+            },
+            {
+                "english": "town; block; neighborhood",
+                "kanji" : "町",
+                "kana" : "まち"
+            },
+            {
+                "english": "window",
+                "kanji" : "窓",
+                "kana" : "まど"
+            },
+            {
+                "english": "previous; before; in front",
+                "kanji" : "前",
+                "kana" : "まえ"
+            },
+            {
+                "english": "every morning",
+                "kanji" : "毎朝",
+                "kana" : "まいあさ"
+            },
+            {
+                "english": "every night",
+                "kanji" : "毎晩",
+                "kana" : "まいばん"
+            },
+            {
+                "english": "every day",
+                "kanji" : "毎日",
+                "kana" : "まいにち"
+            },
+            {
+                "english": "every week",
+                "kanji" : "毎週",
+                "kana" : "まいしゅう"
+            },
+            {
+                "english": "every year; yearly; annually",
+                "kanji" : "毎年",
+                "kana" : "まいとし"
+            },
+            {
+                "english": "every month; monthly",
+                "kanji" : "毎月",
+                "kana" : "まいつき"
+            },
+            {
+                "english": "fountain pen",
+                "kanji" : "万年筆",
+                "kana" : "まんねんひつ"
+            },
+            {
+                "english": "straight ahead, direct",
+                "kanji" : "真っ直ぐ",
+                "kana" : "まっすぐ"
+            },
+            {
+                "english": "eye",
+                "kanji" : "目",
+                "kana" : "め"
+            },
+            {
+                "english": "glasses",
+                "kanji" : "眼鏡",
+                "kana" : "めがね"
+            },
+            {
+                "english": "road; street",
+                "kanji" : "道",
+                "kana" : "みち"
+            },
+            {
+                "english": "green",
+                "kanji" : "緑",
+                "kana" : "みどり"
+            },
+            {
+                "english": "right; right hand side",
+                "kanji" : "右",
+                "kana" : "みぎ"
+            },
+            {
+                "english": "ear; hearing",
+                "kanji" : "耳",
+                "kana" : "みみ"
+            },
+            {
+                "english": "south",
+                "kanji" : "南",
+                "kana" : "みなみ"
+            },
+            {
+                "english": "everyone",
+                "kanji" : "皆さん",
+                "kana" : "みなさん"
+            },
+            {
+                "english": "everyone",
+                "kana" : "みんな"
+            },
+            {
+                "english": "store; shop",
+                "kanji" : "店",
+                "kana" : "みせ"
+            },
+            {
+                "english": "water; fluid; liquid",
+                "kanji" : "水",
+                "kana" : "みず"
+            },
+            {
+                "english": "Thursday",
+                "kanji" : "木曜日",
+                "kana" : "もくようび"
+            },
+            {
+                "english": "gate",
+                "kanji" : "門",
+                "kana" : "もん"
+            },
+            {
+                "english": "problem; question",
+                "kanji" : "問題",
+                "kana" : "もんだい"
+            },
+            {
+                "english": "thing",
+                "kanji" : "物",
+                "kana" : "もの"
+            },
+            {
+                "english": "over there",
+                "kanji" : "向こう",
+                "kana" : "むこう"
+            },
+            {
+                "english": "village",
+                "kanji" : "村",
+                "kana" : "むら"
+            },
+            {
+                "english": "knife",
+                "kana" : "ナイフ"
+            },
+            {
+                "english": "inside; in; within; center",
+                "kanji" : "中",
+                "kana" : "なか"
+            },
+            {
+                "english": "name; full name",
+                "kanji" : "名前",
+                "kana" : "なまえ"
+            },
+            {
+                "english": "summer",
+                "kanji" : "夏",
+                "kana" : "なつ"
+            },
+            {
+                "english": "summer vacation / holiday",
+                "kanji" : "夏休み",
+                "kana" : "なつやすみ"
+            },
+            {
+                "english": "cat",
+                "kanji" : "猫",
+                "kana" : "ねこ"
+            },
+            {
+                "english": "tie; necktie",
+                "kana" : "ネクタイ"
+            },
+            {
+                "english": "Sunday",
+                "kanji" : "日曜日",
+                "kana" : "にちようび"
+            },
+            {
+                "english": "diary; journal",
+                "kanji" : "日記",
+                "kana" : "にっき"
+            },
+            {
+                "english": "meat",
+                "kanji" : "肉",
+                "kana" : "にく"
+            },
+            {
+                "english": "luggage; baggage",
+                "kanji" : "荷物",
+                "kana" : "にもつ"
+            },
+            {
+                "english": "west",
+                "kanji" : "西",
+                "kana" : "にし"
+            },
+            {
+                "english": "garden",
+                "kanji" : "庭",
+                "kana" : "にわ"
+            },
+            {
+                "english": "drink; beverage",
+                "kanji" : "飲み物",
+                "kana" : "のみもの"
+            },
+            {
+                "english": "notebook",
+                "kana" : "ノート"
+            },
+            {
+                "english": "news",
+                "kana" : "ニュース"
+            },
+            {
+                "english": "grandmother",
+                "kana" : "おばあさん"
+            },
+            {
+                "english": "aunt; old lady",
+                "kanji" : "伯母さん",
+                "kana" : "おばさん"
+            },
+            {
+                "english": "lunch box",
+                "kanji" : "お弁当",
+                "kana" : "おべんとう"
+            },
+            {
+                "english": "tea",
+                "kanji" : "お茶",
+                "kana" : "おちゃ"
+            },
+            {
+                "english": "bath",
+                "kanji" : "お風呂",
+                "kana" : "おふろ"
+            },
+            {
+                "english": "uncle; old man; mister",
+                "kanji" : "伯父さん",
+                "kana" : "おじさん"
+            },
+            {
+                "english": "mother; mom; mum; ma",
+                "kanji" : "お母さん",
+                "kana" : "おかあさん"
+            },
+            {
+                "english": "money",
+                "kanji" : "お金",
+                "kana" : "おかね"
+            },
+            {
+                "english": "confections; sweets; candy",
+                "kanji" : "お菓子",
+                "kana" : "おかし"
+            },
+            {
+                "english": "wife; your wife; his wife",
+                "kanji" : "奥さん",
+                "kana" : "おくさん"
+            },
+            {
+                "english": "police officer",
+                "kanji" : "お巡りさん",
+                "kana" : "おまわりさん"
+            },
+            {
+                "english": "same",
+                "kanji" : "同じ",
+                "kana" : "おなじ"
+            },
+            {
+                "english": "stomach",
+                "kanji" : "お腹",
+                "kana" : "おなか"
+            },
+            {
+                "english": "elder sister; miss; ma'am",
+                "kanji" : "お姉さん",
+                "kana" : "おねえさん"
+            },
+            {
+                "english": "music",
+                "kanji" : "音楽",
+                "kana" : "おんがく"
+            },
+            {
+                "english": "elder brother; young man",
+                "kanji" : "お兄さん",
+                "kana" : "おにいさん"
+            },
+            {
+                "english": "woman; female sex",
+                "kanji" : "女",
+                "kana" : "おんな"
+            },
+            {
+                "english": "girl; young women",
+                "kanji" : "女の子",
+                "kana" : "おんなのこ"
+            },
+            {
+                "english": "crowd of people",
+                "kanji" : "大勢",
+                "kana" : "おおぜい"
+            },
+            {
+                "english": "alcohol",
+                "kanji" : "お酒",
+                "kana" : "おさけ"
+            },
+            {
+                "english": "plate, dish",
+                "kanji" : "お皿",
+                "kana" : "おさら"
+            },
+            {
+                "english": "toilet; restroom; bathroom",
+                "kanji" : "お手洗い",
+                "kana" : "おてあらい"
+            },
+            {
+                "english": "man; male",
+                "kanji" : "男",
+                "kana" : "おとこ"
+            },
+            {
+                "english": "boy; male child; baby boy",
+                "kanji" : "男の子",
+                "kana" : "おとこのこ"
+            },
+            {
+                "english": "adult",
+                "kanji" : "大人",
+                "kana" : "おとな"
+            },
+            {
+                "english": "day before yesterday",
+                "kanji" : "一昨日",
+                "kana" : "おととい"
+            },
+            {
+                "english": "year before last",
+                "kanji" : "一昨年",
+                "kana" : "おととし"
+            },
+            {
+                "english": "father; dad",
+                "kanji" : "お父さん",
+                "kana" : "おとうさん"
+            },
+            {
+                "english": "younger brother",
+                "kanji" : "弟",
+                "kana" : "おとうと"
+            },
+            {
+                "english": "party",
+                "kana" : "パーティー"
+            },
+            {
+                "english": "bread",
+                "kana" : "パン"
+            },
+            {
+                "english": "page",
+                "kana" : "ページ"
+            },
+            {
+                "english": "pen",
+                "kana" : "ペン"
+            },
+            {
+                "english": "pet",
+                "kana" : "ペット"
+            },
+            {
+                "english": "pocket",
+                "kana" : "ポケット"
+            },
+            {
+                "english": "post",
+                "kana" : "ポスト"
+            },
+            {
+                "english": "swimming pool",
+                "kana" : "プール"
+            },
+            {
+                "english": "next month",
+                "kanji" : "来月",
+                "kana" : "らいげつ"
+            },
+            {
+                "english": "next year",
+                "kanji" : "来年",
+                "kana" : "らいねん"
+            },
+            {
+                "english": "next week",
+                "kanji" : "来週",
+                "kana" : "らいしゅう"
+            },
+            {
+                "english": "radio",
+                "kana" : "ラジオ"
+            },
+            {
+                "english": "zero",
+                "kanji" : "零",
+                "kana" : "れい"
+            },
+            {
+                "english": "refrigerator",
+                "kanji" : "冷蔵庫",
+                "kana" : "れいぞうこ"
+            },
+            {
+                "english": "record",
+                "kana" : "レコード"
+            },
+            {
+                "english": "practice; practicing",
+                "kanji" : "練習",
+                "kana" : "れんしゅう"
+            },
+            {
+                "english": "restaurant",
+                "kana" : "レストラン"
+            },
+            {
+                "english": "corridor; hallway",
+                "kanji" : "廊下",
+                "kana" : "ろうか"
+            },
+            {
+                "english": "travel; trip; journey",
+                "kanji" : "旅行",
+                "kana" : "りょこう"
+            },
+            {
+                "english": "cuisine; food",
+                "kanji" : "料理",
+                "kana" : "りょうり"
+            },
+            {
+                "english": "parents; both parents",
+                "kanji" : "両親",
+                "kana" : "りょうしん"
+            },
+            {
+                "english": "exchange student",
+                "kanji" : "留学生",
+                "kana" : "りゅうがくせい"
+            },
+            {
+                "english": "purse; wallet",
+                "kanji" : "財布",
+                "kana" : "さいふ"
+            },
+            {
+                "english": "fish",
+                "kanji" : "魚",
+                "kana" : "さかな"
+            },
+            {
+                "english": "previous; prior; first; earlier",
+                "kanji" : "先",
+                "kana" : "さき"
+            },
+            {
+                "english": "writing; composition",
+                "kanji" : "作文",
+                "kana" : "さくぶん"
+            },
+            {
+                "english": "walk; stroll",
+                "kanji" : "散歩",
+                "kana" : "さんぽ"
+            },
+            {
+                "english": "year after next",
+                "kanji" : "再来年",
+                "kana" : "さらいねん"
+            },
+            {
+                "english": "sugar",
+                "kanji" : "砂糖",
+                "kana" : "さとう"
             }
         ]
     }

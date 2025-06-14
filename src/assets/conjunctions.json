@@ -493,6 +493,154 @@
         {
             "english": "what kind of; what sort of",
             "expression" : "どんなNOUN"
+        },
+        {
+            "english": "want",
+            "expression" : "NOUNがほしい",
+            "expressionKanji" : "NOUNが欲しい"
+        },
+        {
+            "english": "or",
+            "expression" : "NOUNか"
+        },
+        {
+            "english": "because, since, from",
+            "expression" : "NOUNだから"
+        },
+        {
+            "english": "still",
+            "expression" : "まだNOUN"
+        },
+        {
+            "english": "until",
+            "expression" : "NOUNまで"
+        },
+        {
+            "english": "before",
+            "expressionKanji" : "NOUNの前に",
+            "expression" : "NOUNのまえに"
+        },
+        {
+            "english": "too; also; as well",
+            "expression" : "NOUNも"
+        },
+        {
+            "english": "to become",
+            "expression" : "NOUNになる"
+        },
+        {
+            "english": "to become",
+            "expression" : "NOUNになります"
+        },
+        {
+            "english": "to become",
+            "expression" : "NOUNになっている"
+        },
+        {
+            "english": "to become",
+            "expression" : "NOUNになっています"
+        },
+        {
+            "english": "to become",
+            "expression" : "NOUNになった"
+        },
+        {
+            "english": "to become",
+            "expression" : "NOUNになりました"
+        },
+        {
+            "english": "to become",
+            "expression" : "NOUNになりたい"
+        },
+        {
+            "english": "to explain something; show emphasis",
+            "expression" : "NOUNなんです"
+        },
+        {
+            "english": "to explain something; show emphasis",
+            "expression" : "NOUNなんだ"
+        },
+        {
+            "english": "destination particle; in; at; on; to",
+            "expression" : "NOUNに"
+        },
+        {
+            "english": " to decide on",
+            "expression" : "NOUNにする"
+        },
+        {
+            "english": " to decide on",
+            "expression" : "NOUNにします"
+        },
+        {
+            "english": "destination particle; in; at; on; to",
+            "expression" : "NOUNへ"
+        },
+        {
+            "english": "passive particle",
+            "expression" : "NOUNの"
+        },
+        {
+            "english": "to explain something; show emphasis",
+            "expression" : "NOUNなのです"
+        },
+        {
+            "english": "to explain something; show emphasis",
+            "expression" : "NOUNなのだ"
+        },
+        {
+            "english": "in the group of....",
+            "expressionKanji" : "NOUNの中で",
+            "expression" : "NOUNのなかで"
+        },
+        {
+            "english": "because of; given that; since",
+            "expression" : "NOUNなので"
+        },
+        {
+            "english": "object marker particle",
+            "expression" : "NOUNを"
+        },
+        {
+            "english": "please give me",
+            "expression" : "NOUNをください"
+        },
+        {
+            "english": "such as",
+            "expression" : "NOUNだったり"
+        },
+        {
+            "english": "is ok?",
+            "expression" : "NOUNでもいい"
+        },
+        {
+            "english": "and",
+            "expression" : "NOUNと"
+        },
+        {
+            "english": "when; at this time",
+            "expression" : "NOUNのとき"
+        },
+        {
+            "english": "topic",
+            "expression" : "NOUNは"
+        },
+        {
+            "english": "more than",
+            "expression" : "NOUNより"
+        },
+        {
+            "english": "how is",
+            "expression" : "NOUNはどうですか"
+        },
+        {
+            "english": "and; or; connecting particle",
+            "expression" : "NOUNや"
+        },
+        {
+            "english": "is more than",
+            "expressionKanji" : "NOUNの方が",
+            "expression" : "NOUNのほうが"
         }
     ]
 }
