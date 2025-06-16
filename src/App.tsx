@@ -12,7 +12,7 @@ function App() {
     setDataFetched(true);
   }
   return (
-    <div>
+    <div className="justify-center">
       <div className='container relative'>
         <img src="https://em-content.zobj.net/source/twitter/408/flag-japan_1f1ef-1f1f5.png" className='icon'/>
         <h1>Japanese App</h1>
@@ -21,17 +21,15 @@ function App() {
         </p>
       </div>
 
+      <div className='container'>
+        <TextToSpeechComponent/>
+      </div>
 
       <div className='container'>
         <RandomSentence
         loaded={dataFetched}
         />
       </div>
-
-      <div className='container'>
-        <TextToSpeechComponent/>
-      </div>
-
     </div>
   )
 }

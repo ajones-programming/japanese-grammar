@@ -1,9 +1,7 @@
 @import "tailwindcss";
 
 #root {
-  /* max-width: 1280px;
   
-  padding: 2rem; */
   margin: 0 auto;
   text-align: center;
 }
@@ -23,10 +21,11 @@ h2{
 
 .container{
   @apply rounded-xl bg-white p-2 m-4 shadow-lg outline outline-black/5 duration-300 ease-in-out
+  
 }
 
 .container-small{
-  @apply rounded-xl bg-slate-200 p-1 m-2 shadow-lg outline outline-black/5 duration-300 ease-in-out
+  @apply rounded-xl bg-sky-50 p-2 m-2 shadow-lg outline outline-black/5 duration-300 ease-in-out
 }
 
 
@@ -42,7 +41,7 @@ h2{
   }
 
   .container{
-    @apply m-0 mb-8
+    @apply m-0 mb-8 
   }
 
   .icon{
@@ -52,7 +51,7 @@ h2{
 
 @media (orientation: landscape){
   .container{
-   @apply max-w-3/4
+   @apply max-w-200
   }
 }
 
@@ -60,7 +59,7 @@ h2{
 
 
 button {
-  @apply rounded-xl bg-slate-200 p-4 shadow-lg m-2 hover:bg-white transition ease-in-out duration-700 
+  @apply rounded-xl bg-slate-200 p-4 shadow-lg m-2 hover:bg-white transition ease-in-out duration-700 hover:scale-120
 }
 
 input{
