@@ -59,27 +59,27 @@ export function RandomSentence({loaded} : props){
             Hear randomised grammatically correct words and sentences, and learn to hear natural pronunciation from Google Cloud's Text-to-Speech AI. 
         </p>
         <div className="flex justify-center">
-            <button onClick={() => {
+            <button className="w-1/3" onClick={() => {
                 setRandomVerb(getRandomSentence())
                 setShowWord(false);
             }}>
                 Try New Word
             </button>
 
-            <button onClick={() => {
+            <button className="w-1/3" onClick={() => {
                 textToSpeech(randomVerb.kana)
             }}>
                 Play Word
             </button>
             
-            <button onClick={
+            <button className="w-1/3" onClick={
                 () => setShowWord(!showWord)
             }>
                 {showWord ? "Hide Word" : "Show Word"}
             </button>
         </div>
-        <p>
-            {showWord ? (randomVerb.kanji + " (" + randomVerb.kana + ")") : "[word hidden]"} 
+        <p className="container-small h-8 align-middle">
+            {showWord ? (randomVerb.kanji + " (" + randomVerb.kana + ")") : ""} 
         </p>
     </div>)
     

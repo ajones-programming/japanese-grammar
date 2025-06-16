@@ -25,6 +25,10 @@ h2{
   @apply rounded-xl bg-white p-2 m-4 shadow-lg outline outline-black/5 duration-300 ease-in-out
 }
 
+.container-small{
+  @apply rounded-xl bg-slate-200 p-1 m-2 shadow-lg outline outline-black/5 duration-300 ease-in-out
+}
+
 
 @media (orientation:portrait)
 {
@@ -43,6 +47,12 @@ h2{
 
   .icon{
     @apply top-2 left-2 right-0
+  }
+}
+
+@media (orientation: landscape){
+  .container{
+   @apply max-w-3/4
   }
 }
 
