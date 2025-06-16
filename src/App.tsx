@@ -12,8 +12,9 @@ function App() {
     setDataFetched(true);
   }
   return (
-    <>
-      <div className='container'>
+    <div>
+      <div className='container relative'>
+        <img src="https://em-content.zobj.net/source/twitter/408/flag-japan_1f1ef-1f1f5.png" className='icon'/>
         <h1>Japanese App</h1>
         <p>
           This app does not teach you english to Japanese. It will only give you the opportunity to listen to speech.
@@ -31,7 +32,7 @@ function App() {
         <TextToSpeechComponent/>
       </div>
 
-    </>
+    </div>
   )
 }
 

@@ -2811,6 +2811,229 @@
                 "english": "Lawyer",
                 "kanji" : "弁護士",
                 "kana" : "べんごし"
+            },
+            {
+                "english": "this",
+                "kana" : "これ"
+            },
+            {
+                "english": "that",
+                "kana" : "それ"
+            },
+            {
+                "english": "that",
+                "kana" : "あれ"
+            },
+            {
+                "english": "here",
+                "kana" : "ここ"
+            },
+            {
+                "english": "there",
+                "kana" : "そこ"
+            },
+            {
+                "english": "there",
+                "kana" : "あそこ"
+            },
+            {
+                "english": "Pork cutlet",
+                "kana" : "とんかつ"
+            },
+            {
+                "english": "menu",
+                "kana" : "メニュー"
+            },
+            {
+                "english": "jeans",
+                "kana" : "ジーンズ"
+            },
+            {
+                "english": "smartphone",
+                "kana" : "スマホ"
+            },
+            {
+                "english": "tshirt",
+                "kana" : "Tシャツ"
+            },
+            {
+                "english": "convenience store",
+                "kana" : "コンビニ"
+            },
+            {
+                "english": "toilet",
+                "kana" : "トイレ"
+            },
+            {
+                "english": "Vocabulary",
+                "kanji" : "単語",
+                "kana" : "たんご"
+            },
+            {
+                "english": "Numbers",
+                "kanji" : "数字",
+                "kana" : "すうじ"
+            },
+            {
+                "english": "Set meal",
+                "kanji" : "定食",
+                "kana" : "ていしょく"
+            },
+            {
+                "english": "Salad",
+                "kana" : "サラダ"
+            },
+            {
+                "english": "Soba noodles",
+                "kanji" : "蕎麦",
+                "kana" : "そば"
+            },
+            {
+                "english": "Udon noodles",
+                "kana" : "うどん"
+            },
+            {
+                "english": "Sandwich",
+                "kana" : "サンドイッチ"
+            },
+            {
+                "english": "ice cream",
+                "kana" : "アイスクリーム"
+            },
+            {
+                "english": "Ramen",
+                "kana" : "ラーメン"
+            },
+            {
+                "english": "Burger",
+                "kana" : "ハンバーガー"
+            },
+            {
+                "english": "Cola",
+                "kana" : "コーラ"
+            },
+            {
+                "english": "Pasta",
+                "kana" : "パスタ"
+            },
+            {
+                "english": "Juice",
+                "kana" : "ジュース"
+            },
+            {
+                "english": "Milk",
+                "kana" : "ミルク"
+            },
+            {
+                "english": "Blackboard",
+                "kanji" : "黒板",
+                "kana" : "こくばん"
+            },
+            {
+                "english": "Rubber/eraser",
+                "kanji" : "消しゴム",
+                "kana" : "けしゴム"
+            },
+            {
+                "english": "Curtain",
+                "kana" : "カーテン"
+            },
+            {
+                "english": "Date",
+                "kana" : "デート"
+            },
+            {
+                "english": "Tennis",
+                "kana" : "テニス"
+            },
+            {
+                "english": "Home",
+                "kanji" : "家",
+                "kana" : "うち"
+            },
+            {
+                "english": "Cafe",
+                "kana" : "カフェ"
+            },
+            {
+                "english": "Weekend",
+                "kanji" : "週末",
+                "kana" : "しゅうまつ"
+            },
+            {
+                "english": "Summary",
+                "kana" : "まとめ"
+            },
+            {
+                "english": "Straw mat, tatami",
+                "kanji" : "畳",
+                "kana" : "たたみ"
+            },
+            {
+                "english": "Japanese style sliding door",
+                "kanji" : "襖",
+                "kana" : "ふすま"
+            },
+            {
+                "english": "Japanese style sliding door",
+                "kanji" : "障子",
+                "kana" : "しょうじ"
+            },
+            {
+                "english": "game",
+                "kana" : "ゲーム"
+            },
+            {
+                "english": "Part time job",
+                "kana" : "アルバイト"
+            },
+            {
+                "english": "Report, paper",
+                "kana" : "レポート"
+            },
+            {
+                "english": "Temple",
+                "kanji" : "お寺",
+                "kana" : "おてら"
+            },
+            {
+                "english": "Supermarket",
+                "kana" : "スーパー"
+            },
+            {
+                "english": "bus stop",
+                "kanji" : "バス停",
+                "kana" : "バスてい"
+            },
+            {
+                "english": "Bookstore",
+                "kanji" : "本屋",
+                "kana" : "ほんや"
+            },
+            {
+                "english": "Next to",
+                "kanji" : "近く",
+                "kana" : "ちかく"
+            },
+            {
+                "english": "Between",
+                "kanji" : "間",
+                "kana" : "あいだ"
+            },
+            {
+                "english": "National holiday",
+                "kanji" : "祝日",
+                "kana" : "しゅくじつ"
+            },
+            {
+                "english": "New years",
+                "kanji" : "元日",
+                "kana" : "がんじつ"
+            },
+            {
+                "english": "Coming-of-age day",
+                "kanji" : "成人の日",
+                "kana" : "せいじんのひ"
             }
         ]
     }
