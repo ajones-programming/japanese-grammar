@@ -17,7 +17,13 @@ function App() {
         <img src="https://em-content.zobj.net/source/twitter/408/flag-japan_1f1ef-1f1f5.png" className='icon'/>
         <h1>Japanese App</h1>
         <p>
+          This app was created to read Japanese naturally through Google's Text-To-Speech.
+        </p>
+        <p>
           This app does not teach you english to Japanese. It will only give you the opportunity to listen to speech.
+        </p>
+        <p>
+          Example vocabulary was collected from Genki Volume 1.0, Third Edition, and <a href="https://jlptsensei.com">jlptsensei.com</a> 
         </p>
       </div>
 
@@ -30,6 +36,10 @@ function App() {
         loaded={dataFetched}
         />
       </div>
+
+      <p>
+        Created by <a href="https://www.linkedin.com/in/anna-jones-1981a534b/">Anna Jones</a>. Repository available at <a href="https://github.com/ajones-programming/japanese-grammar">ajones-programming</a>
+      </p>
     </div>
   )
 }

@@ -6,6 +6,7 @@ import { RateSlider } from "./RateSlider";
 
 interface sentenceData {
     kanji? : string;
+    tts : string;
     kana : string;
 }
 
@@ -22,17 +23,17 @@ function getRandomSentence() : sentenceData
             const randomV = allVerbs.n5[Math.floor(Math.random() * allVerbs.n5.length)];
             const randomC = allVerbConjuctions[Math.floor(Math.random() * allVerbConjuctions.length)];
             const expression = randomC.runExpression(randomV);
-            return {kanji: expression.outputKanji, kana: expression.outputKana}
+            return {kanji: expression.outputKanji, kana: expression.outputKana, tts: expression.outputTTS}
         }
         case 1:
         {
             const randomN = allNouns.n5[Math.floor(Math.random() * allNouns.n5.length)];
             const randomC = allNounConjunctions[Math.floor(Math.random() * allNounConjunctions.length)];
             const expression = randomC.runExpression(randomN);
-            return {kanji: expression.outputKanji, kana: expression.outputKana}
+            return {kanji: expression.outputKanji, kana: expression.outputKana, tts: expression.outputTTS}
         }   
     }
-    return {kana: "ERROR", kanji: "ERROR"}
+    return {kana: "ERROR", kanji: "ERROR", "tts" : "ERROR"}
 }
 
 
@@ -48,7 +49,7 @@ export function RandomSentence({loaded} : props){
         </div>)
     }
 
-    const [randomVerb, setRandomVerb] = useState<sentenceData>(getRandomSentence());
+    const [randomSentence, setRandomSentence] = useState<sentenceData>(getRandomSentence());
     const [showWord, setShowWord] = useState(false);
     const [rate, setRate] = useState<number>(1.0);
 
@@ -62,14 +63,14 @@ export function RandomSentence({loaded} : props){
         </p>
         <div className="flex justify-center">
             <button className="w-1/3" onClick={() => {
-                setRandomVerb(getRandomSentence())
+                setRandomSentence(getRandomSentence())
                 setShowWord(false);
             }}>
                 Try New Word
             </button>
 
             <button className="w-1/3" onClick={() => {
-                textToSpeech(randomVerb.kana,rate)
+                textToSpeech(randomSentence.tts,rate)
             }}>
                 Play Word
             </button>
@@ -82,9 +83,8 @@ export function RandomSentence({loaded} : props){
         </div>
         <RateSlider rate={rate} setRate={setRate}/>
         <p className="container-small min-h-8 align-middle">
-            {showWord ? (randomVerb.kanji + " (" + randomVerb.kana + ")") : ""} 
+            {showWord ?  (randomSentence.kanji + " (" + randomSentence.kana + ")") : ""} 
         </p>
     </div>)
-    
 
 }

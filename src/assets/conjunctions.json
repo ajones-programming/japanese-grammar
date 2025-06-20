@@ -80,12 +80,14 @@
         {
             "english" : "had better; it'd be better to; should~",
             "expression" : "TAほうがいい",
-            "expressionKanji" : "TA⽅がいい"
+            "expressionKanji" : "TA⽅がいい",
+            "expressionTTS" : "TAほうがいい"
         },
         {
             "english" : "had better; it'd be better to; should~",
             "expression" : "NAI_STEMないほうがいい",
-            "expressionKanji" : "NAI_STEMない⽅がいい"
+            "expressionKanji" : "NAI_STEMない⽅がいい",
+            "expressionTTS" : "NAI_STEMないほうがいい"
         },
         {
             "english" : "because; since; from",
@@ -98,7 +100,8 @@
         {
             "english" : "the way of doing something; how to do",
             "expression" : "MASU_STEMかた",
-            "expressionKanji" : "MASU_STEM⽅"
+            "expressionKanji" : "MASU_STEM⽅",
+            "expressionTTS" : "MASU_STEMかた"
         },
         {
             "english" : "still; not yet",
@@ -208,17 +211,20 @@
         {
             "english" : "go to do",
             "expression" : "MASU_STEMにいく",
-            "expressionKanji" : "MASU_STEMに⾏く"
+            "expressionKanji" : "MASU_STEMに⾏く",
+            "expressionTTS" : "MASU_STEMにいく"
         },
         {
             "english" : "go to do",
             "expression" : "MASU_STEMにいった",
-            "expressionKanji" : "MASU_STEMに⾏った"
+            "expressionKanji" : "MASU_STEMに⾏った",
+            "expressionTTS" : "MASU_STEMにいった"
         },
         {
             "english" : "go to do",
             "expression" : "MASU_STEMにいきます",
-            "expressionKanji" : "MASU_STEMに⾏きます"
+            "expressionKanji" : "MASU_STEMに⾏きます",
+            "expressionTTS" : "MASU_STEMにいきます"
         },
         {
             "english" : " to explain something; show emphasis",
@@ -231,12 +237,14 @@
         {
             "english" : " to be bad at doing something",
             "expression" : "DICT_FORMのがへた",
-            "expressionKanji" : "DICT_FORMのが下⼿"
+            "expressionKanji" : "DICT_FORMのが下⼿",
+            "expressionTTS" : "DICT_FORMのがへた"
         },
         {
             "english" : "to be good at",
             "expression" : "DICT_FORMのがじょうず",
-            "expressionKanji" : "DICT_FORMのが上⼿"
+            "expressionKanji" : "DICT_FORMのが上⼿",
+            "expressionTTS" : "DICT_FORMのがじょうず"
         },
         {
             "english" : "to like doing something",
@@ -640,7 +648,8 @@
         {
             "english": "is more than",
             "expressionKanji" : "NOUNの方が",
-            "expression" : "NOUNのほうが"
+            "expression" : "NOUNのほうが",
+            "expressionTTS" : "NOUNのほうが"
         }
     ]
 }

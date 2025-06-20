@@ -1,34 +1,37 @@
 export abstract class verb{
 
     protected kanjiStem?: string;
+    protected ttsStem? : string;
     protected kanaStem: string = "";
     public english : string = "";
 
-    constructor(kanjiStem : string | undefined, kanaStem : string, english : string)
+    constructor(kanjiStem : string | undefined, kanaStem : string, english : string, ttsStem? : string)
     {
         this.kanjiStem = kanjiStem;
         this.kanaStem = kanaStem;
         this.english = english;
+        this.ttsStem = ttsStem;
     }
 
-    stem(defaultKana : boolean = false) : string{
+    stem(defaultKana : boolean = false, tts : boolean) : string{
         if (defaultKana){
             return this.kanaStem;
         }
-        return this.kanjiStem ?? this.kanaStem;
+        return (tts ? (this.ttsStem ?? this.kanjiStem ?? this.kanaStem) : this.kanjiStem) ?? this.kanaStem;
     }
 
-    abstract dictForm(defaultKana : boolean) : string;
-    abstract masuStem(defaultKana : boolean) : string;
-    abstract te(defaultKana : boolean) : string;
-    abstract ta(defaultKana : boolean) : string;
-    abstract naiStem(defaultKana : boolean) : string;
-    abstract cha(defaultKana : boolean) : string;
+    abstract dictForm(defaultKana : boolean, tts : boolean) : string;
+    abstract masuStem(defaultKana : boolean, tts : boolean) : string;
+    abstract te(defaultKana : boolean, tts : boolean) : string;
+    abstract ta(defaultKana : boolean, tts : boolean) : string;
+    abstract naiStem(defaultKana : boolean, tts : boolean) : string;
+    abstract cha(defaultKana : boolean, tts : boolean) : string;
 }
 
 export interface I_Godan {
     english : string;
     kanjiStem? : string;
+    ttsStem? : string;
     kanaStem : string;
     u : string;
 }
@@ -133,38 +136,39 @@ export class godanVerb extends verb{
 
     constructor(i : I_Godan)
     {
-        super(i.kanjiStem,i.kanaStem,i.english);
+        super(i.kanjiStem,i.kanaStem,i.english, i.ttsStem);
         this.u = i.u;
     }
 
-    override dictForm(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["う"];
+    override dictForm(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + godanVerb.loopUpDict[this.u]["う"];
     }
 
-    override masuStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["い"];
+    override masuStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + godanVerb.loopUpDict[this.u]["い"];
     }
 
-    override te(defaultKana : boolean = false): string {
-       return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["て"];
+    override te(defaultKana : boolean = false, tts : boolean = false): string {
+       return this.stem(defaultKana, tts) + godanVerb.loopUpDict[this.u]["て"];
     }
 
-    override ta(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["た"];
+    override ta(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + godanVerb.loopUpDict[this.u]["た"];
     }
 
-    override cha(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["ちゃ"];
+    override cha(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + godanVerb.loopUpDict[this.u]["ちゃ"];
     }
 
-    override naiStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + godanVerb.loopUpDict[this.u]["あ"];
+    override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + godanVerb.loopUpDict[this.u]["あ"];
     }
 }
 
 export interface I_Ichidan {
     english : string;
     kanjiStem? : string;
+    ttsStem? : string;
     kanaStem : string;
 }
 
@@ -172,37 +176,38 @@ export class ichidanVerb extends verb{
 
     constructor(i : I_Ichidan)
     {
-        super(i.kanjiStem,i.kanaStem,i.english);
+        super(i.kanjiStem,i.kanaStem,i.english,i.ttsStem);
     }
 
-    override dictForm(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "る";
+    override dictForm(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "る";
     }
 
-    override masuStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) ;
+    override masuStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) ;
     }
 
-    override te(defaultKana : boolean = false): string {
-       return this.stem(defaultKana) + "て";
+    override te(defaultKana : boolean = false, tts : boolean = false): string {
+       return this.stem(defaultKana, tts) + "て";
     }
 
-    override ta(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "た";
+    override ta(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "た";
     }
 
-    override cha(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "ちゃ";
+    override cha(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "ちゃ";
     }
 
-    override naiStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana);
+    override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts);
     }
 }
 
 export interface I_suru {
     english : string;
     kanjiStem? : string;
+    ttsStem? : string;
     kanaStem : string;
 }
 
@@ -210,37 +215,38 @@ export class suruVerb extends verb{
 
     constructor(i : I_suru)
     {
-        super(i.kanjiStem,i.kanaStem,i.english);
+        super(i.kanjiStem,i.kanaStem,i.english, i.ttsStem);
     }
 
-    override dictForm(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "する";
+    override dictForm(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "する";
     }
 
-    override masuStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "し";
+    override masuStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "し";
     }
 
-    override te(defaultKana : boolean = false): string {
-       return this.stem(defaultKana) + "して";
+    override te(defaultKana : boolean = false, tts : boolean = false): string {
+       return this.stem(defaultKana, tts) + "して";
     }
 
-    override ta(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "した";
+    override ta(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "した";
     }
 
-    override cha(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "しちゃ";
+    override cha(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "しちゃ";
     }
 
-    override naiStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "し";
+    override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "し";
     }
 }
 
 export interface I_iku {
     english : string;
     kanjiStem? : string;
+    ttsStem? : string;
     kanaStem : string;
 }
 
@@ -248,37 +254,38 @@ export class ikuVerb extends verb{
 
     constructor(i : I_iku)
     {
-        super(i.kanjiStem,i.kanaStem,i.english);
+        super(i.kanjiStem,i.kanaStem,i.english, i.ttsStem);
     }
 
-    override dictForm(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + ( defaultKana? "いく" : "行く" );
+    override dictForm(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + ((tts || defaultKana? "いく" : "行く"));
     }
 
-    override masuStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + ( defaultKana? "いき" : "行き");
+    override masuStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + ( tts || defaultKana? "いき" : "行き");
     }
 
-    override te(defaultKana : boolean = false): string {
-       return this.stem(defaultKana) +  ( defaultKana? "いって" : "行って");
+    override te(defaultKana : boolean = false, tts : boolean = false): string {
+       return this.stem(defaultKana, tts) +  ( tts || defaultKana? "いって" : "行って");
     }
 
-    override ta(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) +  ( defaultKana? "いった" : "行った");
+    override ta(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) +  (tts || defaultKana? "いった" : "行った");
     }
 
-    override cha(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + ( defaultKana? "いっちゃ" : "行っちゃ");
+    override cha(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + ( tts || defaultKana? "いっちゃ" : "行っちゃ");
     }
 
-    override naiStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + ( defaultKana? "いか" : "行か");
+    override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + ( tts || defaultKana? "いか" : "行か");
     }
 }
 
 export interface I_kuru {
     english : string;
     kanjiStem? : string;
+    ttsStem? : string;
     kanaStem : string;
 }
 
@@ -286,37 +293,38 @@ export class kuruVerb extends verb{
 
     constructor(i : I_kuru)
     {
-        super(i.kanjiStem,i.kanaStem,i.english);
+        super(i.kanjiStem,i.kanaStem,i.english, i.ttsStem);
     }
 
-    override dictForm(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + ( defaultKana? "くる" : "来る" );
+    override dictForm(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + ( defaultKana? "くる" : "来る" );
     }
 
-    override masuStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + ( defaultKana? "き" : "来");
+    override masuStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + ( defaultKana? "き" : "来");
     }
 
-    override te(defaultKana : boolean = false): string {
-       return this.stem(defaultKana) +  ( defaultKana? "きて" : "来て");
+    override te(defaultKana : boolean = false, tts : boolean = false): string {
+       return this.stem(defaultKana, tts) +  ( defaultKana? "きて" : "来て");
     }
 
-    override ta(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) +  ( defaultKana? "きた" : "来た");
+    override ta(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) +  ( defaultKana? "きた" : "来た");
     }
 
-    override cha(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + ( defaultKana? "きちゃ" : "来ちゃ");
+    override cha(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + ( defaultKana? "きちゃ" : "来ちゃ");
     }
 
-    override naiStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + ( defaultKana? "こ" : "来");
+    override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + ( defaultKana? "こ" : "来");
     }
 }
 
 export interface I_aru {
     english : string;
     kanjiStem? : string;
+    ttsStem? : string;
     kanaStem : string;
 }
 
@@ -324,31 +332,31 @@ export class aruVerb extends verb{
 
     constructor(i : I_aru)
     {
-        super(i.kanjiStem,i.kanaStem,i.english);
+        super(i.kanjiStem,i.kanaStem,i.english, i.ttsStem);
     }
 
-    override dictForm(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "ある";
+    override dictForm(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "ある";
     }
 
-    override masuStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "あり";
+    override masuStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "あり";
     }
 
-    override te(defaultKana : boolean = false): string {
-       return this.stem(defaultKana) + "あって";
+    override te(defaultKana : boolean = false, tts : boolean = false): string {
+       return this.stem(defaultKana, tts) + "あって";
     }
 
-    override ta(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) +  "あった";
+    override ta(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) +  "あった";
     }
 
-    override cha(defaultKana : boolean = false): string {
-        return this.stem(defaultKana) + "あっちゃ";
+    override cha(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "あっちゃ";
     }
 
-    override naiStem(defaultKana : boolean = false): string {
-        return this.stem(defaultKana);
+    override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts);
     }
 }
 
@@ -402,40 +410,40 @@ export class exceptionVerb extends verb{
 
     }
 
-    override dictForm(defaultKana : boolean = false): string {
+    override dictForm(defaultKana : boolean = false, tts : boolean = false): string {
         if (defaultKana){
             return this.dictFormKana;
         }
         return this.dictFormKanji ?? this.dictFormKana;
     }
 
-    masuStem(defaultKana : boolean = false): string {
+    masuStem(defaultKana : boolean = false, tts : boolean = false): string {
         if (defaultKana){
             return this.masuStemKana;
         }
         return this.masuStemKanji ?? this.masuStemKana;
     }
-    te(defaultKana : boolean = false): string {
+    te(defaultKana : boolean = false, tts : boolean = false): string {
         if (defaultKana){
             return this.teKana;
         }
         return this.teKanji ?? this.teKana;
     }
-    ta(defaultKana : boolean = false): string {
+    ta(defaultKana : boolean = false, tts : boolean = false): string {
         if (defaultKana){
             return this.taKana;
         }
         return this.taKanji ?? this.taKana;
     }
 
-    override cha(defaultKana : boolean = false): string {
+    override cha(defaultKana : boolean = false, tts : boolean = false): string {
         if (defaultKana){
             return this.chaKana;
         }
         return this.chaKanji ?? this.chaKana;
     }
 
-    naiStem(defaultKana : boolean = false): string {
+    naiStem(defaultKana : boolean = false, tts : boolean = false): string {
         if (defaultKana){
             return this.naiStemKana;
         }

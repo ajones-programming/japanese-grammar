@@ -28,6 +28,10 @@ h2{
   @apply rounded-xl bg-sky-50 p-2 m-2 shadow-lg outline outline-black/5 duration-300 ease-in-out
 }
 
+a{
+  @apply text-sky-600
+}
+
 
 @media (orientation:portrait)
 {
