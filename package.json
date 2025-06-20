@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/styled": "^11.14.0",
     "@google-cloud/text-to-speech": "^5.8.1",
+    "@mui/material": "^7.1.2",
     "@tailwindcss/vite": "^4.1.8",
     "google-tts-api": "^2.0.2",
     "react": "^19.0.0",

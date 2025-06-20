@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { textToSpeech } from "./TextToSpeech";
 import { allVerbs, allVerbConjuctions, allNouns, allNounConjunctions } from "./types/util";
+import { RateSlider } from "./RateSlider";
 
 interface sentenceData {
     kanji? : string;
@@ -49,6 +50,7 @@ export function RandomSentence({loaded} : props){
 
     const [randomVerb, setRandomVerb] = useState<sentenceData>(getRandomSentence());
     const [showWord, setShowWord] = useState(false);
+    const [rate, setRate] = useState<number>(1.0);
 
     return (
     <div>
@@ -67,7 +69,7 @@ export function RandomSentence({loaded} : props){
             </button>
 
             <button className="w-1/3" onClick={() => {
-                textToSpeech(randomVerb.kana,1.5)
+                textToSpeech(randomVerb.kana,rate)
             }}>
                 Play Word
             </button>
@@ -78,6 +80,7 @@ export function RandomSentence({loaded} : props){
                 {showWord ? "Hide Word" : "Show Word"}
             </button>
         </div>
+        <RateSlider rate={rate} setRate={setRate}/>
         <p className="container-small min-h-8 align-middle">
             {showWord ? (randomVerb.kanji + " (" + randomVerb.kana + ")") : ""} 
         </p>

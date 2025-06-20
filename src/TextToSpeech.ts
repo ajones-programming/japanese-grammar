@@ -10,6 +10,7 @@
 const address = "https://ajones-jp-text-to-speech-uk.azurewebsites.net/TTS";
 var retrieved : Iterable<number> | undefined;
 var previous = "";
+var previousRate : number = 0;
 
 //https://stackoverflow.com/questions/59955096/how-to-decode-binary-audio-data
 export async function textToSpeech(toSet : string, rate : number) {
@@ -18,11 +19,12 @@ export async function textToSpeech(toSet : string, rate : number) {
   if (toSet == ""){
     return;
   }
-  if (toSet != previous || !retrieved){
+  if (toSet != previous || previousRate != rate || !retrieved){
 
     const a = await window.fetch(address + `?text=\"${toSet}\"&rate=${rate}`);
     retrieved = (await a.json()).data.data;
-    previous = toSet
+    previous = toSet;
+    previousRate = rate;
   }
   if (!retrieved){
     return;
