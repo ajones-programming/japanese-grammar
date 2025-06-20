@@ -7,18 +7,25 @@
 //   voice : {languageCode : string, ssmlGender : 'FEMALE' | 'MALE' | undefined},
 //   audioConfig : {audioEncoding : 'MP3'}
 // }
-const address = "https://ajones-jp-text-to-speech-uk.azurewebsites.net/test";
-var retrieved : Iterable<number>;
+const address = "https://ajones-jp-text-to-speech-uk.azurewebsites.net/TTS";
+var retrieved : Iterable<number> | undefined;
 var previous = "";
 
 //https://stackoverflow.com/questions/59955096/how-to-decode-binary-audio-data
-export async function textToSpeech(toSet : string) {
+export async function textToSpeech(toSet : string, rate : number) {
 
   toSet = toSet.trim();
-  if (toSet != previous){
-    previous = toSet
-    const a = await window.fetch(address + "/" + toSet);
+  if (toSet == ""){
+    return;
+  }
+  if (toSet != previous || !retrieved){
+
+    const a = await window.fetch(address + `?text=\"${toSet}\"&rate=${rate}`);
     retrieved = (await a.json()).data.data;
+    previous = toSet
+  }
+  if (!retrieved){
+    return;
   }
   const arr = Uint8Array.from(retrieved);
   

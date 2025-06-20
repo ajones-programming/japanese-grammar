@@ -67,7 +67,7 @@ export function RandomSentence({loaded} : props){
             </button>
 
             <button className="w-1/3" onClick={() => {
-                textToSpeech(randomVerb.kana)
+                textToSpeech(randomVerb.kana,1.5)
             }}>
                 Play Word
             </button>
