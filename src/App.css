@@ -59,7 +59,7 @@ h2{
 
 
 button {
-  @apply rounded-xl bg-slate-200 p-4 shadow-lg m-2 hover:bg-white transition ease-in-out duration-700 hover:scale-120
+  @apply rounded-xl bg-slate-200 p-4 shadow-lg m-2 hover:bg-white transition ease-in-out duration-700 hover:scale-105 hover:cursor-pointer
 }
 
 input{

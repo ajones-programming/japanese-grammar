@@ -78,7 +78,7 @@ export function RandomSentence({loaded} : props){
                 {showWord ? "Hide Word" : "Show Word"}
             </button>
         </div>
-        <p className="container-small h-8 align-middle">
+        <p className="container-small min-h-8 align-middle">
             {showWord ? (randomVerb.kanji + " (" + randomVerb.kana + ")") : ""} 
         </p>
     </div>)
