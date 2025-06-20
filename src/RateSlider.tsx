@@ -1,4 +1,5 @@
-import { Slider, Typography } from "@mui/material"
+import Slider from '@mui/material/Slider';
+import Typography from '@mui/material/Typography';
 
 
 function setSliderValue(value : number | number[], setValue : (value: number) => void){
