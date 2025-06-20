@@ -42,6 +42,7 @@ export function RateSlider({rate, setRate} : props){
                 alignContent: "center",
                 fontSize: 24
             }}
+            onClick={() => setRate(0.5)}
             >
             🐢
         </Typography>
@@ -69,6 +70,7 @@ export function RateSlider({rate, setRate} : props){
                 alignContent: "center",
                 fontSize: 24
             }}
+            onClick={() => setRate(1.5)}
             >
             🐇
         </Typography>
