@@ -1,5 +1,7 @@
-import Slider from '@mui/material/Slider';
-import Typography from '@mui/material/Typography';
+import React from "react";
+
+const Slider = React.lazy(() => import('@mui/material/Slider'));
+const Typography = React.lazy(() => import('@mui/material/Typography'));
 
 
 function setSliderValue(value : number | number[], setValue : (value: number) => void){
