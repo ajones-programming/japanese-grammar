@@ -410,40 +410,40 @@ export class exceptionVerb extends verb{
 
     }
 
-    override dictForm(defaultKana : boolean = false, tts : boolean = false): string {
+    override dictForm(defaultKana : boolean = false): string {
         if (defaultKana){
             return this.dictFormKana;
         }
         return this.dictFormKanji ?? this.dictFormKana;
     }
 
-    masuStem(defaultKana : boolean = false, tts : boolean = false): string {
+    masuStem(defaultKana : boolean = false): string {
         if (defaultKana){
             return this.masuStemKana;
         }
         return this.masuStemKanji ?? this.masuStemKana;
     }
-    te(defaultKana : boolean = false, tts : boolean = false): string {
+    te(defaultKana : boolean = false): string {
         if (defaultKana){
             return this.teKana;
         }
         return this.teKanji ?? this.teKana;
     }
-    ta(defaultKana : boolean = false, tts : boolean = false): string {
+    ta(defaultKana : boolean = false): string {
         if (defaultKana){
             return this.taKana;
         }
         return this.taKanji ?? this.taKana;
     }
 
-    override cha(defaultKana : boolean = false, tts : boolean = false): string {
+    override cha(defaultKana : boolean = false): string {
         if (defaultKana){
             return this.chaKana;
         }
         return this.chaKanji ?? this.chaKana;
     }
 
-    naiStem(defaultKana : boolean = false, tts : boolean = false): string {
+    naiStem(defaultKana : boolean = false): string {
         if (defaultKana){
             return this.naiStemKana;
         }
