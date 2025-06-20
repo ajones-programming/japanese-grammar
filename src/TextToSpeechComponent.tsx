@@ -14,7 +14,7 @@ export function TextToSpeechComponent()
         <p>Input any text for realistic text to speech.</p>
         <div className="flex justify-center">
             <input name="Text Input" value={result} onChange={e => setResult(e.target.value)} className="max-h-fit w-1/2 my-auto"/>
-            <button onClick={() => textToSpeech(result, rate)}>TEXT TO SPEECH</button>
+            <button onClick={() => textToSpeech(result, rate)} className="max-w-1/4">Play</button>
         </div>
 
         <RateSlider rate={rate} setRate={setRate}/>
