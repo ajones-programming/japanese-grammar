@@ -1498,7 +1498,8 @@
             {
                 "english": "a corner; angle",
                 "kanji" : "角",
-                "kana" : "かど"
+                "kana" : "かど",
+                "ttsStem" : "かど"
             },
             {
                 "english": "key",
