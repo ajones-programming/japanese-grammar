@@ -46,12 +46,12 @@ export class verbConjugation{
         }
 
         var outputTTS = this.expressionTTS ?? this.expressionKanji ?? this.expression;
-        outputTTS = outputTTS.replace("DICT_FORM",verb.dictForm(true, true));
-        outputTTS = outputTTS.replace("MASU_STEM",verb.masuStem(true, true));
-        outputTTS = outputTTS.replace("NAI_STEM",verb.naiStem(true, true));
-        outputTTS = outputTTS.replace("TE",verb.te(true, true));
-        outputTTS = outputTTS.replace("TA",verb.ta(true, true));
-        outputTTS = outputTTS.replace("CHA",verb.cha(true, true));
+        outputTTS = outputTTS.replace("DICT_FORM",verb.dictForm(false, true));
+        outputTTS = outputTTS.replace("MASU_STEM",verb.masuStem(false, true));
+        outputTTS = outputTTS.replace("NAI_STEM",verb.naiStem(false, true));
+        outputTTS = outputTTS.replace("TE",verb.te(false, true));
+        outputTTS = outputTTS.replace("TA",verb.ta(false, true));
+        outputTTS = outputTTS.replace("CHA",verb.cha(false, true));
         outputTTS = outputTTS.replace("OPTION",option ?? "");
         var outputKanji = this.expressionKanji ?? this.expression;
         outputKanji = outputKanji.replace("DICT_FORM",verb.dictForm(false,false));
@@ -160,16 +160,16 @@ export class AdjectiveConjugation{
             option = this.options[Math.floor(Math.random() * this.options.length)];
         }
         var outputTTS = this.expressionTTS ?? this.expressionKanji ?? this.expression;
-        outputTTS = outputTTS.replace("DICT_FORM",adjective.dictForm(true, true));
-        outputTTS = outputTTS.replace("DESCRIPTOR",adjective.descriptorForm(true, true));
-        outputTTS = outputTTS.replace("PRESENT",adjective.present(true, true));
-        outputTTS = outputTTS.replace("PAST_NEGATIVE",adjective.pastNegative(true, true));
-        outputTTS = outputTTS.replace("PAST",adjective.past(true, true));
-        outputTTS = outputTTS.replace("NEGATIVE",adjective.presentNegative(true, true));
-        outputTTS = outputTTS.replace("ADVERB",adjective.adverb(true, true));
-        outputTTS = outputTTS.replace("STEM",adjective.stem(true, true));
+        outputTTS = outputTTS.replace("DICT_FORM",adjective.dictForm(false, true));
+        outputTTS = outputTTS.replace("DESCRIPTOR",adjective.descriptorForm(false, true));
+        outputTTS = outputTTS.replace("PRESENT",adjective.present(false, true));
+        outputTTS = outputTTS.replace("PAST_NEGATIVE",adjective.pastNegative(false, true));
+        outputTTS = outputTTS.replace("PAST",adjective.past(false, true));
+        outputTTS = outputTTS.replace("NEGATIVE",adjective.presentNegative(false, true));
+        outputTTS = outputTTS.replace("ADVERB",adjective.adverb(false, true));
+        outputTTS = outputTTS.replace("STEM",adjective.stem(false, true));
         outputTTS = outputTTS.replace("OPTION",option ?? "");
-        outputTTS = outputTTS.replace("TE",adjective.te(true, true));
+        outputTTS = outputTTS.replace("TE",adjective.te(false, true));
         var outputKanji = this.expressionKanji ?? this.expression;
         outputKanji = outputKanji.replace("DICT_FORM",adjective.dictForm(false,false));
         outputKanji = outputKanji.replace("DESCRIPTOR",adjective.descriptorForm(false,false));

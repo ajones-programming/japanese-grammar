@@ -20,7 +20,7 @@ function getRandomSentenceForWriting() : randomSentenceForWriting{
 
     for (var i = 0, n = kanjiSentence.length; i < n; i++) {
         const charCode = kanjiSentence.charCodeAt( i );
-        if (charCode < 0x3040 || charCode > 0x30FF){
+        if (charCode >= 0x4E00){
             console.log(kanjiSentence.charAt(i));
             allKanjiCharacters.push(i);
         }

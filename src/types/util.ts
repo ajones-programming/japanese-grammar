@@ -6,13 +6,16 @@ import { n5} from "../assets/vocabulary.json"
 import { i_verbConjunctions, i_nounConjunctions, i_adjectiveConjuctions } from "../assets/conjunctions.json"
 import { I_noun, noun } from "./nouns";
 import { adjective, I_i_adjective, I_na_adjective, iAdjective, naAdjective } from "./adjectives";
+import { counter, I_counter } from "./counter";
 
 export var allVerbs:  { [id: string] : verb[]; }  | undefined;
 export var allNouns : { [id: string] : noun[]; }  | undefined;
 export var allAdjectives : {[id: string] : adjective[]; } | undefined;
+export var allCounters : {[id: string] : counter[]; } | undefined;
 export var allVerbConjuctions: verbConjugation[] | undefined;
 export var allNounConjunctions : NounConjugation[] | undefined;
 export var allAdjectiveConjunctions : AdjectiveConjugation[] | undefined;
+
 
 export function loadAll(){
     allVerbs = {};
@@ -73,6 +76,14 @@ export function loadAll(){
     n5.adjectives.i_i_adjective.forEach(i => {
         allAdjectives?.n5.push(new iAdjective(i as I_i_adjective));
     })
+
+    allCounters = {};
+    allCounters.n5 = [];
+
+    n5.counters.forEach(i => {
+        allCounters?.n5.push(new counter(i as I_counter));
+    })
+    
 
     allVerbConjuctions = [];
     i_verbConjunctions.forEach(i => 

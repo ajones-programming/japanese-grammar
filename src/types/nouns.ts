@@ -15,10 +15,6 @@ export class noun{
         this.kana = noun.kana;
         this.kanji = noun.kanji;
         this.tts = noun.tts;
-
-        // if (this.kanji){
-        //     console.log(this.kanji + ": " + this.kana + ", Has Kanji? " + this.hasKanji());
-        // }
     }
 
     hasKanji() {

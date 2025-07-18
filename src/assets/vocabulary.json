@@ -3462,6 +3462,194 @@
                     "kanaStem" : "よわ"
                 }
             ]
-        }
+        },
+        "counters" : [
+            {
+                "english": "normal numbers",
+                "counter" : "",
+                "min" : 0,
+                "max" : 100
+            },
+            {
+                "english": "tsu",
+                "counter" : "つ",
+                "min" : 1,
+                "max" : 9
+            },
+            {
+                "english": "flat",
+                "counter" : "枚",
+                "min" : 1,
+                "max" : 100
+            },
+            {
+                "english": "long",
+                "counter" : "本",
+                "min" : 1,
+                "max" : 100
+            },
+            {
+                "english": "floors",
+                "counter" : "階",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "times",
+                "counter" : "回",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "times",
+                "counter" : "度",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "days",
+                "counter" : "日",
+                "min" : 1,
+                "max" : 31
+            },
+            {
+                "english": "books",
+                "counter" : "冊",
+                "min" : 1,
+                "max" : 100
+            },
+            {
+                "english": "people",
+                "counter" : "人",
+                "min" : 1,
+                "max" : 20
+            },
+            {
+                "english": "machines",
+                "counter" : "台",
+                "min" : 1,
+                "max" : 20
+            },
+            {
+                "english": "small and compact objects",
+                "counter" : "個",
+                "min" : 1,
+                "max" : 100
+            },
+            {
+                "english": "age",
+                "counter" : "歳",
+                "min" : 1,
+                "max" : 100
+            },
+            {
+                "english": "years",
+                "counter" : "年間",
+                "min" : 1,
+                "max" : 100
+            },
+            {
+                "english": "years",
+                "counter" : "年間",
+                "min" : 1,
+                "max" : 100
+            },
+            {
+                "english": "seconds",
+                "counter" : "秒",
+                "min" : 1,
+                "max" : 60
+            },
+            {
+                "english": "minutes",
+                "counter" : "分",
+                "min" : 1,
+                "max" : 60
+            },
+            {
+                "english": "hour",
+                "counter" : "時",
+                "min" : 1,
+                "max" : 12
+            },
+            {
+                "english": "duration (in hours)",
+                "counter" : "時間",
+                "min" : 1,
+                "max" : 24
+            },
+            {
+                "english": "duration (in weeks)",
+                "counter" : "週間",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "duration (in months)",
+                "counter" : "ヶ月",
+                "min" : 1,
+                "max" : 12
+            },
+            {
+                "english": "months",
+                "counter" : "月",
+                "min" : 1,
+                "max" : 12
+            },
+            {
+                "english": "order",
+                "counter" : "番",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "small animals",
+                "counter" : "匹",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "glass, cup",
+                "counter" : "杯",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "glass, cup",
+                "counter" : "杯",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "footwear",
+                "counter" : "足",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "big animals",
+                "counter" : "頭",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "birds",
+                "counter" : "羽",
+                "min" : 1,
+                "max" : 10
+            },
+            {
+                "english": "yen",
+                "counter" : "00円",
+                "min" : 1,
+                "max" : 100
+            },
+            {
+                "english": "large number",
+                "counter" : "00",
+                "min" : 1,
+                "max" : 100
+            }
+        ]
     }
 }

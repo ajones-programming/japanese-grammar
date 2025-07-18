@@ -45,7 +45,7 @@ async function textToSpeech(toSet : string, rate : number) {
 
   if (toSet != previous || previousRate != rate || !retrieved){
     const speaker = ((toSet != previous || previousSpeaker == "") ? getRandomName() : previousSpeaker);
-    const a = await window.fetch(address + `?text=\"${toSet}\"&rate=${rate}&speaker=${speaker}`);
+    const a = await window.fetch(address + `?rate=${rate}&speaker=${speaker}&text=${toSet}`);
     retrieved = (await a.json()).data.data;
     previous = toSet;
     previousRate = rate;

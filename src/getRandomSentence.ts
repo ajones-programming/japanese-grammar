@@ -1,4 +1,4 @@
-import { allAdjectiveConjunctions, allAdjectives, allNounConjunctions, allNouns, allVerbConjuctions, allVerbs } from "./types/util";
+import { allAdjectiveConjunctions, allAdjectives, allCounters, allNounConjunctions, allNouns, allVerbConjuctions, allVerbs } from "./types/util";
 
 export interface sentenceData {
     kanji? : string;
@@ -8,12 +8,12 @@ export interface sentenceData {
 
 export function getRandomSentence(mustBeKanji = false) : sentenceData
 {
-    if (!allVerbs || !allVerbConjuctions|| !allNouns || !allNounConjunctions || !allAdjectives || !allAdjectiveConjunctions){
+    if (!allVerbs || !allVerbConjuctions|| !allNouns || !allNounConjunctions || !allAdjectives || !allAdjectiveConjunctions || !allCounters){
         throw("EITHER VERBS OR CONJUGATIONS NOT DEFINED?? WEIRD")
     }
 
     
-    switch (Math.floor(Math.random() * 3)){
+    switch (Math.floor(Math.random() * 4)){
         //verb
         case 0:
         {
@@ -50,6 +50,17 @@ export function getRandomSentence(mustBeKanji = false) : sentenceData
                 return reroll;
             }
             return {kanji: expression.outputKanji, kana: expression.outputKana, tts: expression.outputTTS}
+        }
+        case 3:
+        {
+            const randomC = allCounters.n5[Math.floor(Math.random() * allCounters.n5.length)];
+            const randomNumber = randomC.getRandomNumberText();
+            if (mustBeKanji && !randomC.hasKanji()){
+                const reroll = getRandomSentence(true);
+                console.log("original: " + randomNumber + ", reroll: " +  reroll.kanji);
+                return reroll;
+            }
+            return {kanji: randomNumber, kana: randomNumber, tts: randomNumber}
         } 
     }
     return {kana: "ERROR", kanji: "ERROR", "tts" : "ERROR"}
