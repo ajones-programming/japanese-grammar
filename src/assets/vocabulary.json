@@ -1,6 +1,5 @@
 {
     "n5" : {
-
         "verbs" : {
             "i_godan":
             [
@@ -3037,6 +3036,432 @@
                 "kanji" : "成人の日",
                 "kana" : "せいじんのひ"
             }
-        ]
+        ],
+        "adjectives" : {
+            "i_na_adjective" : [
+                {
+                    "english" : "convenient; handy; useful",
+                    "kanjiStem" : "便利",
+                    "kanaStem" : "べんり"
+                },
+                {
+                    "english" : "OK; alright",
+                    "kanjiStem" : "大丈夫",
+                    "kanaStem" : "だいじょうぶ"
+                },
+                {
+                    "english" : "love; like; like very much",
+                    "kanjiStem" : "大好き",
+                    "kanaStem" : "だいすき"
+                },
+                {
+                    "english" : "lively; energetic; healthy",
+                    "kanjiStem" : "元気",
+                    "kanaStem" : "げんき"
+                },
+                {
+                    "english" : "unskillful; poor; awkward ",
+                    "kanjiStem" : "下手",
+                    "kanaStem" : "へた"
+                },
+                {
+                    "english" : "free time",
+                    "kanjiStem" : "暇",
+                    "kanaStem" : "ひま"
+                },
+                {
+                    "english" : "truth; reality; fact",
+                    "kanjiStem" : "本当",
+                    "kanaStem" : "ほんとう"
+                },
+                {
+                    "english" : "various",
+                    "kanjiStem" : "色々",
+                    "kanaStem" : "いろいろ"
+                },
+                {
+                    "english" : "unpleasant",
+                    "kanjiStem" : "嫌",
+                    "kanaStem" : "いや"
+                },
+                {
+                    "english" : "strong, durable",
+                    "kanjiStem" : "丈夫",
+                    "kanaStem" : "じょうぶ"
+                },
+                {
+                    "english" : "skillful; skilled; good (at)",
+                    "kanjiStem" : "上手",
+                    "kanaStem" : "じょうず"
+                },
+                {
+                    "english" : "splendid, enough",
+                    "kanjiStem" : "結構",
+                    "kanaStem" : "けっこう"
+                },
+                {
+                    "english" : "hate",
+                    "kanjiStem" : "嫌い",
+                    "kanaStem" : "きらい"
+                },
+                {
+                    "english" : "pretty; lovely; beautiful",
+                    "kanjiStem" : "綺麗",
+                    "kanaStem" : "きれい"
+                },
+                {
+                    "english" : "straight ahead,direct",
+                    "kanjiStem" : "真っ直ぐ",
+                    "kanaStem" : "まっすぐ"
+                },
+                {
+                    "english" : "bustling, busy",
+                    "kanjiStem" : "賑やか",
+                    "kanaStem" : "にぎやか"
+                },
+                {
+                    "english" : "splendid",
+                    "kanjiStem" : "立派",
+                    "kanaStem" : "りっぱ"
+                },
+                {
+                    "english" : "quiet",
+                    "kanjiStem" : "静か",
+                    "kanaStem" : "しずか"
+                },
+                {
+                    "english" : "like",
+                    "kanjiStem" : "好き",
+                    "kanaStem" : "すき"
+                },
+                {
+                    "english" : "perhaps; probably",
+                    "kanjiStem" : "多分",
+                    "kanaStem" : "たぶん"
+                },
+                {
+                    "english" : "very; greatly; difficult",
+                    "kanjiStem" : "大変",
+                    "kanaStem" : "たいへん"
+                },
+                {
+                    "english" : "important; beloved",
+                    "kanjiStem" : "大切",
+                    "kanaStem" : "たいせつ"
+                },
+                {
+                    "english" : "many",
+                    "kanjiStem" : "沢山",
+                    "kanaStem" : "たくさん"
+                },
+                {
+                    "english" : "famous",
+                    "kanjiStem" : "有名",
+                    "kanaStem" : "ゆうめい"
+                } 
+            ],
+            "i_i_adjective" : [
+                {
+                    "english" : "dangerous",
+                    "kanjiStem" : "危な",
+                    "kanaStem" : "あぶな"
+                },
+                {
+                    "english" : "red",
+                    "kanjiStem" : "赤",
+                    "kanaStem" : "あか"
+                },
+                {
+                    "english" : "bright; light",
+                    "kanjiStem" : "明る",
+                    "kanaStem" : "あかる"
+                },
+                {
+                    "english" : "sweet; sugary; naive",
+                    "kanjiStem" : "甘",
+                    "kanaStem" : "あま"
+                },
+                {
+                    "english" : "blue; azure",
+                    "kanjiStem" : "青",
+                    "kanaStem" : "あお"
+                },
+                {
+                    "english" : "new; fresh; recent; latest",
+                    "kanjiStem" : "新し",
+                    "kanaStem" : "あたらし"
+                },
+                {
+                    "english" : "warm",
+                    "kanjiStem" : "暖か",
+                    "kanaStem" : "あたたか"
+                },
+                {
+                    "english" : "thick",
+                    "kanjiStem" : "厚",
+                    "kanaStem" : "あつ"
+                },
+                {
+                    "english" : "hot; sultry (weather)",
+                    "kanjiStem" : "暑",
+                    "kanaStem" : "あつ"
+                },
+                {
+                    "english" : " hot (temperature)",
+                    "kanjiStem" : "熱",
+                    "kanaStem" : "あつ"
+                },
+                {
+                    "english" : "small; little; tiny",
+                    "kanjiStem" : "小さ",
+                    "kanaStem" : "ちいさ"
+                },
+                {
+                    "english" : "near; close",
+                    "kanjiStem" : "近",
+                    "kanaStem" : "ちか"
+                },
+                {
+                    "english" : "old (not used for people)",
+                    "kanjiStem" : "古",
+                    "kanaStem" : "ふる"
+                },
+                {
+                    "english" : "fat; thick",
+                    "kanjiStem" : "太",
+                    "kanaStem" : "ふと"
+                },
+                {
+                    "english" : "fast; early",
+                    "kanjiStem" : "早",
+                    "kanaStem" : "はや"
+                },
+                {
+                    "english" : "fast; quick; hasty; brisk",
+                    "kanjiStem" : "速",
+                    "kanaStem" : "はや"
+                },
+                {
+                    "english" : "short,low",
+                    "kanjiStem" : "低",
+                    "kanaStem" : "ひく"
+                },
+                {
+                    "english" : " spacious; vast; wide",
+                    "kanjiStem" : "広",
+                    "kanaStem" : "ひろ"
+                },
+                {
+                    "english" : "want",
+                    "kanjiStem" : "欲し",
+                    "kanaStem" : "ほし"
+                },
+                {
+                    "english" : "thin; slender",
+                    "kanjiStem" : "細",
+                    "kanaStem" : "ほそ"
+                },
+                {
+                    "english" : "busy",
+                    "kanjiStem" : "忙し",
+                    "kanaStem" : "いそがし"
+                },
+                {
+                    "english" : "painful; sore",
+                    "kanjiStem" : "痛",
+                    "kanaStem" : "いた"
+                },
+                {
+                    "english" : "spicy",
+                    "kanjiStem" : "辛",
+                    "kanaStem" : "から"
+                },
+                {
+                    "english" : "light",
+                    "kanjiStem" : "軽",
+                    "kanaStem" : "かる"
+                },
+                {
+                    "english" : "cute",
+                    "kanjiStem" : "可愛",
+                    "kanaStem" : "かわい"
+                },
+                {
+                    "english" : "yellow",
+                    "kanjiStem" : "黄色",
+                    "kanaStem" : "きいろ"
+                },
+                {
+                    "english" : "dirty",
+                    "kanjiStem" : "汚",
+                    "kanaStem" : "きたな"
+                },
+                {
+                    "english" : "dark; gloomy; murky",
+                    "kanjiStem" : "暗",
+                    "kanaStem" : "くら"
+                },
+                {
+                    "english" : "black",
+                    "kanjiStem" : "黒",
+                    "kanaStem" : "くろ"
+                },
+                {
+                    "english" : "round,circular",
+                    "kanjiStem" : "丸",
+                    "kanaStem" : "まる"
+                },
+                {
+                    "english" : "unpleasant",
+                    "kanjiStem" : "不味",
+                    "kanaStem" : "まず"
+                },
+                {
+                    "english" : "short",
+                    "kanjiStem" : "短",
+                    "kanaStem" : "みじか"
+                },
+                {
+                    "english" : "difficult",
+                    "kanjiStem" : "難し",
+                    "kanaStem" : "むずかし"
+                },
+                {
+                    "english" : "long (distance) ; long (time)",
+                    "kanjiStem" : "長",
+                    "kanaStem" : "なが"
+                },
+                {
+                    "english" : "luke warm",
+                    "kanjiStem" : "温",
+                    "kanaStem" : "ぬる"
+                },
+                {
+                    "english" : "delicious",
+                    "kanjiStem" : "美味し",
+                    "kanaStem" : "おいし"
+                },
+                {
+                    "english" : "heavy",
+                    "kanjiStem" : "重",
+                    "kanaStem" : "おも"
+                },
+                {
+                    "english" : "interesting",
+                    "kanjiStem" : "面白",
+                    "kanaStem" : "おも"
+                },
+                {
+                    "english" : "many; numerous",
+                    "kanjiStem" : "多",
+                    "kanaStem" : "おお"
+                },
+                {
+                    "english" : "big; large; great; important",
+                    "kanjiStem" : "大き",
+                    "kanaStem" : "おおき"
+                },
+                {
+                    "english" : "slow; time-consuming; late",
+                    "kanjiStem" : "遅",
+                    "kanaStem" : "おそ"
+                },
+                {
+                    "english" : "cold",
+                    "kanjiStem" : "寒",
+                    "kanaStem" : "さむ"
+                },
+                {
+                    "english" : "narrow",
+                    "kanjiStem" : "狭",
+                    "kanaStem" : "せま"
+                },
+                {
+                    "english" : "white",
+                    "kanjiStem" : "白",
+                    "kanaStem" : "しろ"
+                },
+                {
+                    "english" : "few; a little; scarce",
+                    "kanjiStem" : "少な",
+                    "kanaStem" : "すくな"
+                },
+                {
+                    "english" : "refreshing, cool",
+                    "kanjiStem" : "涼し",
+                    "kanaStem" : "すずし"
+                },
+                {
+                    "english" : "high; tall; expensive",
+                    "kanjiStem" : "高",
+                    "kanaStem" : "たか"
+                },
+                {
+                    "english" : "enjoyable; fun",
+                    "kanjiStem" : "楽し",
+                    "kanaStem" : "たのし"
+                },
+                {
+                    "english" : "far",
+                    "kanjiStem" : "遠",
+                    "kanaStem" : "とお"
+                },
+                {
+                    "english" : "boring",
+                    "kanjiStem" : "詰まらな",
+                    "kanaStem" : "つまらな"
+                },
+                {
+                    "english" : "cold to the touch",
+                    "kanjiStem" : "冷た",
+                    "kanaStem" : "つめた"
+                },
+                {
+                    "english" : "powerful",
+                    "kanjiStem" : "強",
+                    "kanaStem" : "つよ"
+                },
+                {
+                    "english" : "noisy, annoying",
+                    "kanjiStem" : "煩",
+                    "kanaStem" : "うるさ"
+                },
+                {
+                    "english" : "thin; weak",
+                    "kanjiStem" : "薄",
+                    "kanaStem" : "うす"
+                },
+                {
+                    "english" : "young",
+                    "kanjiStem" : "若",
+                    "kanaStem" : "わか"
+                },
+                {
+                    "english" : "bad; poor; undesirable",
+                    "kanjiStem" : "悪",
+                    "kanaStem" : "わる"
+                },
+                {
+                    "english" : "easy, simple",
+                    "kanjiStem" : "易し",
+                    "kanaStem" : "やさし"
+                },
+                {
+                    "english" : "cheap; inexpensive",
+                    "kanjiStem" : "安",
+                    "kanaStem" : "やす"
+                },
+                {
+                    "english" : "good",
+                    "kanjiStem" : "良",
+                    "kanaStem" : "よ"
+                },
+                {
+                    "english" : "weak",
+                    "kanjiStem" : "弱",
+                    "kanaStem" : "よわ"
+                }
+            ]
+        }
     }
 }

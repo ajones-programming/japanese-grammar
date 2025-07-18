@@ -26,6 +26,8 @@ export abstract class verb{
     abstract ta(defaultKana : boolean, tts : boolean) : string;
     abstract naiStem(defaultKana : boolean, tts : boolean) : string;
     abstract cha(defaultKana : boolean, tts : boolean) : string;
+
+    hasKanjiForm(){return this.kanjiStem != undefined;}
 }
 
 export interface I_Godan {
@@ -280,6 +282,8 @@ export class ikuVerb extends verb{
     override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
         return this.stem(defaultKana, tts) + ( tts || defaultKana? "いか" : "行か");
     }
+
+    override hasKanjiForm(){return true;}
 }
 
 export interface I_kuru {
@@ -319,6 +323,8 @@ export class kuruVerb extends verb{
     override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
         return this.stem(defaultKana, tts) + ( defaultKana? "こ" : "来");
     }
+
+    override hasKanjiForm(){return true;}
 }
 
 export interface I_aru {

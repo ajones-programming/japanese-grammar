@@ -1,42 +1,8 @@
 
 import { useState } from "react";
 import { loadTTS} from "./TextToSpeech";
-import { allVerbs, allVerbConjuctions, allNouns, allNounConjunctions } from "./types/util";
 import { RateSlider } from "./RateSlider";
-
-interface sentenceData {
-    kanji? : string;
-    tts : string;
-    kana : string;
-}
-
-function getRandomSentence() : sentenceData
-{
-    if (!allVerbs || !allVerbConjuctions|| !allNouns || !allNounConjunctions){
-        throw("EITHER VERBS OR CONJUGATIONS NOT DEFINED?? WEIRD")
-    }
-
-    switch (Math.floor(Math.random() * 2)){
-        //verb
-        case 0:
-        {
-            const randomV = allVerbs.n5[Math.floor(Math.random() * allVerbs.n5.length)];
-            const randomC = allVerbConjuctions[Math.floor(Math.random() * allVerbConjuctions.length)];
-            const expression = randomC.runExpression(randomV);
-            return {kanji: expression.outputKanji, kana: expression.outputKana, tts: expression.outputTTS}
-        }
-        case 1:
-        {
-            const randomN = allNouns.n5[Math.floor(Math.random() * allNouns.n5.length)];
-            const randomC = allNounConjunctions[Math.floor(Math.random() * allNounConjunctions.length)];
-            const expression = randomC.runExpression(randomN);
-            return {kanji: expression.outputKanji, kana: expression.outputKana, tts: expression.outputTTS}
-        }   
-    }
-    return {kana: "ERROR", kanji: "ERROR", "tts" : "ERROR"}
-}
-
-
+import { getRandomSentence, sentenceData } from "./getRandomSentence";
 
 interface props {
     loaded : boolean
@@ -49,7 +15,7 @@ export function RandomSentence({loaded} : props){
         </div>)
     }
 
-    const [randomSentence, setRandomSentence] = useState<sentenceData>(getRandomSentence());
+    const [randomSentence, setRandomSentence] = useState<sentenceData>(() => getRandomSentence());
     const [showWord, setShowWord] = useState(false);
     const [rate, setRate] = useState<number>(1.0);
     const [buttonActive, setButtonActive] = useState<boolean>(true);

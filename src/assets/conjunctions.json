@@ -3,31 +3,22 @@
 
         {
             "english" : "must not do (spoken Japanese)",
-            "expression" : "CHAダメ"
-        },
-        {
-            "english" : "must not do (spoken Japanese)",
-            "expression" : "CHAいけない"
-        },
-        {
-            "english" : "must not do (spoken Japanese)",
-            "expression" : "CHAいけません"
+            "expression" : "CHAOPTION",
+            "options" : [
+                "ダメ",
+                "いけない",
+                "いけません"
+            ]
         },
         {
             "english" : "must",
-            "expression" : "NAI_STEMなければいけません"
-        },
-        {
-            "english" : "must not do",
-            "expression" : "NAI_STEMなければいけない"
-        },
-        {
-            "english" : "must not do",
-            "expression" : "NAI_STEMなきゃいけない"
-        },
-        {
-            "english" : "must not do",
-            "expression" : "NAI_STEMなきゃ"
+            "expression" : "NAI_STEMOPTION",
+            "options" : [
+                "なければいけません",
+                "なければいけない",
+                "なきゃいけない",
+                "なきゃ"
+            ]
         },
         {
             "english" : "only, just as",
@@ -154,43 +145,19 @@
         },
         {
             "english" : "must do; need to; gotta do",
-            "expression" : "NAI_STEMなくちゃ"
-        },
-        {
-            "english" : "must do; need to; gotta do",
-            "expression" : "NAI_STEMなくちゃダメ"
-        },
-        {
-            "english" : "must do; need to; gotta do",
-            "expression" : "NAI_STEMなくちゃいけない"
-        },
-        {
-            "english" : "must do; need to; gotta do",
-            "expression" : "NAI_STEMなくちゃいけません"
-        },
-        {
-            "english" : "must do; need to; gotta do",
-            "expression" : "NAI_STEMなくちゃならない"
-        },
-        {
-            "english" : "must do; need to; gotta do",
-            "expression" : "NAI_STEMなくちゃなりません"
-        },
-        {
-            "english" : " must do; need to do",
-            "expression" : "NAI_STEMなくてはいけない"
-        },
-        {
-            "english" : " must do; need to do",
-            "expression" : "NAI_STEMなくてはいけません"
-        },
-        {
-            "english" : " must do; need to do",
-            "expression" : "NAI_STEMなくてはならない"
-        },
-        {
-            "english" : " must do; need to do",
-            "expression" : "NAI_STEMなくてはなりません"
+            "expression" : "NAI_STEMOPTION",
+            "options" : [
+                "なくちゃ",
+                "なくちゃダメ",
+                "なくちゃいけない",
+                "なくちゃいけません",
+                "なくちゃならない",
+                "なくちゃなりません",
+                "なくてはいけない",
+                "なくてはいけません",
+                "なくてはならない",
+                "なくてはなりません"
+            ]
         },
         {
             "english" : "to explain something; show emphasis",
@@ -650,6 +617,104 @@
             "expressionKanji" : "NOUNの方が",
             "expression" : "NOUNのほうが",
             "expressionTTS" : "NOUNのほうが"
+        }
+    ],
+    "i_adjectiveConjuctions" : [
+        {
+            "english": "dictionary form",
+            "expression" : "DICT_FORM"
+        },
+        {
+            "english": "adverb",
+            "expression" : "ADVERB"
+        },
+        {
+            "english": "past negative",
+            "expression" : "PAST_NEGATIVE"
+        },
+        {
+            "english": "present negative",
+            "expression" : "NEGATIVE"
+        },
+        {
+            "english": "past",
+            "expression" : "PAST"
+        },
+
+        {
+            "english": "descriptor",
+            "expression" : "DESCRIPTOR"
+        },
+        {
+            "english": "only; just; as much as",
+            "expression" : "DESCRIPTORだけ"
+        },
+        {
+            "english": "only; just; as much as",
+            "expression" : "DICT_FORMだろう"
+        },
+        {
+            "english": "only; just; as much as",
+            "expression" : "DICT_FORMでしょう"
+        },
+        {
+            "english": "or",
+            "expression" : "DICT_FORMか"
+        },
+        {
+            "english": "because",
+            "expression" : "PRESENTから"
+        },
+        {
+            "english": "become",
+            "expression" : "ADVERBなる"
+        },
+        {
+            "english": "to explain something; show emphasis",
+            "expression" : "DESCRIPTORんです"
+        },
+        {
+            "english": "to explain something; show emphasis",
+            "expression" : "DESCRIPTORんだ"
+        },
+        {
+            "english": "to explain something; show emphasis",
+            "expression" : "DESCRIPTORのです"
+        },
+        {
+            "english": "to explain something; show emphasis",
+            "expression" : "DESCRIPTORのだ"
+        },
+        {
+            "english": "because of",
+            "expression" : "DESCRIPTORので"
+        },
+        {
+            "english": "too much",
+            "expression" : "STEMOPTION",
+            "options" : [
+                "すぎる",
+                "すぎます",
+                "すぎた",
+                "すぎました",
+                "すぎて"
+            ]
+        },
+        {
+            "english": "te",
+            "expression" : "TE"
+        },
+        {
+            "english": "is OK to..; is alright to..; may I..?",
+            "expression" : "TEもいい"
+        },
+        {
+            "english": "when; at this time",
+            "expression" : "DESCRIPTORとき"
+        },
+        {
+            "english": "exceedingly",
+            "expression" : "とてもDICT_FORM"
         }
     ]
 }

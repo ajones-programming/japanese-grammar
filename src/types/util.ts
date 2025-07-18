@@ -1,15 +1,18 @@
 
 
-import { I_NounConjuction, I_VerbConjuction, NounConjugation, verbConjugation } from "./conjugationList";
+import { AdjectiveConjugation, I_AdjectiveConjuction, I_NounConjuction, I_VerbConjuction, NounConjugation, verbConjugation } from "./conjugationList";
 import { aruVerb, exceptionVerb, godanVerb, I_aru, I_exceptionVerb as I_exception, I_Godan, I_Ichidan, I_iku, I_kuru, I_suru, ichidanVerb, ikuVerb, kuruVerb, suruVerb as suruVerb, verb } from "./verbs";
 import { n5} from "../assets/vocabulary.json"
-import { i_verbConjunctions, i_nounConjunctions } from "../assets/conjunctions.json"
+import { i_verbConjunctions, i_nounConjunctions, i_adjectiveConjuctions } from "../assets/conjunctions.json"
 import { I_noun, noun } from "./nouns";
+import { adjective, I_i_adjective, I_na_adjective, iAdjective, naAdjective } from "./adjectives";
 
 export var allVerbs:  { [id: string] : verb[]; }  | undefined;
 export var allNouns : { [id: string] : noun[]; }  | undefined;
+export var allAdjectives : {[id: string] : adjective[]; } | undefined;
 export var allVerbConjuctions: verbConjugation[] | undefined;
 export var allNounConjunctions : NounConjugation[] | undefined;
+export var allAdjectiveConjunctions : AdjectiveConjugation[] | undefined;
 
 export function loadAll(){
     allVerbs = {};
@@ -60,6 +63,17 @@ export function loadAll(){
         }
     )
 
+    allAdjectives = {};
+    allAdjectives.n5 = [];
+
+    n5.adjectives.i_na_adjective.forEach(i => {
+        allAdjectives?.n5.push(new naAdjective(i as I_na_adjective));
+    })
+
+    n5.adjectives.i_i_adjective.forEach(i => {
+        allAdjectives?.n5.push(new iAdjective(i as I_i_adjective));
+    })
+
     allVerbConjuctions = [];
     i_verbConjunctions.forEach(i => 
         {
@@ -73,4 +87,12 @@ export function loadAll(){
             allNounConjunctions?.push(new NounConjugation(i as I_NounConjuction));
         }
     )
+
+    allAdjectiveConjunctions = [];
+    i_adjectiveConjuctions.forEach(i => 
+        {
+            allAdjectiveConjunctions?.push(new AdjectiveConjugation(i as I_AdjectiveConjuction));
+        }
+    )
+    
 }

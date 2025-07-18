@@ -32,6 +32,9 @@ a{
   @apply text-sky-600
 }
 
+.kanjiCharacters{
+  @apply text-9xl p-8
+}
 
 @media (orientation:portrait)
 {
