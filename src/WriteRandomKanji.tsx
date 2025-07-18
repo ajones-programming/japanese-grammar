@@ -38,7 +38,7 @@ interface props {
     loaded : boolean
 }
 
-export function WriteRandomSentence({loaded} : props){
+export function WriteRandomKanji({loaded} : props){
     if (!loaded){
         return (<div>
             "not loaded! error!!"
@@ -97,5 +97,4 @@ export function WriteRandomSentence({loaded} : props){
         </p>
 
     </div>)
-
 }

@@ -3,7 +3,8 @@ import './App.css'
 import { loadAll } from './types/util';
 import { RandomSentence } from './RandomSentence';
 import { TextToSpeechComponent } from './TextToSpeechComponent';
-import { WriteRandomSentence } from './writeRandomSentence';
+import { WriteRandomKanji } from './WriteRandomKanji';
+
 
 function App() {
   const [dataFetched, setDataFetched] = useState(false);
@@ -39,7 +40,7 @@ function App() {
       </div>
 
       <div className='container'>
-        <WriteRandomSentence
+        <WriteRandomKanji
         loaded={dataFetched}
         />
       </div>
