@@ -11,9 +11,9 @@ interface randomSentenceForWriting{
     sentenceWithMissingLetter : string
 }
 
-function getRandomSentenceForWriting() : randomSentenceForWriting{
+function getRandomSentenceForWriting(tagIndex : number) : randomSentenceForWriting{
 
-    const tag = allTags[0];
+    const tag = allTags[tagIndex];
     const sentence = getRandomSentence(tag,true);
     const kanjiSentence : String = sentence.kanji ?? "";
 
@@ -46,8 +46,8 @@ export function WriteRandomKanji({loaded} : props){
             "not loaded! error!!"
         </div>)
     }
-
-    const [randomSentence, setRandomSentence] = useState<randomSentenceForWriting>(() => getRandomSentenceForWriting());
+    const [chosenTag, setChosenTag] = useState<number>(0);
+    const [randomSentence, setRandomSentence] = useState<randomSentenceForWriting>(() => getRandomSentenceForWriting(chosenTag));
     
     const [showWord, setShowWord] = useState(false);
     const [rate, setRate] = useState<number>(1.0);
@@ -62,9 +62,25 @@ export function WriteRandomKanji({loaded} : props){
             Hear randomised grammatically correct words and sentences using Google Cloud's Text-to-Speech AI, and fill in the missing Kanji. 
         </p>
         <div className="flex justify-center">
+            {allTags.map(function(tag : string, i : number){
+                return (
+                    <button className={"w-1/" + allTags.length + (chosenTag == i ? " bg-sky-200" : "")} onClick={
+                        () =>
+                        {
+                            setChosenTag(i);
+                            setRandomSentence(getRandomSentenceForWriting(i))
+                            setShowWord(false);
+                        }}
+                    >
+                        {chosenTag == i ? (tag + " (active)") : tag}
+                    </button>
+                )
+            })}
+        </div>
+        <div className="flex justify-center">
             <button className="w-1/3" onClick={
                 buttonActive ? () => {
-                setRandomSentence(getRandomSentenceForWriting());
+                setRandomSentence(getRandomSentenceForWriting(chosenTag));
                 setShowWord(false);} : undefined
                 }
                 disabled={!buttonActive}

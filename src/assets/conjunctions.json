@@ -720,6 +720,26 @@
                     "expression" : "とてもDICT_FORM"
                 }
             ]
+        },
+        {
+            "tag" : "n4",
+            "include" : ["n5"],
+            "i_verbConjunctions" : [
+                {
+                    "english" : "potential, dict form",
+                    "expression" : "POTENTIALDICT_FORM"
+                },
+                {
+                    "english" : "potential, polite positive",
+                    "expression" : "POTENTIALMASU_STEMます"
+                },
+                {
+                    "english" : "potential, polite negative",
+                    "expression" : "POTENTIALMASU_STEMません"
+                }
+            ],
+            "i_nounConjunctions" : [],
+            "i_adjectiveConjuctions" : []
         }
     ]
 

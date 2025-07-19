@@ -9,9 +9,8 @@ interface props {
     loaded : boolean
 }
 
-function getSentenceForComponent() : sentenceData{
-    const tag = allTags[0];
-    return getRandomSentence(tag);
+function getSentenceForComponent(tag : number) : sentenceData{
+    return getRandomSentence(allTags[tag]);
 }
 
 export function RandomSentence({loaded} : props){
@@ -20,24 +19,40 @@ export function RandomSentence({loaded} : props){
             "not loaded! error!!"
         </div>)
     }
-
-    const [randomSentence, setRandomSentence] = useState<sentenceData>(() => getSentenceForComponent());
+    const [chosenTag, setChosenTag] = useState<number>(0);
+    const [randomSentence, setRandomSentence] = useState<sentenceData>(() => getSentenceForComponent(chosenTag));
     const [showWord, setShowWord] = useState(false);
     const [rate, setRate] = useState<number>(1.0);
     const [buttonActive, setButtonActive] = useState<boolean>(true);
-
+    
     return (
     <div>
         <h2>
-            Japanese N5 Sentences - Randomised
+            Japanese Phrases - Randomised
         </h2>
         <p>
             Hear randomised grammatically correct words and sentences, and learn to hear natural pronunciation from Google Cloud's Text-to-Speech AI. 
         </p>
         <div className="flex justify-center">
+            {allTags.map(function(tag : string, i : number){
+                return (
+                    <button className={"w-1/" + allTags.length + (chosenTag == i ? " bg-sky-200" : "")} onClick={
+                        () =>
+                        {
+                            setChosenTag(i);
+                            setRandomSentence(getSentenceForComponent(i))
+                            setShowWord(false);
+                        }}
+                    >
+                        {chosenTag == i ? (tag + " (active)") : tag}
+                    </button>
+                )
+            })}
+        </div>
+        <div className="flex justify-center">
             <button className="w-1/3" onClick={
                 buttonActive ? () => {
-                setRandomSentence(getSentenceForComponent())
+                setRandomSentence(getSentenceForComponent(chosenTag))
                 setShowWord(false);} : undefined
                 }
                 disabled={!buttonActive}

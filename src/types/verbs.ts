@@ -26,8 +26,65 @@ export abstract class verb{
     abstract ta(defaultKana : boolean, tts : boolean) : string;
     abstract naiStem(defaultKana : boolean, tts : boolean) : string;
     abstract cha(defaultKana : boolean, tts : boolean) : string;
+    abstract potential() : verb;
 
     hasKanjiForm(){return this.kanjiStem != undefined;}
+}
+
+
+export interface I_Ichidan {
+    english : string;
+    kanjiStem? : string;
+    ttsStem? : string;
+    kanaStem : string;
+}
+
+
+
+export class ichidanVerb extends verb{
+
+    constructor(i : I_Ichidan)
+    {
+        super(i.kanjiStem,i.kanaStem,i.english,i.ttsStem);
+
+    }
+
+    override dictForm(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "る";
+    }
+
+    override masuStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) ;
+    }
+
+    override te(defaultKana : boolean = false, tts : boolean = false): string {
+       return this.stem(defaultKana, tts) + "て";
+    }
+
+    override ta(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "た";
+    }
+
+    override cha(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts) + "ちゃ";
+    }
+
+    override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
+        return this.stem(defaultKana, tts);
+    }
+
+    override potential(): verb {
+        const english = this.english + ", potential";
+        const kanji = this.kanjiStem ? (this.kanjiStem + "ることができ") : undefined;
+        const kana = this.kanaStem + "ることができ";
+        const tts = this.ttsStem ? (this.kanjiStem + "ることができ") : undefined;
+        return new ichidanVerb({
+            english: english,
+            kanjiStem: kanji,
+            kanaStem: kana, 
+            ttsStem: tts
+        })
+    }
 }
 
 export interface I_Godan {
@@ -165,44 +222,18 @@ export class godanVerb extends verb{
     override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
         return this.stem(defaultKana, tts) + godanVerb.loopUpDict[this.u]["あ"];
     }
-}
-
-export interface I_Ichidan {
-    english : string;
-    kanjiStem? : string;
-    ttsStem? : string;
-    kanaStem : string;
-}
-
-export class ichidanVerb extends verb{
-
-    constructor(i : I_Ichidan)
-    {
-        super(i.kanjiStem,i.kanaStem,i.english,i.ttsStem);
-    }
-
-    override dictForm(defaultKana : boolean = false, tts : boolean = false): string {
-        return this.stem(defaultKana, tts) + "る";
-    }
-
-    override masuStem(defaultKana : boolean = false, tts : boolean = false): string {
-        return this.stem(defaultKana, tts) ;
-    }
-
-    override te(defaultKana : boolean = false, tts : boolean = false): string {
-       return this.stem(defaultKana, tts) + "て";
-    }
-
-    override ta(defaultKana : boolean = false, tts : boolean = false): string {
-        return this.stem(defaultKana, tts) + "た";
-    }
-
-    override cha(defaultKana : boolean = false, tts : boolean = false): string {
-        return this.stem(defaultKana, tts) + "ちゃ";
-    }
-
-    override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
-        return this.stem(defaultKana, tts);
+    override potential(): verb {
+        const e = godanVerb.loopUpDict[this.u]["え"];
+        const english = this.english + ", potential";
+        const kanji = this.kanjiStem ? (this.kanjiStem + e) : undefined;
+        const kana = this.kanaStem + e;
+        const tts = this.ttsStem ? (this.kanjiStem + e) : undefined;
+        return new ichidanVerb({
+            english: english,
+            kanjiStem: kanji,
+            kanaStem: kana, 
+            ttsStem: tts
+        })
     }
 }
 
@@ -242,6 +273,19 @@ export class suruVerb extends verb{
 
     override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
         return this.stem(defaultKana, tts) + "し";
+    }
+
+        override potential(): verb {
+        const english = this.english + ", potential";
+        const kanji = this.kanjiStem ? (this.kanjiStem + "ができ") : undefined;
+        const kana = this.kanaStem + "ができ";
+        const tts = this.ttsStem ? (this.kanjiStem + "ができ") : undefined;
+        return new ichidanVerb({
+            english: english,
+            kanjiStem: kanji,
+            kanaStem: kana, 
+            ttsStem: tts
+        })
     }
 }
 
@@ -284,6 +328,19 @@ export class ikuVerb extends verb{
     }
 
     override hasKanjiForm(){return true;}
+
+    override potential(): verb {
+        const english = this.english + ", potential";
+        const kanji = (this.kanjiStem ?? this.kanaStem) + "行け";
+        const kana = this.kanaStem + "行け";
+        const tts = (this.ttsStem ?? this.kanjiStem ?? this.kanaStem) + "いけ";
+        return new ichidanVerb({
+            english: english,
+            kanjiStem: kanji,
+            kanaStem: kana, 
+            ttsStem: tts
+        })
+    }
 }
 
 export interface I_kuru {
@@ -325,6 +382,19 @@ export class kuruVerb extends verb{
     }
 
     override hasKanjiForm(){return true;}
+
+    override potential(): verb {
+        const english = this.english + ", potential";
+        const kanji = (this.kanjiStem ?? this.kanaStem) + "来られ";
+        const kana = this.kanaStem + "来られ";
+        const tts = this.ttsStem ? (this.kanjiStem + "来られ") : undefined;;
+        return new ichidanVerb({
+            english: english,
+            kanjiStem: kanji,
+            kanaStem: kana, 
+            ttsStem: tts
+        })
+    }
 }
 
 export interface I_aru {
@@ -364,95 +434,17 @@ export class aruVerb extends verb{
     override naiStem(defaultKana : boolean = false, tts : boolean = false): string {
         return this.stem(defaultKana, tts);
     }
-}
-
-export interface I_exceptionVerb {
-    english : string;
-    dictFormKanji? : string;
-    dictFormKana : string;
-    masuStemKanji? : string;
-    masuStemKana : string;
-    teKanji? : string;
-    teKana : string;
-    taKanji? : string;
-    taKana : string;
-    chaKanji? : string;
-    chaKana : string;
-    naiStemKanji? : string;
-    naiStemKana : string;
-}
-
-export class exceptionVerb extends verb{
-
-    
-    private dictFormKanji? : string;
-    private dictFormKana : string = "";
-    private masuStemKanji? : string;
-    private masuStemKana : string = "";
-    private teKanji? : string;
-    private teKana : string = "";
-    private taKanji? : string;
-    private taKana : string = "";
-    private chaKanji? : string;
-    private chaKana : string = "";
-    private naiStemKanji? : string;
-    private naiStemKana : string = "";
-
-    constructor(i : I_exceptionVerb)
-    {
-        super("","",i.english);
-        this.dictFormKanji = i.dictFormKanji;
-        this.dictFormKana = i.dictFormKana;
-        this.masuStemKanji = i.masuStemKanji;
-        this.masuStemKana = i.masuStemKana;
-        this.teKanji = i.teKanji;
-        this.teKana = i.teKana;
-        this.taKanji = i.taKanji;
-        this.taKana = i.taKana;
-        this.chaKanji = i.chaKanji;
-        this.chaKana = i.chaKana;
-        this.naiStemKanji = i.naiStemKanji;
-        this.naiStemKana = i.naiStemKana;
-
+    override potential(): verb {
+        const english = this.english + ", potential";
+        const kanji = (this.kanjiStem ?? this.kanaStem) + "あれ";
+        const kana = this.kanaStem + "あれ";
+        const tts = this.ttsStem ? (this.kanjiStem + "あれ") : undefined;;
+        return new ichidanVerb({
+            english: english,
+            kanjiStem: kanji,
+            kanaStem: kana, 
+            ttsStem: tts
+        })
     }
 
-    override dictForm(defaultKana : boolean = false): string {
-        if (defaultKana){
-            return this.dictFormKana;
-        }
-        return this.dictFormKanji ?? this.dictFormKana;
-    }
-
-    masuStem(defaultKana : boolean = false): string {
-        if (defaultKana){
-            return this.masuStemKana;
-        }
-        return this.masuStemKanji ?? this.masuStemKana;
-    }
-    te(defaultKana : boolean = false): string {
-        if (defaultKana){
-            return this.teKana;
-        }
-        return this.teKanji ?? this.teKana;
-    }
-    ta(defaultKana : boolean = false): string {
-        if (defaultKana){
-            return this.taKana;
-        }
-        return this.taKanji ?? this.taKana;
-    }
-
-    override cha(defaultKana : boolean = false): string {
-        if (defaultKana){
-            return this.chaKana;
-        }
-        return this.chaKanji ?? this.chaKana;
-    }
-
-    naiStem(defaultKana : boolean = false): string {
-        if (defaultKana){
-            return this.naiStemKana;
-        }
-        return this.naiStemKanji ?? this.naiStemKana;
-    }
 }

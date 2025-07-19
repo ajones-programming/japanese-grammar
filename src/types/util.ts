@@ -1,7 +1,7 @@
 
 
 import { AdjectiveConjugation, I_AdjectiveConjuction, I_NounConjuction, I_VerbConjuction, NounConjugation, verbConjugation } from "./conjugationList";
-import { aruVerb, exceptionVerb, godanVerb, I_aru, I_exceptionVerb as I_exception, I_Godan, I_Ichidan, I_iku, I_kuru, I_suru, ichidanVerb, ikuVerb, kuruVerb, suruVerb as suruVerb, verb } from "./verbs";
+import { aruVerb, godanVerb, I_aru, I_Godan, I_Ichidan, I_iku, I_kuru, I_suru, ichidanVerb, ikuVerb, kuruVerb, suruVerb as suruVerb, verb } from "./verbs";
 import { list} from "../assets/vocabulary.json"
 import { c_list } from "../assets/conjunctions.json"
 import { I_noun, noun } from "./nouns";
@@ -63,11 +63,6 @@ export function loadAll(){
             grade.verbs.i_aru.forEach( i =>
                 {
                     verbList.push(new aruVerb(i as I_aru));
-                }
-            )
-            grade.verbs.i_exception.forEach( i =>
-                {
-                    verbList.push(new exceptionVerb(i as I_exception));
                 }
             )
             grade.include.forEach((i : string) => {

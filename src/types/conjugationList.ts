@@ -44,8 +44,12 @@ export class verbConjugation{
         if (this.options){
             option = this.options[Math.floor(Math.random() * this.options.length)];
         }
+        if (this.expression.includes("POTENTIAL")){
+            verb = verb.potential();
+        }
 
         var outputTTS = this.expressionTTS ?? this.expressionKanji ?? this.expression;
+        outputTTS = outputTTS.replace("POTENTIAL","");
         outputTTS = outputTTS.replace("DICT_FORM",verb.dictForm(false, true));
         outputTTS = outputTTS.replace("MASU_STEM",verb.masuStem(false, true));
         outputTTS = outputTTS.replace("NAI_STEM",verb.naiStem(false, true));
@@ -54,6 +58,7 @@ export class verbConjugation{
         outputTTS = outputTTS.replace("CHA",verb.cha(false, true));
         outputTTS = outputTTS.replace("OPTION",option ?? "");
         var outputKanji = this.expressionKanji ?? this.expression;
+        outputKanji = outputKanji.replace("POTENTIAL", "");
         outputKanji = outputKanji.replace("DICT_FORM",verb.dictForm(false,false));
         outputKanji = outputKanji.replace("MASU_STEM",verb.masuStem(false,false));
         outputKanji = outputKanji.replace("NAI_STEM",verb.naiStem(false,false));
@@ -62,6 +67,7 @@ export class verbConjugation{
         outputKanji = outputKanji.replace("CHA",verb.cha(false,false));
         outputKanji = outputKanji.replace("OPTION",option ?? "");
         var outputKana = this.expression;
+        outputKana = outputKana.replace("POTENTIAL","");
         outputKana = outputKana.replace("DICT_FORM",verb.dictForm(true,false));
         outputKana = outputKana.replace("MASU_STEM",verb.masuStem(true,false));
         outputKana = outputKana.replace("NAI_STEM",verb.naiStem(true,false));

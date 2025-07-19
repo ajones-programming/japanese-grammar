@@ -924,8 +924,6 @@
                     "kanjiStem" : "興味が",
                     "kanaStem" : "きょうみが"
                 }
-            ],
-            "i_exception" : [
             ]
         },
         "nouns" : [
@@ -3654,6 +3652,24 @@
                 "max" : 100
             }
         ]
+    },
+    {
+        "tag" : "n4",
+        "include" : ["n5"],
+        "verbs" : {
+            "i_godan" : [],
+            "i_ichidan" : [],
+            "i_suru" : [],
+            "i_iku" : [],
+            "i_kuru" : [],
+            "i_aru" : []
+        },
+        "nouns" : [],
+        "adjectives" :{
+            "i_i_adjective" : [],
+            "i_na_adjective": []
+        },
+        "counters" : []
     }
     ]
 }
