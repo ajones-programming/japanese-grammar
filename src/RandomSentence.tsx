@@ -75,7 +75,7 @@ export function RandomSentence({loaded} : props){
             </button>
         </div>
         <RateSlider rate={rate} setRate={setRate}/>
-        <p className="container-small min-h-8 align-middle">
+        <p className="container-small min-h-8 align-middle jp">
             {showWord ?  (randomSentence.kanji + " (" + randomSentence.kana + ")") : ""} 
         </p>
     </div>)

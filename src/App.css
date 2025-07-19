@@ -14,6 +14,9 @@ h2{
   @apply text-3xl p-6
 }
 
+.jp{
+  font-family: "Noto Sans JP", "メイリオ", Meiryo, Tahoma, Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
 
 .icon{
   @apply w-12 absolute top-4 left-4 right-0
@@ -33,7 +36,8 @@ a{
 }
 
 .kanjiCharacters{
-  @apply text-9xl p-8
+  @apply text-9xl p-8;
+  font-family: "yu mincho";
 }
 
 @media (orientation:portrait)

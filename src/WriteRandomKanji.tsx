@@ -108,7 +108,7 @@ export function WriteRandomKanji({loaded} : props){
                 {randomSentence.missingLetter}
             </h1>
         }
-        <p className="container-small min-h-8 align-middle">
+        <p className="container-small min-h-8 align-middle jp">
             {showWord ? 
             (randomSentence.sentence.kanji + " (" + randomSentence.sentence.kana + ")") :
             randomSentence.sentenceWithMissingLetter} 
