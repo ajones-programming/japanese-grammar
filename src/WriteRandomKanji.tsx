@@ -3,6 +3,7 @@ import { useState } from "react";
 import { loadTTS} from "./TextToSpeech";
 import { RateSlider } from "./RateSlider";
 import { getRandomSentence, sentenceData } from "./getRandomSentence";
+import { allTags } from "./types/util";
 
 interface randomSentenceForWriting{
     sentence : sentenceData,
@@ -12,7 +13,8 @@ interface randomSentenceForWriting{
 
 function getRandomSentenceForWriting() : randomSentenceForWriting{
 
-    const sentence = getRandomSentence(true);
+    const tag = allTags[0];
+    const sentence = getRandomSentence(tag,true);
     const kanjiSentence : String = sentence.kanji ?? "";
 
     console.log("CALLED");

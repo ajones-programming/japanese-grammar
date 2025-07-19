@@ -1,4 +1,4 @@
-import { allAdjectiveConjunctions, allAdjectives, allCounters, allNounConjunctions, allNouns, allVerbConjuctions, allVerbs } from "./types/util";
+import { allAdjectiveConjunctions, allAdjectives, allCounters, allNounConjunctions, allNouns, allVerbConjuctions, allVerbs} from "./types/util";
 
 export interface sentenceData {
     kanji? : string;
@@ -6,22 +6,21 @@ export interface sentenceData {
     kana : string;
 }
 
-export function getRandomSentence(mustBeKanji = false) : sentenceData
+export function getRandomSentence(tag : string,mustBeKanji = false) : sentenceData
 {
     if (!allVerbs || !allVerbConjuctions|| !allNouns || !allNounConjunctions || !allAdjectives || !allAdjectiveConjunctions || !allCounters){
         throw("EITHER VERBS OR CONJUGATIONS NOT DEFINED?? WEIRD")
     }
 
-    
     switch (Math.floor(Math.random() * 4)){
         //verb
         case 0:
         {
-            const randomV = allVerbs.n5[Math.floor(Math.random() * allVerbs.n5.length)];
-            const randomC = allVerbConjuctions[Math.floor(Math.random() * allVerbConjuctions.length)];
+            const randomV = allVerbs[tag][Math.floor(Math.random() * allVerbs[tag].length)];
+            const randomC = allVerbConjuctions[tag][Math.floor(Math.random() * allVerbConjuctions[tag].length)];
             const expression = randomC.runExpression(randomV);
             if (mustBeKanji && !randomC.hasKanji() && !randomV.hasKanjiForm()){
-                const reroll = getRandomSentence(true);
+                const reroll = getRandomSentence(tag,true);
                 console.log("original: " + expression.outputKanji + ", reroll: " +  reroll.kanji);
                 return reroll;
             }
@@ -29,11 +28,11 @@ export function getRandomSentence(mustBeKanji = false) : sentenceData
         }
         case 1:
         {
-            const randomN = allNouns.n5[Math.floor(Math.random() * allNouns.n5.length)];
-            const randomC = allNounConjunctions[Math.floor(Math.random() * allNounConjunctions.length)];
+            const randomN = allNouns[tag][Math.floor(Math.random() * allNouns[tag].length)];
+            const randomC = allNounConjunctions[tag][Math.floor(Math.random() * allNounConjunctions[tag].length)];
             const expression = randomC.runExpression(randomN);
             if (mustBeKanji && !randomC.hasKanji() && !randomN.kanji){
-                const reroll = getRandomSentence(true);
+                const reroll = getRandomSentence(tag,true);
                 console.log("original: " + expression.outputKanji + ", reroll: " +  reroll.kanji);
                 return reroll;
             }
@@ -41,11 +40,11 @@ export function getRandomSentence(mustBeKanji = false) : sentenceData
         }  
         case 2:
         {
-            const randomA = allAdjectives.n5[Math.floor(Math.random() * allAdjectives.n5.length)];
-            const randomC = allAdjectiveConjunctions[Math.floor(Math.random() * allAdjectiveConjunctions.length)];
+            const randomA = allAdjectives[tag][Math.floor(Math.random() * allAdjectives[tag].length)];
+            const randomC = allAdjectiveConjunctions[tag][Math.floor(Math.random() * allAdjectiveConjunctions[tag].length)];
             const expression = randomC.runExpression(randomA);
             if (mustBeKanji && !randomC.hasKanji() && !randomA.hasKanji()){
-                const reroll = getRandomSentence(true);
+                const reroll = getRandomSentence(tag,true);
                 console.log("original: " + expression.outputKanji + ", reroll: " +  reroll.kanji);
                 return reroll;
             }
@@ -53,10 +52,10 @@ export function getRandomSentence(mustBeKanji = false) : sentenceData
         }
         case 3:
         {
-            const randomC = allCounters.n5[Math.floor(Math.random() * allCounters.n5.length)];
+            const randomC = allCounters[tag][Math.floor(Math.random() * allCounters[tag].length)];
             const randomNumber = randomC.getRandomNumberText();
             if (mustBeKanji && !randomC.hasKanji()){
-                const reroll = getRandomSentence(true);
+                const reroll = getRandomSentence(tag,true);
                 console.log("original: " + randomNumber + ", reroll: " +  reroll.kanji);
                 return reroll;
             }

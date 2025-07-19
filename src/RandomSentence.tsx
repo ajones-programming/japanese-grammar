@@ -3,9 +3,15 @@ import { useState } from "react";
 import { loadTTS} from "./TextToSpeech";
 import { RateSlider } from "./RateSlider";
 import { getRandomSentence, sentenceData } from "./getRandomSentence";
+import { allTags } from "./types/util";
 
 interface props {
     loaded : boolean
+}
+
+function getSentenceForComponent() : sentenceData{
+    const tag = allTags[0];
+    return getRandomSentence(tag);
 }
 
 export function RandomSentence({loaded} : props){
@@ -15,7 +21,7 @@ export function RandomSentence({loaded} : props){
         </div>)
     }
 
-    const [randomSentence, setRandomSentence] = useState<sentenceData>(() => getRandomSentence());
+    const [randomSentence, setRandomSentence] = useState<sentenceData>(() => getSentenceForComponent());
     const [showWord, setShowWord] = useState(false);
     const [rate, setRate] = useState<number>(1.0);
     const [buttonActive, setButtonActive] = useState<boolean>(true);
@@ -31,7 +37,7 @@ export function RandomSentence({loaded} : props){
         <div className="flex justify-center">
             <button className="w-1/3" onClick={
                 buttonActive ? () => {
-                setRandomSentence(getRandomSentence())
+                setRandomSentence(getSentenceForComponent())
                 setShowWord(false);} : undefined
                 }
                 disabled={!buttonActive}
